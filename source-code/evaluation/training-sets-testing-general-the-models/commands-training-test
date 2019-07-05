@@ -1,0 +1,1316 @@
+#http://ww2.coastal.edu/kingw/statistics/R-tutorials/multregr.html
+#http://ww2.coastal.edu/kingw/statistics/R-tutorials/simplelinear.html
+#*************************************************************************************
+# información referente a la selección del módelo
+# install.packages(ppcor)
+# http://www.virtual.unal.edu.co/cursos/ciencias/2007315/html/un8/cont_06_97.html
+
+# models
+# multi linear regression model
+# decision tree model
+# http://www.stat.cmu.edu/~cshalizi/350/lectures/22/lecture-22.pdf
+# rpart
+# random forest
+# http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm
+
+
+
+
+
+
+
+# testing the branching factor
+library(randomForest)
+
+folder = "predicted_results/est_b"
+
+#var = "rover-regressedAllps"
+#var = "rover-forward"
+#var = "cPrint-regressedAllps"
+var = "training-cPrint-regressed-all-filtering-pre-window"
+#var = "All-forward"
+#var = "All-regressed"
+
+d <- read.table(paste("../training/BackwardAllSequencesFilteringPreWindow/filtered",var,sep="-"), header=T)
+
+m1 <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+attach(m1)
+
+#CALCULO DE FACTOR DE RAMIFICACION DE MUESTRAS
+BH3 = ((N^(1/depth))-0.34)
+
+# preparing datas
+y.data <- data.frame(
+	B=BH3,
+	Time=d[,c("Time")],
+	N=d[,c("N")],
+	ENodes=d[,c("ENodes")],
+	depth=d[,c("depth")],
+	window=d[,c("window")],
+	Rvar=d[,c("Rvar")],
+	DRvar=d[,c("DRvar")],
+	RvarRoot=d[,c("RvarRoot")],
+	FluentsRoot=d[,c("FluentsRoot")],
+	Producers=d[,c("Producers")],
+	ProducersU=d[,c("ProducersU")]
+)
+
+
+## Estimating the branching factor
+
+lm1 = lm(BH3 ~ depth+FluentsRoot+Producers+Rvar+RvarRoot)
+
+# importance=TRUE , the importance of predictors are assessed.
+# proximity=TRUE , proximity measure among the rows is calculated.
+set.seed(37173)
+rf_r_10_2 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=10,mtry=2)
+set.seed(37173)
+rf_r_100_2 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=2)
+set.seed(37173)
+rf_r_100_4 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=4)
+set.seed(37173)
+rf_r_100_6 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=6)
+set.seed(37173)
+rf_r_100_7 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=7)
+set.seed(37173)
+rf_r_500_2 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=2)
+set.seed(37173)
+rf_r_500_4 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=4)
+set.seed(37173)
+rf_r_500_6 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=6)
+set.seed(37173)
+rf_r_500_7 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=7)
+set.seed(37173)
+rf_r_1000_2 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=2)
+set.seed(37173)
+rf_r_1000_7 = randomForest(BH3 ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=7)
+
+
+# Predictions
+prediction_lm1 = predict(lm1, list(depth, FluentsRoot, Producers, Rvar, RvarRoot)) # Predictions
+prediction_rf_r_10_2 = predict(rf_r_10_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_100_2 = predict(rf_r_100_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_100_4 = predict(rf_r_100_4, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_100_6 = predict(rf_r_100_6, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_100_7 = predict(rf_r_100_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_2 = predict(rf_r_500_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_4 = predict(rf_r_500_4, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_6 = predict(rf_r_500_6, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_7 = predict(rf_r_500_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_1000_2 = predict(rf_r_1000_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_1000_7 = predict(rf_r_1000_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+
+
+# Function that returns Root Mean Squared Error
+rmse <- function(error)
+{
+    sqrt(mean(error^2))
+}
+ 
+# Function that returns Mean Absolute Error
+mae <- function(error)
+{
+    mean(abs(error))
+}
+
+# Function that returns desviation standard Absolute Error
+sdae <- function(error)
+{
+    sd(abs(error))
+}
+
+# Calculate error
+error_prediction_lm1 <- BH3 - prediction_lm1
+error_rf_r_10_2 <- BH3 - prediction_rf_r_10_2
+error_rf_r_100_2 <- BH3 - prediction_rf_r_100_2
+error_rf_r_100_4 <- BH3 - prediction_rf_r_100_4
+error_rf_r_100_6 <- BH3 - prediction_rf_r_100_6
+error_rf_r_100_7 <- BH3 - prediction_rf_r_100_7
+error_rf_r_500_2 <- BH3 - prediction_rf_r_500_2
+error_rf_r_500_4 <- BH3 - prediction_rf_r_500_4
+error_rf_r_500_6 <- BH3 - prediction_rf_r_500_6
+error_rf_r_500_7 <- BH3 - prediction_rf_r_500_7
+error_rf_r_1000_2 <- BH3 - prediction_rf_r_1000_2
+error_rf_r_1000_7 <- BH3 - prediction_rf_r_1000_7
+
+model.data <- data.frame(
+	domain=d[,c("Domain")],
+	pfile=d[,c("pfile")],
+	window=d[,c("window")],
+	depth=d[,c("depth")],
+	B=BH3,
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_100_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_2=error_rf_r_1000_2,
+	error_rf_r_1000_7=error_rf_r_1000_7
+)
+
+
+write.csv(model.data,paste(paste(folder,var,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+# error model factor
+col_fmae <- c(
+fmae(error_prediction_lm1,ENodes),
+fmae(error_rf_r_10_2,ENodes),
+fmae(error_rf_r_100_2,ENodes),
+fmae(error_rf_r_100_4,ENodes),
+fmae(error_rf_r_100_6,ENodes),
+fmae(error_rf_r_100_7,ENodes),
+fmae(error_rf_r_500_2,ENodes),
+fmae(error_rf_r_500_4,ENodes),
+fmae(error_rf_r_500_6,ENodes),
+fmae(error_rf_r_500_7,ENodes),
+fmae(error_rf_r_1000_2,ENodes),
+fmae(error_rf_r_1000_7,ENodes)
+)
+
+# desviation standard absolute error
+col_sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,col_sd)
+write.csv(add_model.data,paste(paste(folder,var,sep="-"),"add.csv",sep="-"))
+
+
+
+
+# testing the real nodes with the estimating branching factor
+
+folder = "est_b/est_n_est_b"
+
+# calculating the real nodes
+real_lm1 = (prediction_lm1+0.34)^depth
+real_n_rf_r_10_2 = (prediction_rf_r_10_2+0.34)^depth
+real_n_rf_r_100_2 = (prediction_rf_r_100_2+0.34)^depth
+real_n_rf_r_100_4 = (prediction_rf_r_100_4+0.34)^depth
+real_n_rf_r_100_6 = (prediction_rf_r_100_6+0.34)^depth
+real_n_rf_r_100_7 = (prediction_rf_r_100_7+0.34)^depth
+real_n_rf_r_500_2 = (prediction_rf_r_500_2+0.34)^depth
+real_n_rf_r_500_4 = (prediction_rf_r_500_4+0.34)^depth
+real_n_rf_r_500_6 = (prediction_rf_r_500_6+0.34)^depth
+real_n_rf_r_500_7 = (prediction_rf_r_500_7+0.34)^depth
+real_n_rf_r_1000_2 = (prediction_rf_r_1000_2+0.34)^depth
+real_n_rf_r_1000_7 = (prediction_rf_r_1000_7+0.34)^depth
+
+
+# Calculate error
+error_prediction_lm1 <- N - real_lm1
+error_rf_r_10_2 <- N - real_n_rf_r_10_2
+error_rf_r_100_2 <- N - real_n_rf_r_100_2
+error_rf_r_100_4 <- N - real_n_rf_r_100_4
+error_rf_r_100_6 <- N - real_n_rf_r_100_6
+error_rf_r_100_7 <- N - real_n_rf_r_100_7
+error_rf_r_500_2 <- N - real_n_rf_r_500_2
+error_rf_r_500_4 <- N - real_n_rf_r_500_4
+error_rf_r_500_6 <- N - real_n_rf_r_500_6
+error_rf_r_500_7 <- N - real_n_rf_r_500_7
+error_rf_r_1000_2 <- N - real_n_rf_r_1000_2
+error_rf_r_1000_7 <- N - real_n_rf_r_1000_7
+
+
+model.data <- data.frame(
+	domain=d[,c("Domain")],
+	pfile=d[,c("pfile")],
+	window=d[,c("window")],
+	depth=d[,c("depth")],
+	B=BH3,
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_100_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_2=error_rf_r_1000_2,
+	error_rf_r_1000_7=error_rf_r_1000_7
+)
+
+
+write.csv(model.data,paste(paste(folder,var,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+# error model factor
+col_fmae <- c(
+fmae(error_prediction_lm1,ENodes),
+fmae(error_rf_r_10_2,ENodes),
+fmae(error_rf_r_100_2,ENodes),
+fmae(error_rf_r_100_4,ENodes),
+fmae(error_rf_r_100_6,ENodes),
+fmae(error_rf_r_100_7,ENodes),
+fmae(error_rf_r_500_2,ENodes),
+fmae(error_rf_r_500_4,ENodes),
+fmae(error_rf_r_500_6,ENodes),
+fmae(error_rf_r_500_7,ENodes),
+fmae(error_rf_r_1000_2,ENodes),
+fmae(error_rf_r_1000_7,ENodes)
+)
+
+# desviation standard absolute error
+col_sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,col_sd)
+write.csv(add_model.data,paste(paste(folder,var,sep="-"),"add.csv",sep="-"))
+
+
+
+
+# estimating the time with the testing real nodes calculated with the estimating branching factor
+
+folder = "est_b/est_time_est_n_est_b"
+
+# calculating the real nodes
+est_time_lm1 = real_lm1*mean(Time/N)
+est_time_rf_r_10_2 = real_n_rf_r_10_2*mean(Time/N)
+est_time_rf_r_100_2 = real_n_rf_r_100_2*mean(Time/N)
+est_time_rf_r_100_4 = real_n_rf_r_100_4*mean(Time/N)
+est_time_rf_r_100_6 = real_n_rf_r_100_6*mean(Time/N)
+est_time_rf_r_100_7 = real_n_rf_r_100_7*mean(Time/N)
+est_time_rf_r_500_2 = real_n_rf_r_500_2*mean(Time/N)
+est_time_rf_r_500_4 = real_n_rf_r_500_4*mean(Time/N)
+est_time_rf_r_500_6 = real_n_rf_r_500_6*mean(Time/N)
+est_time_rf_r_500_7 = real_n_rf_r_500_7*mean(Time/N)
+est_time_rf_r_1000_2 = real_n_rf_r_1000_2*mean(Time/N)
+est_time_rf_r_1000_7 = real_n_rf_r_1000_7*mean(Time/N)
+
+
+# Calculate error
+error_prediction_lm1 <- Time - est_time_lm1
+error_rf_r_10_2 <- Time - est_time_rf_r_10_2
+error_rf_r_100_2 <- Time - est_time_rf_r_100_2
+error_rf_r_100_4 <- Time - est_time_rf_r_100_4
+error_rf_r_100_6 <- Time - est_time_rf_r_100_6
+error_rf_r_100_7 <- Time - est_time_rf_r_100_7
+error_rf_r_500_2 <- Time - est_time_rf_r_500_2
+error_rf_r_500_4 <- Time - est_time_rf_r_500_4
+error_rf_r_500_6 <- Time - est_time_rf_r_500_6
+error_rf_r_500_7 <- Time - est_time_rf_r_500_7
+error_rf_r_1000_2 <- Time - est_time_rf_r_1000_2
+error_rf_r_1000_7 <- Time - est_time_rf_r_1000_7
+
+
+model.data <- data.frame(
+	domain=d[,c("Domain")],
+	pfile=d[,c("pfile")],
+	window=d[,c("window")],
+	depth=d[,c("depth")],
+	B=BH3,
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_100_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_2=error_rf_r_1000_2,
+	error_rf_r_1000_7=error_rf_r_1000_7
+)
+
+
+write.csv(model.data,paste(paste(folder,var,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+# error model factor
+col_fmae <- c(
+fmae(error_prediction_lm1,ENodes),
+fmae(error_rf_r_10_2,ENodes),
+fmae(error_rf_r_100_2,ENodes),
+fmae(error_rf_r_100_4,ENodes),
+fmae(error_rf_r_100_6,ENodes),
+fmae(error_rf_r_100_7,ENodes),
+fmae(error_rf_r_500_2,ENodes),
+fmae(error_rf_r_500_4,ENodes),
+fmae(error_rf_r_500_6,ENodes),
+fmae(error_rf_r_500_7,ENodes),
+fmae(error_rf_r_1000_2,ENodes),
+fmae(error_rf_r_1000_7,ENodes)
+)
+
+# desviation standard absolute error
+col_sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,col_sd)
+write.csv(add_model.data,paste(paste(folder,var,sep="-"),"add.csv",sep="-"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# testing the estimating real nodes
+library(randomForest)
+
+folder = "predicted_results/est_b"
+
+#var = "rover-regressedAllps"
+#var = "rover-forward"
+#var = "cPrint-regressedAllps"
+var = "training-cPrint-regressed-all-filtering-pre-window"
+#var = "All-forward"
+#var = "All-regressed"
+
+d <- read.table(paste("../training/BackwardAllSequencesFilteringPreWindow/filtered",var,sep="-"), header=T)
+
+m1 <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+attach(m1)
+
+#CALCULO DE FACTOR DE RAMIFICACION DE MUESTRAS
+BH3 = ((N^(1/depth))-0.34)
+
+# preparing datas
+y.data <- data.frame(
+	B=BH3,
+	Time=d[,c("Time")],
+	N=d[,c("N")],
+	ENodes=d[,c("ENodes")],
+	depth=d[,c("depth")],
+	window=d[,c("window")],
+	Rvar=d[,c("Rvar")],
+	DRvar=d[,c("DRvar")],
+	RvarRoot=d[,c("RvarRoot")],
+	FluentsRoot=d[,c("FluentsRoot")],
+	Producers=d[,c("Producers")],
+	ProducersU=d[,c("ProducersU")]
+)
+
+
+## estimating generated nodes
+
+# multi linear predictive model
+lm1 = lm(N ~ depth+FluentsRoot+DRvar+Producers+Rvar+RvarRoot)
+
+# random regression forest
+# importance=TRUE , the importance of predictors are assessed.
+# proximity=TRUE , proximity measure among the rows is calculated.
+set.seed(37173)
+rf_r_10_2 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=10,mtry=2)
+set.seed(37173)
+rf_r_100_2 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=2)
+set.seed(37173)
+rf_r_100_4 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=4)
+set.seed(37173)
+rf_r_100_6 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=6)
+set.seed(37173)
+rf_r_100_7 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=7)
+set.seed(37173)
+rf_r_500_2 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=2)
+set.seed(37173)
+rf_r_500_4 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=4)
+set.seed(37173)
+rf_r_500_6 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=6)
+set.seed(37173)
+rf_r_500_7 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=7)
+set.seed(37173)
+rf_r_1000_2 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=2)
+set.seed(37173)
+rf_r_1000_7 = randomForest(N ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=7)
+
+
+prediction_lm1 = predict(lm1, list(depth, FluentsRoot, Producers, Rvar, RvarRoot)) # Predictions
+prediction_rf_r_10_2 = predict(rf_r_10_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_100_2 = predict(rf_r_100_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar)) # Predictions
+prediction_rf_r_100_4 = predict(rf_r_100_4, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_100_6 = predict(rf_r_100_6, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_100_7 = predict(rf_r_100_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_2 = predict(rf_r_500_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_4 = predict(rf_r_500_4, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_6 = predict(rf_r_500_6, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_500_7 = predict(rf_r_500_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_1000_2 = predict(rf_r_1000_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+prediction_rf_r_1000_7 = predict(rf_r_1000_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) # Predictions
+
+
+
+# Function that returns Root Mean Squared Error
+rmse <- function(error)
+{
+    sqrt(mean(error^2))
+}
+ 
+# Function that returns Mean Absolute Error
+mae <- function(error)
+{
+    mean(abs(error))
+}
+
+# Function that returns desviation standard Absolute Error
+sdae <- function(error)
+{
+    sd(abs(error))
+}
+
+error_prediction_lm1 <- N - prediction_lm1
+error_rf_r_10_2 <- N - prediction_rf_r_10_2
+error_rf_r_100_2 <- N - prediction_rf_r_100_2
+error_rf_r_100_4 <- N - prediction_rf_r_100_4
+error_rf_r_100_6 <- N - prediction_rf_r_100_6
+error_rf_r_100_7 <- N - prediction_rf_r_100_7
+error_rf_r_500_2 <- N - prediction_rf_r_500_2
+error_rf_r_500_4 <- N - prediction_rf_r_500_4
+error_rf_r_500_6 <- N - prediction_rf_r_500_6
+error_rf_r_500_7 <- N - prediction_rf_r_500_7
+error_rf_r_1000_2 <- N - prediction_rf_r_1000_2
+error_rf_r_1000_7 <- N - prediction_rf_r_1000_7
+
+model.data <- data.frame(
+	domain=d[,c("Domain")],
+	pfile=d[,c("pfile")],
+	window=d[,c("window")],
+	depth=d[,c("depth")],
+	N=d[,c("N")],
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_10_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_2=error_rf_r_1000_2,
+	error_rf_r_1000_7=error_rf_r_1000_7
+)
+
+
+write.csv(model.data,paste(paste(folder,var,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+# error model factor
+col_fmae <- c(
+fmae(error_prediction_lm1,ENodes),
+fmae(error_rf_r_10_2,ENodes),
+fmae(error_rf_r_100_2,ENodes),
+fmae(error_rf_r_100_4,ENodes),
+fmae(error_rf_r_100_6,ENodes),
+fmae(error_rf_r_100_7,ENodes),
+fmae(error_rf_r_500_2,ENodes),
+fmae(error_rf_r_500_4,ENodes),
+fmae(error_rf_r_500_6,ENodes),
+fmae(error_rf_r_500_7,ENodes),
+fmae(error_rf_r_1000_2,ENodes),
+fmae(error_rf_r_1000_7,ENodes)
+)
+
+# desviation standard absolute error
+col_sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,col_sd)
+write.csv(add_model.data,paste(paste(folder,var,sep="-"),"add.csv",sep="-"))
+
+
+
+
+# estimating the time with the testing real nodes calculated with the estimating branching factor
+
+folder = "est_b/est_time_est_n"
+
+# calculating the real nodes
+est_time_lm1 = prediction_lm1*mean(Time/N)
+est_time_rf_r_10_2 = prediction_rf_r_10_2*mean(Time/N)
+est_time_rf_r_100_2 = prediction_rf_r_100_2*mean(Time/N)
+est_time_rf_r_100_4 = prediction_rf_r_100_4*mean(Time/N)
+est_time_rf_r_100_6 = prediction_rf_r_100_6*mean(Time/N)
+est_time_rf_r_100_7 = prediction_rf_r_100_7*mean(Time/N)
+est_time_rf_r_500_2 = prediction_rf_r_500_2*mean(Time/N)
+est_time_rf_r_500_4 = prediction_rf_r_500_4*mean(Time/N)
+est_time_rf_r_500_6 = prediction_rf_r_500_6*mean(Time/N)
+est_time_rf_r_500_7 = prediction_rf_r_500_7*mean(Time/N)
+est_time_rf_r_1000_2 = prediction_rf_r_1000_2*mean(Time/N)
+est_time_rf_r_1000_7 = prediction_rf_r_1000_7*mean(Time/N)
+
+
+# Calculate error
+error_prediction_lm1 <- Time - est_time_lm1
+error_rf_r_10_2 <- Time - est_time_rf_r_10_2
+error_rf_r_100_2 <- Time - est_time_rf_r_100_2
+error_rf_r_100_4 <- Time - est_time_rf_r_100_4
+error_rf_r_100_6 <- Time - est_time_rf_r_100_6
+error_rf_r_100_7 <- Time - est_time_rf_r_100_7
+error_rf_r_500_2 <- Time - est_time_rf_r_500_2
+error_rf_r_500_4 <- Time - est_time_rf_r_500_4
+error_rf_r_500_6 <- Time - est_time_rf_r_500_6
+error_rf_r_500_7 <- Time - est_time_rf_r_500_7
+error_rf_r_1000_2 <- Time - est_time_rf_r_1000_2
+error_rf_r_1000_7 <- Time - est_time_rf_r_1000_7
+
+
+model.data <- data.frame(
+	domain=d[,c("Domain")],
+	pfile=d[,c("pfile")],
+	window=d[,c("window")],
+	depth=d[,c("depth")],
+	B=BH3,
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_100_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_2=error_rf_r_1000_2,
+	error_rf_r_1000_7=error_rf_r_1000_7
+)
+
+
+write.csv(model.data,paste(paste(folder,var,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+# error model factor
+col_fmae <- c(
+fmae(error_prediction_lm1,ENodes),
+fmae(error_rf_r_10_2,ENodes),
+fmae(error_rf_r_100_2,ENodes),
+fmae(error_rf_r_100_4,ENodes),
+fmae(error_rf_r_100_6,ENodes),
+fmae(error_rf_r_100_7,ENodes),
+fmae(error_rf_r_500_2,ENodes),
+fmae(error_rf_r_500_4,ENodes),
+fmae(error_rf_r_500_6,ENodes),
+fmae(error_rf_r_500_7,ENodes),
+fmae(error_rf_r_1000_2,ENodes),
+fmae(error_rf_r_1000_7,ENodes)
+)
+
+# desviation standard absolute error
+col_sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,col_sd)
+write.csv(add_model.data,paste(paste(folder,var,sep="-"),"add.csv",sep="-"))
+
+
+
+
+
+
+
+
+
+
+
+
+# testing the estimating evaluated nodes
+library(randomForest)
+
+folder = "predicted_results/est_enodes"
+
+training = "training-rover-regressed-all-filtering-pre-window"
+test = "training-rover-regressed-all-filtering-pre-window"
+
+d_test <- read.table(paste("../training/BackwardAllSequencesFilteringPreWindow/filtered",test,sep="-"), header=T)
+m1_test <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+
+d <- read.table(paste("../training/BackwardAllSequencesFilteringPreWindow/filtered",training,sep="-"), header=T)
+m1 <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+attach(m1)
+
+#CALCULO DE FACTOR DE RAMIFICACION DE MUESTRAS
+BH3 = ((N^(1/depth))-0.34)
+
+# preparing datas
+y.data <- data.frame(
+	B=BH3,
+	Time=d[,c("Time")],
+	N=d[,c("N")],
+	ENodes=d[,c("ENodes")],
+	depth=d[,c("depth")],
+	window=d[,c("window")],
+	Rvar=d[,c("Rvar")],
+	DRvar=d[,c("DRvar")],
+	RvarRoot=d[,c("RvarRoot")],
+	FluentsRoot=d[,c("FluentsRoot")],
+	Producers=d[,c("Producers")],
+	ProducersU=d[,c("ProducersU")]
+)
+
+
+## estimating evaluated nodes
+
+# multi linear predictive model
+lm1 = lm(ENodes ~ depth+FluentsRoot+DRvar+Producers+Rvar+RvarRoot)
+
+# random regression forest
+# importance=TRUE , the importance of predictors are assessed.
+# proximity=TRUE , proximity measure among the rows is calculated.
+set.seed(37173)
+rf_r_10_2 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=10,mtry=2)
+set.seed(37173)
+rf_r_100_2 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=2)
+set.seed(37173)
+rf_r_100_4 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=4)
+set.seed(37173)
+rf_r_100_6 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=6)
+set.seed(37173)
+rf_r_100_7 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=7)
+set.seed(37173)
+rf_r_500_2 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=2)
+set.seed(37173)
+rf_r_500_4 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=4)
+set.seed(37173)
+rf_r_500_6 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=6)
+set.seed(37173)
+rf_r_500_7 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=7)
+set.seed(37173)
+rf_r_1000_2 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=2)
+set.seed(37173)
+rf_r_1000_7 = randomForest(ENodes ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=7)
+
+
+
+prediction_lm1 = predict(lm1, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["Rvar"], m1_test["RvarRoot"])) # Predictions
+prediction_rf_r_10_2 = predict(rf_r_10_2, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_100_2 = predict(rf_r_100_2, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_100_4 = predict(rf_r_100_4, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_100_6 = predict(rf_r_100_6, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_100_7 = predict(rf_r_100_7, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_500_2 = predict(rf_r_500_2, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_500_4 = predict(rf_r_500_4, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_500_6 = predict(rf_r_500_6, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_500_7 = predict(rf_r_500_7, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_1000_2 = predict(rf_r_1000_2, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+prediction_rf_r_1000_7 = predict(rf_r_1000_7, list(m1_test["depth"], m1_test["FluentsRoot"], m1_test["Producers"], m1_test["ProducersU"], m1_test["Rvar"], m1_test["DRvar"], m1_test["RvarRoot"]))
+
+
+# Function that returns Root Mean Squared Error
+rmse <- function(error)
+{
+    sqrt(mean(error^2))
+}
+ 
+# Function that returns Mean Absolute Error
+mae <- function(error)
+{
+    mean(abs(error))
+}
+
+# Function that returns Mean Absolute Error by a factor between real value
+fmae <- function(error, real)
+{
+    mean(abs(error/real))
+}
+
+# Function that returns desviation standard Absolute Error
+sdae <- function(error)
+{
+    sd(abs(error))
+}
+
+error_prediction_lm1 <- m1_test["ENodes"] - prediction_lm1
+error_rf_r_10_2 <- m1_test["ENodes"] - prediction_rf_r_10_2
+error_rf_r_100_2 <- m1_test["ENodes"] - prediction_rf_r_100_2
+error_rf_r_100_4 <- m1_test["ENodes"] - prediction_rf_r_100_4
+error_rf_r_100_6 <- m1_test["ENodes"] - prediction_rf_r_100_6
+error_rf_r_100_7 <- m1_test["ENodes"] - prediction_rf_r_100_7
+error_rf_r_500_2 <- m1_test["ENodes"] - prediction_rf_r_500_2
+error_rf_r_500_4 <- m1_test["ENodes"] - prediction_rf_r_500_4
+error_rf_r_500_6 <- m1_test["ENodes"] - prediction_rf_r_500_6
+error_rf_r_500_7 <- m1_test["ENodes"] - prediction_rf_r_500_7
+error_rf_r_1000_2 <- m1_test["ENodes"] - prediction_rf_r_1000_2
+error_rf_r_1000_7 <- m1_test["ENodes"] - prediction_rf_r_1000_7
+
+model.data <- data.frame(
+	domain=m1_test["Domain"],
+	pfile=m1_test["pfile"],
+	window=m1_test["window"],
+	depth=m1_test["depth"],
+	ENodes=m1_test["ENodes"],
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_100_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_2=error_rf_r_1000_2,
+	error_rf_r_1000_7=error_rf_r_1000_7
+)
+
+write.csv(model.data,paste(paste(folder,training,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+# error model factor
+col_fmae <- c(
+fmae(error_prediction_lm1,m1_test["ENodes"]),
+fmae(error_rf_r_10_2,m1_test["ENodes"]),
+fmae(error_rf_r_100_2,m1_test["ENodes"]),
+fmae(error_rf_r_100_4,m1_test["ENodes"]),
+fmae(error_rf_r_100_6,m1_test["ENodes"]),
+fmae(error_rf_r_100_7,m1_test["ENodes"]),
+fmae(error_rf_r_500_2,m1_test["ENodes"]),
+fmae(error_rf_r_500_4,m1_test["ENodes"]),
+fmae(error_rf_r_500_6,m1_test["ENodes"]),
+fmae(error_rf_r_500_7,m1_test["ENodes"]),
+fmae(error_rf_r_1000_2,m1_test["ENodes"]),
+fmae(error_rf_r_1000_7,m1_test["ENodes"])
+)
+
+# desviation standard absolute error
+col_sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,col_sd)
+write.csv(add_model.data,paste(paste(folder,training,sep="-"),"add.csv",sep="-"))
+
+
+
+# estimating the time with the testing real nodes calculated with the estimating branching factor
+
+folder = "predicted_results/est_time_est_enodes"
+
+# calculating the real nodes
+est_time_lm1 = prediction_lm1*mean(Time/ENodes)
+est_time_rf_r_10_2 = prediction_rf_r_10_2*mean(Time/ENodes)
+est_time_rf_r_100_2 = prediction_rf_r_100_2*mean(Time/ENodes)
+est_time_rf_r_100_4 = prediction_rf_r_100_4*mean(Time/ENodes)
+est_time_rf_r_100_6 = prediction_rf_r_100_6*mean(Time/ENodes)
+est_time_rf_r_100_7 = prediction_rf_r_100_7*mean(Time/ENodes)
+est_time_rf_r_500_2 = prediction_rf_r_500_2*mean(Time/ENodes)
+est_time_rf_r_500_4 = prediction_rf_r_500_4*mean(Time/ENodes)
+est_time_rf_r_500_6 = prediction_rf_r_500_6*mean(Time/ENodes)
+est_time_rf_r_500_7 = prediction_rf_r_500_7*mean(Time/ENodes)
+est_time_rf_r_1000_2 = prediction_rf_r_1000_2*mean(Time/ENodes)
+est_time_rf_r_1000_7 = prediction_rf_r_1000_7*mean(Time/ENodes)
+
+
+# Calculate error
+error_prediction_lm1 <- m1_test["Time"] - est_time_lm1
+error_rf_r_10_2 <- m1_test["Time"] - est_time_rf_r_10_2
+error_rf_r_100_2 <- m1_test["Time"] - est_time_rf_r_100_2
+error_rf_r_100_4 <- m1_test["Time"] - est_time_rf_r_100_4
+error_rf_r_100_6 <- m1_test["Time"] - est_time_rf_r_100_6
+error_rf_r_100_7 <- m1_test["Time"] - est_time_rf_r_100_7
+error_rf_r_500_2 <- m1_test["Time"] - est_time_rf_r_500_2
+error_rf_r_500_4 <- m1_test["Time"] - est_time_rf_r_500_4
+error_rf_r_500_6 <- m1_test["Time"] - est_time_rf_r_500_6
+error_rf_r_500_7 <- m1_test["Time"] - est_time_rf_r_500_7
+error_rf_r_1000_2 <- m1_test["Time"] - est_time_rf_r_1000_2
+error_rf_r_1000_7 <- m1_test["Time"] - est_time_rf_r_1000_7
+
+
+model.data <- data.frame(
+	domain=m1_test["Domain"],
+	pfile=m1_test["pfile"],
+	window=m1_test["window"],
+	depth=m1_test["depth"],
+	Time=m1_test["Time"],
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_100_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_2=error_rf_r_1000_2,
+	error_rf_r_1000_7=error_rf_r_1000_7
+)
+
+write.csv(model.data,paste(paste(folder,training,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+# error model factor
+col_fmae <- c(
+fmae(error_prediction_lm1,m1_test["Time"]),
+fmae(error_rf_r_10_2,m1_test["Time"]),
+fmae(error_rf_r_100_2,m1_test["Time"]),
+fmae(error_rf_r_100_4,m1_test["Time"]),
+fmae(error_rf_r_100_6,m1_test["Time"]),
+fmae(error_rf_r_100_7,m1_test["Time"]),
+fmae(error_rf_r_500_2,m1_test["Time"]),
+fmae(error_rf_r_500_4,m1_test["Time"]),
+fmae(error_rf_r_500_6,m1_test["Time"]),
+fmae(error_rf_r_500_7,m1_test["Time"]),
+fmae(error_rf_r_1000_2,m1_test["Time"]),
+fmae(error_rf_r_1000_7,m1_test["Time"])
+)
+
+# desviation standard absolute error
+col_sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,col_sd)
+write.csv(add_model.data,paste(paste(folder,training,sep="-"),"add.csv",sep="-"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Estimating the time
+library(randomForest)
+
+folder = "predicted_results/est_time"
+var = "training-rover-regressed-all-filtering-pre-window"
+
+d <- read.table(paste("../training/BackwardAllSequencesFilteringPreWindow/filtered",var,sep="-"), header=T)
+
+m1 <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+attach(m1)
+
+
+# preparing datas
+y.data <- data.frame(
+	Time=d[,c("Time")],
+	N=d[,c("N")],
+	ENodes=d[,c("ENodes")],
+	depth=d[,c("depth")],
+	window=d[,c("window")],
+	Rvar=d[,c("Rvar")],
+	DRvar=d[,c("DRvar")],
+	RvarRoot=d[,c("RvarRoot")],
+	FluentsRoot=d[,c("FluentsRoot")],
+	Producers=d[,c("Producers")],
+	ProducersU=d[,c("ProducersU")]
+)
+
+
+# multi linear predictive model
+lm1 = lm(Time ~ depth+FluentsRoot+DRvar+Producers+Rvar+RvarRoot)
+
+# random regression forest
+# importance=TRUE , the importance of predictors are assessed.
+# proximity=TRUE , proximity measure among the rows is calculated.
+set.seed(37173)
+rf_r_10_2 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=10,mtry=2)
+set.seed(37173)
+rf_r_100_2 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=2)
+set.seed(37173)
+rf_r_100_4 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=4)
+set.seed(37173)
+rf_r_100_6 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=6)
+set.seed(37173)
+rf_r_100_7 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=7)
+set.seed(37173)
+rf_r_500_2 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=2)
+set.seed(37173)
+rf_r_500_4 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=4)
+set.seed(37173)
+rf_r_500_6 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=6)
+set.seed(37173)
+rf_r_500_7 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=7)
+set.seed(37173)
+rf_r_1000_2 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=2)
+set.seed(37173)
+rf_r_1000_7 = randomForest(Time ~ depth+FluentsRoot+Producers+ProducersU+Rvar+DRvar+RvarRoot,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=1000,mtry=7)
+
+# Predictions
+prediction_lm1 = predict(lm1, list(depth, FluentsRoot, Producers, Rvar, RvarRoot)) 
+prediction_rf_r_10_2 = predict(rf_r_10_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) 
+prediction_rf_r_100_2 = predict(rf_r_100_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar)) 
+prediction_rf_r_100_4 = predict(rf_r_100_4, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) 
+prediction_rf_r_100_6 = predict(rf_r_100_6, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot))
+prediction_rf_r_100_7 = predict(rf_r_100_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot))
+prediction_rf_r_500_2 = predict(rf_r_500_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) 
+prediction_rf_r_500_4 = predict(rf_r_500_4, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) 
+prediction_rf_r_500_6 = predict(rf_r_500_6, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) 
+prediction_rf_r_500_7 = predict(rf_r_500_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) 
+prediction_rf_r_1000_2 = predict(rf_r_1000_2, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot))
+prediction_rf_r_1000_7 = predict(rf_r_1000_7, list(depth, FluentsRoot, Producers, ProducersU, Rvar, DRvar, RvarRoot)) 
+
+
+
+# Function that returns Root Mean Squared Error
+rmse <- function(error)
+{
+    sqrt(mean(error^2))
+}
+ 
+# Function that returns Mean Absolute Error
+mae <- function(error)
+{
+    mean(abs(error))
+}
+
+# Function that returns Mean Absolute Error by a factor between real value
+fmae <- function(error, real)
+{
+    mean(abs(error/real))
+}
+
+# Function that returns desviation standard Absolute Error
+sdae <- function(error)
+{
+    sd(abs(error))
+}
+
+error_prediction_lm1 <- Time - prediction_lm1
+error_rf_r_10_2 <- Time - prediction_rf_r_10_2
+error_rf_r_100_2 <- Time - prediction_rf_r_100_2
+error_rf_r_100_4 <- Time - prediction_rf_r_100_4
+error_rf_r_100_6 <- Time - prediction_rf_r_100_6
+error_rf_r_100_7 <- Time - prediction_rf_r_100_7
+error_rf_r_500_2 <- Time - prediction_rf_r_500_2
+error_rf_r_500_4 <- Time - prediction_rf_r_500_4
+error_rf_r_500_6 <- Time - prediction_rf_r_500_6
+error_rf_r_500_7 <- Time - prediction_rf_r_500_7
+error_rf_r_1000_2 <- Time - prediction_rf_r_1000_2
+error_rf_r_1000_7 <- Time - prediction_rf_r_1000_7
+
+model.data <- data.frame(
+	domain=d[,c("Domain")],
+	pfile=d[,c("pfile")],
+	window=d[,c("window")],
+	depth=d[,c("depth")],
+	Time=d[,c("Time")],
+	error_prediction_lm1=error_prediction_lm1,
+	error_rf_r_10_2=error_rf_r_10_2,
+	error_rf_r_100_2=error_rf_r_100_2,
+	error_rf_r_100_4=error_rf_r_100_4,
+	error_rf_r_100_6=error_rf_r_100_6,
+	error_rf_r_100_7=error_rf_r_100_7,
+	error_rf_r_500_2=error_rf_r_500_2,
+	error_rf_r_500_4=error_rf_r_500_4,
+	error_rf_r_500_6=error_rf_r_500_6,
+	error_rf_r_500_7=error_rf_r_500_7,
+	error_rf_r_1000_7=error_rf_r_1000_7,
+	error_rf_r_1000_2=error_rf_r_1000_2
+)
+
+write.csv(model.data,paste(paste(folder,var,sep="-"),"csv",sep="."))
+
+col_mae <- c(
+mae(error_prediction_lm1),
+mae(error_rf_r_10_2),
+mae(error_rf_r_100_2),
+mae(error_rf_r_100_4),
+mae(error_rf_r_100_6),
+mae(error_rf_r_100_7),
+mae(error_rf_r_500_2),
+mae(error_rf_r_500_4),
+mae(error_rf_r_500_6),
+mae(error_rf_r_500_7),
+mae(error_rf_r_1000_2),
+mae(error_rf_r_1000_7)
+)
+
+col_fmae <- c(
+fmae(error_prediction_lm1, Time),
+fmae(error_rf_r_10_2, Time),
+fmae(error_rf_r_100_2, Time),
+fmae(error_rf_r_100_4, Time),
+fmae(error_rf_r_100_6, Time),
+fmae(error_rf_r_100_7, Time),
+fmae(error_rf_r_500_2, Time),
+fmae(error_rf_r_500_4, Time),
+fmae(error_rf_r_500_6, Time),
+fmae(error_rf_r_500_7, Time),
+fmae(error_rf_r_1000_2, Time),
+fmae(error_rf_r_1000_7, Time)
+)
+
+# desviation standard absolute error
+sd <- c(
+sdae(error_prediction_lm1),
+sdae(error_rf_r_10_2),
+sdae(error_rf_r_100_2),
+sdae(error_rf_r_100_4),
+sdae(error_rf_r_100_6),
+sdae(error_rf_r_100_7),
+sdae(error_rf_r_500_2),
+sdae(error_rf_r_500_4),
+sdae(error_rf_r_500_6),
+sdae(error_rf_r_500_7),
+sdae(error_rf_r_1000_2),
+sdae(error_rf_r_1000_7)
+)
+
+add_model.data = data.frame(col_mae,col_fmae,sd)
+write.csv(add_model.data,paste(paste(folder,var,sep="-"),"add.csv",sep="-"))
+
+
+
+
+
+
+
+
+
+
+
+
+		predict(lm13, list(Rvar=16, DRvar=32, FluentsRoot=3, Producers=31, ProducersU=26)) # Predictions
+		predict(lm13, list(Rvar=14, DRvar=26, FluentsRoot=5, Producers=25, ProducersU=20)) # Predictions
+		predict(lm13, list(Rvar=8, DRvar=18, FluentsRoot=2, Producers=12, ProducersU=12)) # Predictions
+		predict(t13, list(Rvar=15, DRvar=28, FluentsRoot=7, Producers=28, ProducersU=23)) # Predictions
+		predict(t13, list(Rvar=14, DRvar=29, FluentsRoot=6, Producers=23, ProducersU=19)) # Predictions
+		predict(t13, list(Rvar=7, DRvar=16, FluentsRoot=2, Producers=14, ProducersU=14)) # Predictions
+		predict(t13, list(Rvar=13, DRvar=25, FluentsRoot=7, Producers=36, ProducersU=30)) # Predictions
+		predict(t13, list(Rvar=10, DRvar=23, FluentsRoot=5, Producers=27, ProducersU=25)) # Predictions
+		predict(t13, list(Rvar=13, DRvar=29, FluentsRoot=7, Producers=38, ProducersU=35)) # Predictions
+		predict(t13, list(Rvar=13, DRvar=25, FluentsRoot=7, Producers=36, ProducersU=30)) # Predictions
+		predict(t13, list(Rvar=10, DRvar=23, FluentsRoot=5, Producers=27, ProducersU=25)) # Predictions
+		predict(t13, list(Rvar=12, DRvar=27, FluentsRoot=5, Producers=35, ProducersU=32)) # Predictions
+		predict(t13, list(Rvar=14, DRvar=33, FluentsRoot=5, Producers=43, ProducersU=42)) # Predictions
+		predict(t13, list(Rvar=15, DRvar=36, FluentsRoot=5, Producers=46, ProducersU=42)) # Predictions
+		predict(t13, list(Rvar=16, DRvar=38, FluentsRoot=5, Producers=46, ProducersU=44)) # Predictions
+		predict(t13, list(Rvar=11, DRvar=25, FluentsRoot=4, Producers=27, ProducersU=23)) # Predictions
+		predict(t13, list(Rvar=14, DRvar=34, FluentsRoot=6, Producers=51, ProducersU=49)) # Predictions
+		predict(t13, list(Rvar=15, DRvar=36, FluentsRoot=6, Producers=51, ProducersU=49)) # Predictions
+		predict(t13, list(Rvar=12, DRvar=29, FluentsRoot=3, Producers=29, ProducersU=34)) # Predictions
+		predict(t13, list(Rvar=10, DRvar=26, FluentsRoot=5, Producers=44, ProducersU=42)) # Predictions
+		predict(t13, list(Rvar=14, DRvar=37, FluentsRoot=5, Producers=73, ProducersU=71)) # Predictions
+		predict(t13, list(Rvar=12, DRvar=31, FluentsRoot=3, Producers=53, ProducersU=47)) # Predictions
+		predict(t13, list(Rvar=10, DRvar=28, FluentsRoot=3, Producers=58, ProducersU=56)) # Predictions
+		predict(t13, list(Rvar=11, DRvar=30, FluentsRoot=6, Producers=71, ProducersU=68)) # Predictions
+		predict(t13, list(Rvar=13, DRvar=33, FluentsRoot=8, Producers=96, ProducersU=94)) # Predictions
+		predict(t13, list(Rvar=17, DRvar=46, FluentsRoot=7, Producers=116, ProducersU=110)) # Predictions
+		predict(t13, list(Rvar=12, DRvar=36, FluentsRoot=8, Producers=89, ProducersU=86)) # Predictions
+
+
+
+	png(filename="Decision Tree Forward approach.png")
+	plot(t13)
+	text(t13,cex=0.75)
+	dev.off()
+
+
+# nolinear regression model
+
+	independence = glm(BH3 ~ Rvar+DRvar+FluentsRoot+Producers+ProducersU,family=gaussian)
+	quasi.indep = glm(BH3 ~ Rvar+DRvar+FluentsRoot+Producers+ProducersU+Diag(Rvar+DRvar+FluentsRoot+Producers+ProducersU),family=gaussian)
+	symmetry = glm(BH3 ~ Symm(Rvar+DRvar+FluentsRoot+Producers+ProducersU),family=gaussian)
+	quasi.symm = glm(BH3 ~ Rvar+DRvar+FluentsRoot+Producers+ProducersU+Symm(Rvar+DRvar+FluentsRoot+Producers+ProducersU),family=gaussian)
+	comparison1 <- anova(independence, quasi.indep, quasi.symm)
+	print(comparison1, digits = 7)
+
+		predict(gnm1, list(Rvar=12, DRvar=22, FluentsRoot=9, Producers=24, ProducersU=22)) # Predictions
+
+
+	http://cran.r-project.org/web/packages/gnm/vignettes/gnmOverview.pdf
+	http://cran.r-project.org/doc/contrib/Fox-Companion/appendix-nonlinear-regression.pdf
+	http://www.statmethods.net/stats/regression.html
+	http://ww2.coastal.edu/kingw/statistics/R-tutorials/simplenonlinear.html
+	
+
+
+
+

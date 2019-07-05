@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><define xmlns="http://www.pelea.org/xPddl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pelea.org/xPddl xPddl.xsd">
+<plans domain="logistics" name="xPddlPlan" xmlns="http://www.pelea.org/xPddl">
+    <plan execution_time="1.000" start_time="0.0" n_actions="1" problem="p1" domain="logistics" id="xPddlPlan">
+       <action-plan duration="1.0" start="1.0" index="1" name="unload">
+            <term name="p1" type="package"/>
+            <term name="t1" type="truck"/>
+            <term name="A" type="location"/>
+        </action-plan>
+    </plan>
+</plans>
+</define>

@@ -1,0 +1,46 @@
+partial state0:	[<link-b-w2-w3,true>, <loc-b,w2>]
+
+	action: [navigate b w2 w3]
+		pre: [<link-b-w2-w3,true>, <loc-b,w2>]
+		eff: [<loc-b,w3>]
+
+
+partial state1:	[<loc-b,w3>, <loc_rock-r-w3,true>]
+
+	action: [analyze b r w3]
+		pre: [<loc-b,w3>, <loc_rock-r-w3,true>]
+		eff: [<have-r-b,true>, <loc_rock-r-w3,false>]
+
+
+partial state2:	[<have-r-b,true>, <loc-b,w3>, <loc_lander-l,w2>, <vis-w3-w2,true>]
+
+	action: [communicate b r l w3 w2]
+		pre: [<loc-b,w3>, <loc_lander-l,w2>, <have-r-b,true>, <vis-w3-w2,true>]
+		eff: [<comm-r-w3,yes>]
+
+
+partial state3:	[<comm-r-w3,yes>, <link-b-w3-w1,true>, <loc-b,w3>]
+
+	action: [navigate b w3 w1]
+		pre: [<link-b-w3-w1,true>, <loc-b,w3>]
+		eff: [<loc-b,w1>]
+
+
+partial state4:	[<comm-r-w3,yes>, <loc-b,w1>, <loc_lander-l,w2>, <have-r-b,true>, <vis-w1-w2,true>]
+
+	action: [communicate b r l w1 w2]
+		pre: [<loc-b,w1>, <loc_lander-l,w2>, <have-r-b,true>, <vis-w1-w2,true>]
+		eff: [<comm-r-w1,yes>]
+
+
+partial state5:	[<comm-r-w3,yes>, <comm-r-w1,yes>, <link-b-w1-w2,true>, <loc-b,w1>]
+
+	action: [navigate b w1 w2]
+		pre: [<link-b-w1-w2,true>, <loc-b,w1>]
+		eff: [<loc-b,w2>]
+
+
+partial state6:	[<comm-r-w3,yes>, <comm-r-w1,yes>, <loc-b,w2>]
+
+	action: 
+

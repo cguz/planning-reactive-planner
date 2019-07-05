@@ -1,0 +1,124 @@
+# *************************************************************************************
+# COMMANDS TO FIT THE MODEL AND SAVE IT TO ESTIMATE
+# THE VARIABLE SHOULD HAVE THE NAME "prediction_model"
+# *************************************************************************************
+
+# INSTALL THE R TOOL
+# sudo apt-get install r-base
+
+# INSTALL THE PACKAGES
+# install.packages("randomForest)
+
+
+
+# # # # # # # # # # # #
+#	LIBRARIES	  					     
+# # # # # # # # # # # # 
+
+library("randomForest")
+
+
+
+
+
+
+# # # # # # # # # # # 
+# 	VARIABLES 		# 
+# # # # # # # # # # # 
+
+
+# training data
+var = "random"
+folder_training = "training-sets/THESIS-CHAPTER4/benchmarks-nmapV2-cur-rover-icaesol-data"
+
+# model data to create
+name_model = "all-backward"
+folder_model = "training-the-models/model_time_rf_ntree500_mtry6_nmapV2-rover-icaesol"
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # #
+# 	READ DATA	  		  					# 
+# # # # # # # # # # # # # # # # # # # # # # #
+
+
+# read training data
+d <- read.table(paste(folder_training,var,sep="-"), header=T)
+
+# load the data and attach
+m1 <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+
+#CALCULO DE FACTOR DE RAMIFICACION DE MUESTRAS
+BH3 = ((d[,c("N")]^(1/d[,c("depth")]))-0.44)
+
+# preparing datas
+TRAIN <- data.frame(
+	B=BH3,
+	Time=d[,c("Time")],
+	N=d[,c("N")],
+	ENodes=d[,c("ENodes")],
+	depth=d[,c("depth")],
+	window=d[,c("window")],
+	Rvar=d[,c("Rvar")],
+	DRvar=d[,c("DRvar")],
+	RvarRoot=d[,c("RvarRoot")],
+	FluentsRoot=d[,c("FluentsRoot")],
+	Producers=d[,c("Producers")],
+	ProducersU=d[,c("ProducersU")]
+)
+
+attach(TRAIN)
+
+
+
+
+
+set.seed(37173)	
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # #
+# 	Linear predictive model B     			# 
+# # # # # # # # # # # # # # # # # # # # # # #
+ 
+# prediction_model1 = lm(BH3 ~ depth+FluentsRoot+Producers)
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # #
+# 	BAGGING MODEL							# 
+# # # # # # # # # # # # # # # # # # # # # # #
+ 
+formula <- Time ~ depth+FluentsRoot+Rvar+DRvar+Producers+RvarRoot
+prediction_model = randomForest(formula,data=TRAIN,importance=TRUE,proximity=TRUE,type=regression,ntree=500,mtry=6,do.trace=TRUE)
+
+
+# saving the model
+save(prediction_model,file=paste(paste(folder_model,name_model,sep="_"),"rda",sep="."))
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# CHANGE: mean time of generated or evaluated nodes # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+meanTN = mean(Time/N)
+meanTE = mean(Time/ENodes)
+meanALFA = mean(ENodes/N)
+
+meanTN
+meanTE
+meanALFA
+
+

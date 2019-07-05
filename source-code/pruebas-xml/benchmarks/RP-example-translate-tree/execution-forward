@@ -1,0 +1,76 @@
+
+[ESTIMATED SIZE]
+ starting from: 0
+
+ selected settings: [l=3, d=6, est time=498.35004401454, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=9, est b=2.7569520473480225, est N=882.2809217380533]
+[FORWARD APPROACH] sequence partial states: 
+{0=	PS=0.0
+	state=<link-b-w2-w3,true>\n<loc-b,w2>\n
+	action=[navigate b w2 w3]
+, 1=	PS=1.0
+	state=<loc-b,w3>\n
+	action=[analyze b r w3]
+, 2=	PS=2.0
+	state=<have-r-b,true>\n
+	action=[communicate b r l w3 w2]
+, 3=	PS=3.0
+	state=<comm-r-w3,yes>\n
+	action=[navigate b w3 w1]
+, 4=	PS=4.0
+	state=<comm-r-w3,yes>\n<loc-b,w1>\n
+	action=[communicate b r l w1 w2]
+, 5=	PS=5.0
+	state=<comm-r-w3,yes>\n<comm-r-w1,yes>\n
+	action=[navigate b w1 w2]
+, 6=	PS=6.0
+	state=<comm-r-w3,yes>\n<comm-r-w1,yes>\n<loc-b,w2>\n
+	action=[navigate b w1 w2]
+}
+
+
+Planning problem: pfile2
+[RP] repairing, executed actions: 0
+[PLAN REPAIRED][[0, 3]]
+[PLAN REPAIRED][NodeStateImp 15 [<loc_lander-l,w2>, <vis-w3-w2,true>, <link-b-w1-w3,true>, <loc_rock-r-w3,true>, <link-b-w2-w1,true>, <loc-b,w2>][0:navigate b w2 w1 ], NodeStateImp 9 [<loc_lander-l,w2>, <vis-w3-w2,true>, <link-b-w1-w3,true>, <loc_rock-r-w3,true>, <loc-b,w1>][3:navigate b w1 w3 ], NodeStateImp 4 [<loc_lander-l,w2>, <vis-w3-w2,true>, <loc_rock-r-w3,true>, <loc-b,w3>][6:analyze b r w3 ], NodeStateImp 1 [<have-r-b,true>, <loc_lander-l,w2>, <vis-w3-w2,true>, <loc-b,w3>][9:communicate b r l w3 w2 ], NodeStateImp 0 [<comm-r-w3,yes>][5:navigate b w3 w1 ]]
+[Error] Plan to root node not found. root node : [<comm-r-w3,yes>]
+
+
+
+
+[ESTIMATED SIZE]
+ starting from: 0
+
+ selected settings: [l=5, d=6, est time=498.35004401454, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=9, est b=2.7569520473480225, est N=882.2809217380533]
+[FORWARD APPROACH] sequence partial states: 
+{0=	PS=0.0
+	state=<link-b-w2-w3,true>\n<loc-b,w2>\n
+	action=[navigate b w2 w3]
+, 1=	PS=1.0
+	state=<loc-b,w3>\n
+	action=[analyze b r w3]
+, 2=	PS=2.0
+	state=<have-r-b,true>\n
+	action=[communicate b r l w3 w2]
+, 3=	PS=3.0
+	state=<comm-r-w3,yes>\n
+	action=[navigate b w3 w1]
+, 4=	PS=4.0
+	state=<comm-r-w3,yes>\n<loc-b,w1>\n
+	action=[communicate b r l w1 w2]
+, 5=	PS=5.0
+	state=<comm-r-w3,yes>\n<comm-r-w1,yes>\n
+	action=[navigate b w1 w2]
+, 6=	PS=6.0
+	state=<comm-r-w3,yes>\n<comm-r-w1,yes>\n<loc-b,w2>\n
+	action=[navigate b w1 w2]
+}
+
+
+Planning problem: pfile2
+[RP] repairing, executed actions: 0
+[PLAN REPAIRED][[0, 3]]
+[PLAN REPAIRED][NodeStateImp 68 [<loc_lander-l,w2>, <vis-w3-w2,true>, <vis-w1-w2,true>, <link-b-w1-w3,true>, <link-b-w3-w1,true>, <loc_rock-r-w3,true>, <link-b-w2-w1,true>, <loc-b,w2>][0:navigate b w2 w1 ], NodeStateImp 47 [<loc_lander-l,w2>, <vis-w3-w2,true>, <vis-w1-w2,true>, <link-b-w1-w3,true>, <link-b-w3-w1,true>, <loc_rock-r-w3,true>, <loc-b,w1>][3:navigate b w1 w3 ], NodeStateImp 28 [<loc_lander-l,w2>, <vis-w3-w2,true>, <vis-w1-w2,true>, <link-b-w3-w1,true>, <loc_rock-r-w3,true>, <loc-b,w3>][6:analyze b r w3 ], NodeStateImp 13 [<have-r-b,true>, <loc_lander-l,w2>, <vis-w3-w2,true>, <vis-w1-w2,true>, <link-b-w3-w1,true>, <loc-b,w3>][9:communicate b r l w3 w2 ], NodeStateImp 5 [<have-r-b,true>, <comm-r-w3,yes>, <loc_lander-l,w2>, <vis-w1-w2,true>, <link-b-w3-w1,true>, <loc-b,w3>][5:navigate b w3 w1 ], NodeStateImp 1 [<have-r-b,true>, <comm-r-w3,yes>, <loc_lander-l,w2>, <vis-w1-w2,true>, <loc-b,w1>][8:communicate b r l w1 w2 ], NodeStateImp 0 [<comm-r-w3,yes>, <comm-r-w1,yes>][2:navigate b w1 w2 ]]
+[Error] Plan to root node not found. root node : [<comm-r-w3,yes>, <comm-r-w1,yes>]
+
+
+

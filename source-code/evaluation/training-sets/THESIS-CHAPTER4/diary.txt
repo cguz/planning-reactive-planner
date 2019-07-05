@@ -1,0 +1,95 @@
+Fecha: 23/04/2016 a las 18:33
+
+	Eva, he realizado la prueba que hablamos esta mañana en el rovers, solo
+	para ver cuantas estructuras generaba.
+
+
+	1. La primera intención era probar con estructuras que permitan cubrir
+	en la primera acción del plan hasta 4 acciones, es decir:
+
+		 l=2 m={3,4,5,6} (esta ya las tenia)
+		 l=3 m={4,5,6,7} (solo la 7 no la tengo)
+		 l=4 m={5,6,7,8} (no tengo 7 y 8)
+		 l=5 m={6,7,8,9} (no tengo 7, 8 y 9)
+		 l=6 m={7,8,9,10} (no tengo ninguna)
+		 l=7 m={8,9,10,11} (no tengo ninguna)
+		    
+	En las tareas 1, 2 y 3 se generaron en total 94 estructuras nuevas. Tres
+	con configuraciones de (7,11) que tardaron 10, 16 y 27 segundos.
+
+	En la tarea 4, se generaron 13 estructuras. Al intentar hacer la primera
+	estructura de configuración (7,11) se me desbordo la memoria. Es decir,
+	logra hacer las siguientes estructuras:
+
+		 l=3, m={4};
+		 l=4, m={7,8};
+		 l=5, m={7,8,9};
+		 l=6, m={7,8,9,10};
+		 l=7, m={8,9,10}
+
+
+	2. Lo segundo que he hecho es limitar el número de acciones que se
+	cubren a 3 acciones, es decir:
+
+		 l=4 m={5,6,7} (no tengo 7)
+		 l=5 m={6,7,8} (no tengo 7 y 8)
+		 l=6 m={7,8,9} (no tengo ninguna)
+		 l=7 m={8,9,10} (no tengo ninguna)
+
+	En la tarea 4 se generan 7 estructuras más (diferentes de las 13
+	anteriores) y cuando intenta hacer una de (7,9) tarda más de 1 minuto y
+	se desborda la memoria.
+
+
+	3. El último intento que hice fue limitar a 2 acciones:
+
+		 l=5 m={6,7} (no tengo 7)
+		 l=6 m={7,8} (no tengo ninguna)
+		 l=7 m={8,9} (no tengo ninguna)
+
+	Pero comencé a ejecutar desde la tarea 5. En la tarea 5 se generan 19
+	estructuras hasta que en una se desborda la memoria cuando intenta
+	generar una de (7,9) -- genera cuatro de configuración (7,9) pero al
+	momento de generar la quinta falla.
+
+
+	A partir de las tareas 6 hasta la 12, se desborda la memoria. Solo
+	generan 2 en la tarea 6, con configuraciones de (5,7) y (6,7).
+
+	En resumen, en total se han generado 135 estructuras nuevas. Lo he
+	realizado solo en el dominio del rovers. Podemos realizarlo también en
+	los otros tres dominios. Por lo pronto lo dejo hasta aquí y lo hablamos
+	ya me dices.
+
+
+
+Fecha:	Sun, 24 Apr 2016 09:08:20 +0200
+
+	Ayer hice lo mismo para los demás dominios. En el Driverlog hizo hasta
+	la tarea 2, en el logistics hasta la tarea 4, y en el ParcPrinter hizo
+	hasta la tarea 5. 
+
+	En total se generaron 862 estructuras nuevas. 
+
+		714 estructuras con un tiempo t, t <= 6 segundos 
+		        el mayor tiempo fue de 5997 en una complejidad de (6,7) 
+		        
+		39 estructuras con un tiempo t, t > 6 && t <= 10 segundos
+		        el mayor tiempo fue de 9932 en una complejidad de (6,8) 
+		        
+		23 estructuras con un tiempo t, t > 10 <= 15 segundos
+		        mayor tiempo 14544 - (7,10) 
+		
+		81 estructuras con un tiempo t, t > 15 <= 500 segundos 
+		        mayor tiempo 380915 - (7,11) 
+		        
+		5 estructuras con un tiempo mayor que 500 segundos
+		        mayor tiempo 3840896 - (7,11)
+
+
+Fecha:	Sun, 24 Apr 2016 11:08:20 +0200
+
+	
+
+
+	

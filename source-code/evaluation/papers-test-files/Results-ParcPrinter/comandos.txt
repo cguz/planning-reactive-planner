@@ -1,0 +1,160 @@
+# *************************************************************************************
+# Comandos para calcular el modelo y salvarlo para estimar
+# Look at the settings to CHANGE.
+# la variable del modelo final debe llamarse "prediction_model"
+# *************************************************************************************
+
+library(randomForest) # random forest model
+
+
+# # # # # # # # # # # # # # # # # # 
+# CHANGE: training and model name # 
+# # # # # # # # # # # # # # # # # # 
+
+# training data
+var = "training-cPrint-regressed-all-filtering-pre-window"
+folder_training = "training-sets/BackwardAllSequencesFilteringPreWindow/16-06-2014/filtered"
+
+# model data to create
+name_model = "cPrint-regressed-all-filtering-pre-window"
+folder_model = "training-the-models/model_time_rf_ntree100_mtry3"
+
+# read training data
+d <- read.table(paste(folder_training,var,sep="-"), header=T)
+
+# load the data and attach
+m1 <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+attach(m1)
+
+#CALCULO DE FACTOR DE RAMIFICACION DE MUESTRAS
+BH3 = ((d[,c("N")]^(1/d[,c("depth")]))-0.34)
+
+# preparing datas
+y.data <- data.frame(
+	B=BH3,
+	Time=d[,c("Time")],
+	N=d[,c("N")],
+	ENodes=d[,c("ENodes")],
+	depth=d[,c("depth")],
+	window=d[,c("window")],
+	Rvar=d[,c("Rvar")],
+	DRvar=d[,c("DRvar")],
+	RvarRoot=d[,c("RvarRoot")],
+	FluentsRoot=d[,c("FluentsRoot")],
+	Producers=d[,c("Producers")],
+	ProducersU=d[,c("ProducersU")]
+)
+
+# # # # # # # # # # # # # #  # 
+# CHANGE: the linear equation # 
+# # # # # # # # # # # # # #  # 
+ 
+
+## multi linear predictive model
+# prediction_model1 = lm(BH3 ~ depth+FluentsRoot+Producers+Rvar+RvarRoot)
+# prediction_model1 = lm(Time ~ depth+FluentsRoot+Producers)
+
+
+## random forest model
+set.seed(37173)	
+prediction_model = randomForest(Time ~ depth+FluentsRoot+Producers,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=3,do.trace=TRUE)
+
+## random forest model
+# set.seed(371)
+# prediction_model = randomForest(Time ~ depth+FluentsRoot+Producers,data=y.data,importance=TRUE,proximity=TRUE,type=regression,ntree=100,mtry=3,do.trace=TRUE)
+
+# saving the model
+save(prediction_model,file=paste(paste(folder_model,name_model,sep="_"),"rda",sep="."))
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# CHANGE: mean time of generated or evaluated nodes # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+meanT = mean(Time/N)
+meanT = mean(Time/ENodes)
+meanALFA = mean(ENodes/N)
+
+meanT
+meanALFA
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# CHANGE: mean time of generated or evaluated nodes # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+meanT = mean(Time/N)
+meanT = mean(Time/ENodes)
+meanALFA = mean(ENodes/N)
+
+meanT
+meanALFA
+
+
+
+
+
+*************************************************************************************
+# Comandos para probar el modelo
+*************************************************************************************
+
+library(randomForest) # random forest model
+
+folder_model = "training-the-models/model_time_random_forest_ntree100_mtry7"
+name_model = "rover-regressed-all-filtering-pre-window"
+
+load(paste(paste(folder_model,name_model,sep="_"),"rda",sep="."))
+
+folder_training = "training-sets/BackwardAllSequencesFilteringPreWindow/filtered-training"
+var = "rover-regressed-all-filtering-pre-window"
+
+d <- read.table(paste(folder_training,var,sep="-"), header=T)
+
+m1 <- d[,c("window", "depth", "Rvar", "DRvar", "RvarRoot","FluentsRoot", "Producers", "ProducersU","Time", "N", "ENodes", "Domain")]
+attach(m1)
+
+#CALCULO DE FACTOR DE RAMIFICACION DE MUESTRAS
+BH3 = ((N^(1/depth))-0.34)
+
+# preparing datas
+y.data <- data.frame(
+	B=BH3,
+	Time=d[,c("Time")],
+	N=d[,c("N")],
+	ENodes=d[,c("ENodes")],
+	depth=d[,c("depth")],
+	window=d[,c("window")],
+	Rvar=d[,c("Rvar")],
+	DRvar=d[,c("DRvar")],
+	RvarRoot=d[,c("RvarRoot")],
+	FluentsRoot=d[,c("FluentsRoot")],
+	Producers=d[,c("Producers")],
+	ProducersU=d[,c("ProducersU")]
+)
+
+
+# prediction model
+result_prediction = predict(prediction_model, list(depth, Rvar, DRvar, RvarRoot, FluentsRoot, Producers, ProducersU)) # Predictions
+
+# error of the prediction model
+error_model <- BH3 - result_prediction
+
+# function that returns Root Mean Squared Error
+rmse <- function(error)
+{
+    sqrt(mean(error^2))
+}
+ 
+# function that returns Mean Absolute Error
+mae <- function(error)
+{
+    mean(abs(error))
+}
+
+mae(error_model)
+
+
+

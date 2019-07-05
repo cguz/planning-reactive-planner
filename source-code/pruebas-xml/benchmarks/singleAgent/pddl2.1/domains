@@ -1,0 +1,56 @@
+IPC 2014 - SEQUENTIAL TRACK
+
+
+-> Barman - ORIGIN : IPC-7 - FEATURES : STRIPS
+
+From the original domain description (http://www.plg.inf.uc3m.es/ipc2011-deterministic/DomainsSequential.html#Barman). In this domain there is a robot barman that manipulates drink dispensers, glasses and a shaker. The goal is to find a plan of the robot's actions that serves a desired set of drinks. In this domain deletes of actions encode relevant knowledge given that robot hands can only grasp one object at a time and given that glasses need to be empty and clean to be filled. 
+
+
+-> Cave Diving - ORIGIN : New - FEATURES :	action-costs, negative-precondition, conditional-effects 
+
+Author: Nathan Robinson,Christian Muise, and Charles Gretton.
+There are a set of divers, each of who can carry 4 tanks of air. These divers must be hired to go into an underwater cave and either take photos or prepare the way for other divers by dropping full tanks of air. The cave is too narrow for more than one diver to enter at a time.
+The cave system is represented by an undirected acyclic graph. Divers have a single point of entry. Certain leaf nodes of the cave branches are objectives that the divers must photograph. Swimming and photographing both consume air tanks. Divers must exit the cave and decompress at the end. They can therefore only make a single trip into the cave.
+Certain divers have no confidence in other divers and will refuse to work if someone they have no confidence in has already worked. Divers have hiring costs inversely proportional to how hard they are to work with. 
+
+
+-> Child-Snack - ORIGIN : New - FEATURES : STRIPS
+
+Authors: Raquel Fuentetaja, Tomás de la Rosa Turbides.
+This domain is to plan how to make and serve sandwiches for a group of children in which some are allergic to gluten. There are two actions for making sandwiches from their ingredients. The first one makes a sandwich and the second one makes a sandwich taking into account that all ingredients are gluten-free. There are also actions to put a sandwich on a tray and to serve sandwiches.
+Problems in this domain define the ingredients to make sandwiches at the initial state. Goals consist of having all kids served with a sandwich to which they are not allergic. 
+
+
+
+IPC 2008 - SEQUENTIAL TRACK - Deterministic Part
+MANUFACTURING
+
+
+-> PARCPRINTER
+
+This domain models the operation of the multi-engine printer, for which one prototype is developed at the Palo Alto Research Center (PARC). This type of printer can handle multiple print jobs simultaneously. Multiple sheets, belonging to the same job or different jobs, can be printed simultaneously using multiple Image Marking Engines (IME). Each IME can either be color, which can print both color and black&white images, or mono, which can only print black&white image. Each sheet needs to go through multiple printer components such as feeder, transporter, IME, inverter, finisher and need to arrive at the finisher in order. Thus, sheet (n+1) needs to be stacked in the same finisher with sheet n of the same job, but needs to arrive at the finisher right after sheet n (no other sheet stacked in between those two consecutive sheets). Given that the IMEs are heterogeneous (mixture of color and mono) and can run at different speeds, optimizing the operation of this printer for a mixture of print jobs, each of them is an arbitrary mixture of color/b&w pages that are either simplex (one-sided print) or duplex (two-sided print) is a hard problem. The picture below shows the fully-operational prototype at PARC with 4 mono IMEs. For the detail description of this domain and the continual online planner controlling it, please refer to the references listed at the end of this page
+
+http://ipc.informatik.uni-freiburg.de/PARCPrinter
+
+
+Hicimos nuestra propia configuración porque en la versión que se presenta en el IPC está totalmente instanciada y es muy Ad-hoc. Presenta dos configuraciones. En la manera en que nosotros lo hicimos podemos hacer muchas configuraciones, aunque solo trabajamos con una.
+
+Támbien lo modificamos a PDDL 3.1.
+
+
+IPC 2005 - SEQUENTIAL TRACK - Deterministic Part
+SPACE EXPLORING
+
+
+-> MARS DOMAIN
+
+Lo modificamos a PDDL 3.1., el estado inicial y objetivo son diferentes a los de la IPC. Además, agregamos acciones para buscar muestras y eliminamos las acciones drop. 
+
+
+IPC 2000 - SEQUENTIAL TRACK - Deterministic Part
+VEHICLE ROUTING PROBLEM
+
+
+-> LOGISTICS
+
+Lo modificamos a PDDL 3.1. los problemas están iguales a los de la competición.

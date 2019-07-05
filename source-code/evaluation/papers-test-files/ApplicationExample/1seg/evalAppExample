@@ -1,0 +1,2 @@
+ExampleRover	pfile1	w3	l6	607.7740171738956 ms(est_T)	62.0 ms(T)	68.0 ms(alg+T)	0 des	0 ori	0 plan	800480.0 ns	1 add acts	3 plan	0 stab	3 repaired
+ExampleRover	pfile1	w3	l6	607.7740171738956 ms(est_T)	62.0 ms(T)	68.0 ms(alg+T)	0 des	0 ori	0 plan	800480.0 ms	0 add acts	0 plan	0 stab	0 repaired

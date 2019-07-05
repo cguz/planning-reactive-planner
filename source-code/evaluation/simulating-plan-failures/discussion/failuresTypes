@@ -1,0 +1,124 @@
+
+
+
+
+
+
+**********************
+Rovers - pfile1
+TIME STEP=2
+WINDOW=4
+DEPTH=5
+**********************
+
+TIPO DE FALLO 1: NO HAY LINKS ENTRE LOS WAYPOINTS.
+
+b) Random failures: by exogenou events
+
+= <have_image-rover0-objective1-high_res,yes>
+- <at_lander-general,waypoint0> changed by <at_lander-general,waypoint2>]
+= <visible-waypoint3-waypoint0,true>
+= <at-rover0,waypoint3>
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (communicate_image_data rover0 general objective1 high_res waypoint3 waypoint0) [1]
+3: (sample_rock rover0 rover0store waypoint3) [1]
+4: (drop rover0 rover0store) [1]
+5: (navigate rover0 waypoint3 waypoint1) [1]
+6: (navigate rover0 waypoint1 waypoint2) [1]
+7: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0) [1]
+8: (sample_soil rover0 rover0store waypoint2) [1]
+9: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	12 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover0-objective1-high_res,yes>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <visible-waypoint3-waypoint1,true>, <at-rover0,waypoint3>, <at_rock_sample-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 3110775.0 ns
+
+
+**********************
+Rovers - pfile1
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+
+TIPO DE FALLO 2: NO HAY ROCAS EN EL WAYPOINT3. EL ROVER ESTA COMPROMETIDO CON EL PLAN RESTANTE.
+
+SOLUCION: ACTION SEEK-ROCKS
+		PRE: 	ROVER WAYPOINT3, MORE-ROCKS WAYPOINT3
+		EFFECTS:ROCK WAYPOINT3 
+
+	1.) Si el science target recibido de la tierra es analizar una roca en el waypoint 3, entonces el rover tiene que replanificar.
+	2.) Si el science target es comunicar el analisís de una roca cualquiera, entonces el dominio debe ser módelado de manera diferente.
+
+
+b) Random failures: by exogenou events
+
+= <status-rover0store,empty>
+= <equipped_for_rock_analysis-rover0,true>
+= <at-rover0,waypoint3>
+- <at_rock_sample-waypoint3,true> changed by <at_rock_sample-waypoint3,false>]
+= <communicated_image_data-objective1-high_res,true>
+= <store_of-rover0store,rover0>
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (sample_rock rover0 rover0store waypoint3) [1]
+4: (drop rover0 rover0store) [1]
+5: (navigate rover0 waypoint3 waypoint1) [1]
+6: (navigate rover0 waypoint1 waypoint2) [1]
+7: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0) [1]
+8: (sample_soil rover0 rover0store waypoint2) [1]
+9: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	2 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint1,true>, <at-rover0,waypoint3>, <at_rock_sample-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <communicated_image_data-objective1-high_res,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 2175120.0 ns
+
+**********************
+Rovers - pfile2
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+TIPO DE FALLO 3: due to a hardware failure. The rover's capabilities is broken.
+
+SOLUCION: COLOCAR UN ROVER REPARADOR QUE ESTE EN EL MISMO WAYPOINT3.
+
+b) Random failures: by exogenou events
+
+= <status-rover0store,empty>
+= <at-rover0,waypoint0>
+- <equipped_for_rock_analysis-rover0,true> changed by <equipped_for_rock_analysis-rover0,false>]
+= <at_rock_sample-waypoint0,true>
+= <communicated_image_data-objective1-low_res,true>
+= <store_of-rover0store,rover0>
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (sample_rock rover0 rover0store waypoint0) [1]
+4: (drop rover0 rover0store) [1]
+5: (sample_soil rover0 rover0store waypoint0) [1]
+6: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+7: (communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+
+Destiny found:	1 [<at_lander-general,waypoint1>, <status-rover0store,empty>, <at-rover0,waypoint0>, <visible-waypoint0-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <at_rock_sample-waypoint0,true>, <communicated_image_data-objective1-low_res,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 368400.0 ns
+
+
+
+
+
