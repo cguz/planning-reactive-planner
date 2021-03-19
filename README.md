@@ -2,6 +2,9 @@
 
 [![Java](https://img.shields.io/badge/Java-8-red)](https://www.java.org/)
 
+Author: Guzmán-Álvarez, César A. [@cguz](https://github.com/cguz)
+
+Advisor: Eva Onaindia
 
 The present repository contains the source code of the (single agent) Reactive Planner (RP) of the Ph.D. dissertation entitled [Reactive plan execution in multi-agent environments](https://riunet.upv.es/bitstream/handle/10251/120457/G%c3%bazman%20-%20Reactive%20plan%20execution%20in%20multi-agent%20environments.pdf?sequence=4&isAllowed=y).
 
