@@ -1,7 +1,0 @@
-MORE ACTIONS LESS DEPTH=ArgMax
-LESS ACTIONS MORE DEPTH=ArgMax-1
-
-
-if(est_time<time_limit && depth < 7)
-	queueTimes.add(new EstimatedTime(est_time, planning_horizon, depth, b, tree, estNodes, parameters));
-else maxDepth=true;
