@@ -3,8 +3,8 @@
 
 <div align=center>
   <a href="https://www.upv.es"><img src="https://github.com/cguz/planning-reactive-planner/raw/master/image/upv.png" alt="UPV" title="UPV" hspace="30" height="96px" /></a>
-  <a href="https://www.nasa.org"><img src="https://github.com/cguz/planning-reactive-planner/raw/main/image/nasa.svg" alt="NASA" title="NASA" hspace="30" height="96px" /></a>
-  <img src="https://github.com/cguz/planning-reactive-planner/raw/main/image/GobSpain.png" alt="Gobierno de españa" title="Gobierno de españa" hspace="30" height="96px" />
+  <a href="https://www.nasa.org"><img src="https://github.com/cguz/planning-reactive-planner/raw/master/image/nasa.svg" alt="NASA" title="NASA" hspace="30" height="96px" /></a>
+  <img src="https://github.com/cguz/planning-reactive-planner/raw/master/image/GobSpain.png" alt="Gobierno de españa" title="Gobierno de españa" hspace="30" height="96px" />
 </div>
 
 
