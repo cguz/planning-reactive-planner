@@ -13,6 +13,8 @@ Author: Guzmán-Álvarez, César A. [@cguz](https://github.com/cguz)
 
 Advisor: Eva Onaindia
 
+Collaborator: Jeremy Frank
+
 The present repository contains the source code of the (single agent) Reactive Planner (RP) of the Ph.D. dissertation entitled [Reactive plan execution in multi-agent environments](https://riunet.upv.es/bitstream/handle/10251/120457/G%c3%bazman%20-%20Reactive%20plan%20execution%20in%20multi-agent%20environments.pdf?sequence=4&isAllowed=y).
 
 The RP allows execution agents to reactively and collaboratively attend a plan failure during execution. Specifically, it is a collaborative RP that employs bounded-structures to respond in a timely fashion to a somewhat dynamic and unpredictable environment. 
