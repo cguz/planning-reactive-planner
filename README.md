@@ -1,6 +1,13 @@
 # Reactive plan execution in multi-agent environments
 
-[![Java](https://img.shields.io/badge/Java-8-red)](https://www.java.org/)
+
+<div align=center>
+  <a href="https://www.upv.es"><img src="https://github.com/cguz/planning-reactive-planner/raw/main/image/upv.png" alt="UPV" title="UPV" hspace="30" height="96px" /></a>
+  <a href="https://www.nasa.org"><img src="https://github.com/cguz/planning-reactive-planner/raw/main/image/nasa.svg" alt="NASA" title="NASA" hspace="30" height="96px" /></a>
+  <img src="https://github.com/cguz/planning-reactive-planner/raw/main/image/GobSpain.png" alt="Gobierno de españa" title="Gobierno de españa" hspace="30" height="96px" />
+</div>
+
+
 
 Author: Guzmán-Álvarez, César A. [@cguz](https://github.com/cguz)
 
@@ -24,7 +31,9 @@ The reactive planner builds on a time-bounded search process that seeks a recove
 
 ## Source code
 
-The folder "source-code" contains the code of the reactive planner in Java. It is executable only for a single agent. 
+[![Java](https://img.shields.io/badge/Java-8-red)](https://www.java.org/)
+
+The folder "src" contains the code of the reactive planner in Java. It is executable only for a single agent. 
 
 Please, if something fails or is missing email me : cguzman at cguz dot org.
 
