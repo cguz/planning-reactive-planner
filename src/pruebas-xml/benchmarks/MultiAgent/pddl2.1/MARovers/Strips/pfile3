@@ -1,0 +1,38 @@
+; spacecraft C
+(define (problem pfile3) 
+(:domain MARovers)
+(:objects
+	C 			- spacecraft
+	A B 			- rover
+	w1 w2 w3 		- waypoint
+	L			- lander
+	rock			- sample
+	)
+(:init
+	; A is always equipped to analyze rock and soils
+	;(loc A w2)
+	;(loc B w3)
+
+	; Grid visible
+	(vis_s w2 w1)
+	(vis_s w1 w2)
+	(vis_s w3 w1)
+	(vis_s w1 w3)
+	(vis_s w3 w2)
+	(vis_s w2 w3)
+	(vis_s w1 w1)
+	(vis_s w2 w2)
+	(vis_s w3 w3)
+
+	; Grid can traverse A
+
+	; Initial location of soils and rocks
+	(above C w3)
+)
+
+(:goal 
+	(and
+		(link A w2 w3)
+	)
+)
+)

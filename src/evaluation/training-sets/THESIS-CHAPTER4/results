@@ -1,0 +1,58 @@
+OK		ntree500_mtry6_nmapV2-cur-rover-icaesol-and-complexity-l7-m11-less10-seed123456789_all-backward
+Rovers: 	total:  44  less than ts:  31  higher than ts:  13  max complexity:  6207.0 (6,9)
+Logistics: 	total:  49  less than ts:  40  higher than ts:  9  max complexity:  8098.0 (8,11)
+								22
+
+
+
+
+
+		ntree500_mtry6_nmapV2-cur-more-complexity-l7-m11-less10sec-seed37173_all-backward
+Rovers: 	total:  44  less than ts:  31  higher than ts:  13  max complexity:  6347.0 (6,8)
+Logistics: 	total:  49  less than ts:  41  higher than ts:  8  max complexity:  8643.0 (7,8)
+								21
+
+
+		ntree500_mtry6_nmapV2-cur-more-complexity-l7-m11-seed37173_all-backward
+Rovers: 	total:  49  less than ts:  44  higher than ts:  5  max complexity:  5718.0 (6,8)
+Logistics: 	total:  50  less than ts:  49  higher than ts:  1  max complexity:  3957.0 (4,7)
+								6
+
+
+
+
+		ntree500_mtry6_nmapV2-cur-rover-icaesol-and-complexity-l7-m11_all-backward
+Rovers: 	total:  47  less than ts:  43  higher than ts:  4  max complexity:  5420.0 (6,8)
+Logistics: 	total:  50  less than ts:  49  higher than ts:  1  max complexity:  5053.0 (5,7)
+								5
+
+
+
+
+--------------
+
+
+
+		ntree500_mtry6_nmapV2-cur-rover-icaesol-and-complexity-l7-m11-less10-seed37173_all-backward
+Rovers		total:  42  less than ts:  27  higher than ts:  15  max complexity:  7315.0 (7,10)
+Logistics	total:  49  less than ts:  39  higher than ts:  10  max complexity:  8138.0 (8,11)
+								25	
+
+
+		ntree100_mtry6_nmapV2-cur-more-complexity-l7-m11-less10sec-seed37173_all-backward
+Rovers: 	total:  46  less than ts:  30  higher than ts:  16  max complexity:  5441.0 (5,9)
+Logistics: 	total:  49  less than ts:  42  higher than ts:  7  max complexity:  8081.0 (8,11)
+								23
+
+
+		ntree100_mtry6_nmapV2-cur-more-complexity-l7-m11-seed37173_all-backward
+Rovers: 	total:  50  less than ts:  47  higher than ts:  3  max complexity:  4224.0 (4,8)
+Logistics: 	total:  50  less than ts:  48  higher than ts:  2  max complexity:  5899.0 (5,8)
+								5
+
+
+		ntree500_mtry6_nmapV2-cur-rover-icaesol-and-complexity-l7-m11-less20-seed123456789_all-backward
+Rovers		total:  46  less than ts:  31  higher than ts:  15  max complexity:  7248.0 (7,8)
+Logistics	total:  50  less than ts:  49  higher than ts:  1  max complexity:  6091.0 (6,8)
+
+

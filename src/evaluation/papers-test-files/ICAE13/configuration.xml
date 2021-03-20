@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<define xmlns="http://www.pelea.org/xPddl">
+    <configuration>
+        <term value="NOT" name="TEMPORAL"/>
+        <term value="LAMA" name="PLANNER"/>
+        <term value="" name="COMMAND"/>
+        <term value="" name="COMMANDR"/>                
+        <term value="LPG-TD" name="REPLANNER"/>
+        <term value="NOT_LEARNING" name="LEARNING"/>
+        <initialize>
+            <term value="/home/zenshi/Trabajos/java/Doctorado/axis2/domains/ZenoTravelNumeric/domain-min.pddl" name="DOMAIN"/>
+            <term value="/home/zenshi/Trabajos/java/Doctorado/axis2/domains/ZenoTravelNumeric/domain-min_probabilistic_1.pddl" name="DOMAIN_PROBABILISTIC"/>
+            <term value="/home/zenshi/Trabajos/java/Doctorado/axis2/domains/ZenoTravelNumeric/domain-lowlevel.xml" name="DOMAIN_LOW_LEVEL"/>
+            <term value="/home/zenshi/Trabajos/java/Doctorado/axis2/domains/ZenoTravelNumeric/pfile/pfile1" name="PROBLEM"/>
+            <term value="/home/zenshi/Trabajos/java/Doctorado/axis2/domains/ZenoTravelNumeric/pfile1-lowlevel.xml" name="PROBLEM_LOW_LEVEL"/>
+        </initialize>
+        <learner>
+            <term value="roller/cabala/sayphi-rules" name="NAME"/>
+            <term value="/usr/share/tomcat6/webapps/axis2/learning/knowledge.zip" name="output"/>
+            <term value="additive" name="mode"/>
+        </learner>
+        <execution>
+            <term value="temporal" name="ENVIRONMENT"/>
+            <term value="false" name="DS_ALLWAYS_REPLANN"/>
+        </execution>
+	<reactivePlanner>
+            
+            <term value="true" name="RP_CONR_MODEL_PATH_CONF_FILE"/>
+            <term value="false" name="RP_GTS_PRINT_SEARCH_TREE"/>
+            <term value="reactivePlanner/domains/" name="DOMAIN_PATH"/>
+            
+			<!-- 
+			VERIFYING_PLAN_SOLUTIONS_MODE=0, 
+			REAL_TRAINNING_MODE=1,//  Es indispensable realizar el entrenamiento del sistema
+			
+			TESTING_GENERATING_TREE_MODE_GRAPH1=2,  // GRAFICO 
+			TESTING_GENERATING_TREE_MODE_GRAPH2=3, 
+			
+			SIMULATING_FAILURE_RP_MODE=4, 			// SIMULACIÓN
+			
+			RP_APPLICATION_EXAMPLE_MODE=5,
+			RP_APPLICATION_EXAMPLE_MA=6,
+			NORMAL_MODE=7
+			
+			VERIFYING_PLANS_SEARCH_TREES_MODE=8, // para ver las acciones que se encuentran en cada search tree
+			VERIFYING_RESULTS_PARTIAL_STATES_MODE=9, 
+			-->
+            <term name="RP_TYPE_EXECUTION" value="4"/>
+            <!-- "DriverLog,parcprinter,Rovers,logistics,openstacks" ,DriverLog -->
+            <term name="DOMAIN_NAME" value="Rovers"/>
+            <term name="PROBLEM" value="1-3"/>
+            
+            
+            
+            <!-- OJO: testing -->
+            <term name="RP_MODEL_VARIABLE_TO_ESTIMATE" value="0"/>  <!-- 0=BRANCHING_FACTOR, 1=GENERATED_NODES, 2=EVALUATED_NODES, 3=TIME -->
+            
+            
+            <term name="RP_EXECUTE_MODEL_IN_R" value="false"/>
+            
+            <!-- CONNECTION TO R : RP_EXECUTE_MODEL_IN_R=true -->
+            <term name="RP_CONR_SERVER_IP" value="127.0.0.1"/>
+            <term name="RP_CONR_SERVER_PORT" value="6311"/>
+            <!-- <term name="RP_CONR_SERVER_START" value="R CMD /home/zenshi/R/i486-pc-linux-gnu-library/2.15/Rserve/libs/Rserve"/> -->
+            <term name="RP_CONR_SERVER_START" value="R CMD /home/anubis/R/i486-pc-linux-gnu-library/2.15/Rserve/libs/Rserve"/>         
+            <term name="RP_CONR_MODEL_PATH" value="evaluation/training-the-models/"/>
+            <term name="RP_CONR_MODEL_TYPE" value="randomForest"/>
+            <!-- <term name="RP_CONR_MODEL" value="model_time_rf_ntree100_mtry7_All-regressed-all-filtering-pre-window.rda"/> -->
+            <term name="RP_CONR_MODEL" value="model_time_rf_ntree100_mtry3_cPrint-regressed-all-filtering-pre-window.rda"/>
+            <!-- <term name="RP_CONR_MODEL" value="model_time_rf_ntree100_mtry7_cPrint-regressed-all-filtering-pre-window.rda"/> -->
+                
+            <!-- 1:input parameter to predict, 0:not input to predict
+            <term value="8" name="RP_EST_LREQ_TOTAL_PARAMS"/>
+            <term value="0" name="RP_MULT_LREQ_WEIGHT_A"/>
+            <term value="1" name="RP_MULT_LREQ_WEIGHT_D"/>
+            <term value="1" name="RP_MULT_LREQ_WEIGHT_FluentsRoot"/>
+            <term value="1" name="RP_MULT_LREQ_WEIGHT_Producers"/>
+            <term value="0" name="RP_MULT_LREQ_WEIGHT_Rvar"/>
+            <term value="0" name="RP_MULT_LREQ_WEIGHT_DRvar"/>
+            <term value="0" name="RP_MULT_LREQ_WEIGHT_RvarRoot"/>
+            <term value="0" name="RP_MULT_LREQ_WEIGHT_ProducersU"/> -->
+            
+            
+            
+            <term value="8" name="RP_EST_LREQ_TOTAL_PARAMS"/>
+            <term value="1.1216169" name="RP_MULT_LREQ_WEIGHT_A"/>
+            <term value="0" name="RP_MULT_LREQ_WEIGHT_D"/>
+            <term value="0.252047" name="RP_MULT_LREQ_WEIGHT_Rvar"/>
+            <term value="-0.071218" name="RP_MULT_LREQ_WEIGHT_DRvar"/>
+            <term value="0.174840" name="RP_MULT_LREQ_WEIGHT_RvarRoot"/>
+            <term value="-0.024709" name="RP_MULT_LREQ_WEIGHT_FluentsRoot"/>
+            <term value="-0.089607" name="RP_MULT_LREQ_WEIGHT_Producers"/>
+            <term value="0.129762" name="RP_MULT_LREQ_WEIGHT_ProducersU"/>
+            
+            
+            <term name="RP_MULT_LREQ_MEAN_TIME" value="0.5648428"/> <!-- evaluated nodes ICAE13 -->
+            
+            
+            
+            <term value="1" name="RP_MULT_LREQ_ALFA"/> 
+            <term value="0.34" name="RP_MULT_LREQ_FACTOR"/>
+            
+            <term value="false" name="RP_ESTIMATING_SIZE_TIME_DIFFERENCES"/>
+            <term value="0.15" name="RP_MULT_ESTIMATING_TIME_ALFA"/>
+            <term value="0" name="RP_REPAIR_ACTIONS"/> <!-- 0=MORE ACTIONS LESS DEPTH, 1=argMax - 1 LESS ACTIONS MORE DEPTH -->
+            <term value="0" name="RP_TREE_ROOT_NODE_APPROACH"/> <!-- 0=REGRESSED_ALL_SEQUENCES, 3= RP_TREE_RN_REG_ALL_SEQ_FILTERING_PRE_ACTIONS_PLAN_WINDOW, 2=FORWARD, 1=FORWARD_ALL_SEQUENCES  -->
+            <term value="1" name="RP_TREE_ROOT_NODE_APPROACH_EFFECTS"/>  <!-- 0=ALL_EFFECTS, 1=POS_EFFECTS -->
+            <term value="0" name="RP_SEARCH_TREE_TYPE"/>  <!-- 0=RS_GTS_VR, 1=RS_GTS_PLANINTERACTION -->
+            
+        </reactivePlanner>
+    </configuration>
+</define>

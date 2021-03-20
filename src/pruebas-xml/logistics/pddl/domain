@@ -1,0 +1,53 @@
+;; logistics domain
+;;
+;; Tue Dec  1 16:10:25 EST 2013 Cesar
+
+(define (domain logistics)
+  (:requirements :strips :typing :fluents) 
+  (:types 
+  	package location vehicle - object
+  	truck - vehicle)
+  
+  (:predicates 	
+		(at ?vehicle-or-package - (either vehicle package)  ?location - location)
+		(in ?package - package ?vehicle - vehicle)
+		(link ?loc-from - location ?loc-to - location))
+		
+  (:action load
+	:parameters
+		 (?obj - package
+		  ?truck - truck
+		  ?loc - location)
+	:precondition
+		(and 	(at ?truck ?loc) 
+			(at ?obj ?loc))
+	:effect
+		(and 	(not (at ?obj ?loc)) 
+			(in ?obj ?truck)))
+
+  (:action unload
+	:parameters
+		(?obj - package
+		 ?truck - truck
+		 ?loc - location)
+	:precondition
+		(and    (at ?truck ?loc) 
+			(in ?obj ?truck))
+	:effect
+		(and	(not (in ?obj ?truck)) 
+			(at ?obj ?loc)))
+
+  (:action drive
+	:parameters
+		(?truck - truck
+		 ?loc-from - location
+		 ?loc-to - location)
+	:precondition
+		(and 	(at ?truck ?loc-from)
+			(link ?loc-from ?loc-to)
+			(link ?loc-to ?loc-from))
+	:effect
+		(and 	(not (at ?truck ?loc-from)) 
+			(at ?truck ?loc-to)))
+			
+)

@@ -1,0 +1,1848 @@
+Rovers	1	6	1	2	6	1000	961.0289666666665	41.0	30	16	9	9	20	19
+Rovers	1	4	2	2	8	2000	1468.4061000000008	44.0	92	13	9	9	20	19
+Rovers	1	2	3	2	8	2000	990.4093000000001	195.0	1138	11	2	2	22	19
+Rovers	2	6	1	4	6	1000	552.9687093073595	20.0	98	13	4	6	19	15
+Rovers	2	2	2	2	9	4000	1718.5724333333335	44.0	226	7	2	2	12	12
+Rovers	3	9	1	4	6	1000	796.3245666666674	57.0	327	17	6	8	23	19
+Rovers	3	5	2	3	8	4000	2235.5055698412707	49.0	400	10	5	6	12	11
+Rovers	3	2	3	2	8	3000	1212.2154039682541	406.0	1830	8	3	3	16	16
+Rovers	4	8	1	2	6	1000	816.2403152683398	60.0	799	11	5	10	26	22
+Rovers	4	6	2	6	8	2000	1147.2349047619057	5420.0	49771	15	3	3	31	29
+Rovers	5	11	1	2	6	1000	828.4089708238953	41.0	713	11	5	13	26	22
+Rovers	5	9	2	2	8	2000	1772.6335696969702	78.0	819	8	6	12	15	14
+Rovers	5	7	3	4	8	2000	1818.2420666666676	1601.0	17400	14	8	9	28	27
+Rovers	5	3	4	3	9	4000	3077.351	3170.0	25928	12	4	4	28	27
+Rovers	6	11	1	3	6	1000	731.9880666666661	3054.0	9951	16	7	16	47	42
+Rovers	6	8	2	4	6	3000	2984.466433333335	1441.0	7133	16	7	13	43	39
+Rovers	6	4	3	2	8	4000	2557.31183015873	159.0	1514	12	6	9	39	38
+Rovers	6	2	4	2	7	2000	1417.3962904761902	2113.0	14729	11	4	4	38	37
+Rovers	7	14	1	3	6	1000	641.7292999999999	62.0	798	16	7	17	43	39
+Rovers	7	11	2	4	7	3000	2522.438833333334	4059.0	13969	14	6	12	39	38
+Rovers	7	7	3	4	8	4000	2977.945666666666	2486.0	12095	11	6	10	28	26
+Rovers	7	3	4	3	5	4000	2615.133933333334	3208.0	19475	13	5	5	45	44
+Rovers	8	14	1	2	6	1000	689.4567000000001	214.0	3859	15	7	18	43	38
+Rovers	8	12	2	3	7	2000	1883.3995	1021.0	10785	11	6	16	34	33
+Rovers	8	9	3	3	5	3000	1451.7470000000003	2589.0	17388	13	7	13	62	61
+Rovers	8	6	4	3	8	3000	1881.717757293858	1019.0	11897	9	5	10	25	24
+Rovers	8	3	5	2	8	3000	1988.0531526263032	2241.0	24107	9	5	8	34	33
+Rovers	9	18	1	2	6	1000	862.623733333333	924.0	13754	10	4	22	48	42
+Rovers	9	16	2	3	5	2000	560.8952666666668	274.0	3321	11	7	20	46	45
+Rovers	9	13	3	2	4	3000	1298.7399333333337	776.0	4953	11	9	20	76	75
+Rovers	9	11	4	3	4	2000	1288.5936666666662	878.0	8178	13	5	15	86	85
+Rovers	9	8	5	4	6	3000	2826.5143428571423	1783.0	21680	11	7	13	49	48
+Rovers	10	21	1	2	5	1000	819.0304666666665	212.0	1762	11	9	27	82	82
+Rovers	10	19	2	2	4	2000	1313.3672000000004	78.0	786	12	9	26	79	78
+Rovers	10	17	3	3	4	2000	1057.9117999999999	510.0	4127	12	8	24	79	78
+Rovers	10	14	4	2	4	3000	1061.1140999999996	73.0	669	12	8	22	79	78
+Rovers	10	12	5	2	3	2000	3802.4146666666657	96.0	728	14	11	21	89	82
+Rovers	11	35	1	2	6	1000	606.7244333333333	323.0	1499	10	9	47	92	85
+Rovers	11	33	2	2	3	2000	5126.647366666669	107.0	397	12	11	47	129	115
+Rovers	11	31	3	2	4	2000	1654.5002227272726	893.0	2807	11	10	47	117	110
+Rovers	11	29	4	2	5	2000	1467.1060000000004	112.0	464	11	4	40	103	94
+Rovers	11	27	5	4	5	2000	1681.693979365079	461.0	867	10	6	37	72	72
+Rovers	12	39	1	2	5	1000	545.3924666666669	226.0	746	10	9	50	92	85
+Rovers	12	37	2	2	3	2000	10147.243266666666	107.0	401	13	12	50	133	117
+Rovers	12	35	3	2	4	2000	885.7237047619046	1011.0	3009	12	10	49	121	112
+Rovers	12	33	4	2	6	2000	1972.6908637806641	161.0	663	10	4	43	99	92
+Rovers	12	31	5	3	4	2000	1873.5172999999998	262.0	613	9	6	41	68	68
+
+
+
+
+task: 1
+
+
+Parsing completed in 33ms.	
+Grounding completed in 19ms.
+
+
+
+Parsing completed in 6ms.	
+Grounding completed in 5ms.
+
+
+[agent] total number of instantiated actions: 37
+
+
+[T1] plan: 6 vs 6, ts: 1000
+
+(2,3) [l=2, d=3, est time=6.878633333333335, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=17, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=8.88793333333335, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=17, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=24.642466666666667, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=17, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=102.84806666666671, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=17, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=141.33153333333345, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=17, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=33.41233333333334, est N=0.0, rel.var.=13, rel.var. in root=7, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=48.55650000000002, est N=0.0, rel.var.=13, rel.var. in root=7, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=132.47256666666664, est N=0.0, rel.var.=13, rel.var. in root=7, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=155.62266666666682, est N=0.0, rel.var.=13, rel.var. in root=7, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=473.4972333333334, est N=0.0, rel.var.=16, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=945.6562333333335, est N=0.0, rel.var.=16, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=961.0289666666665, est N=0.0, rel.var.=16, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=166.98776666666677, est N=0.0, rel.var.=17, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=195.08040000000008, est N=0.0, rel.var.=17, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=248.35286666666667, est N=0.0, rel.var.=17, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=453.5118714285712, est N=0.0, rel.var.=17, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+
+
+[T2] plan: 6 vs 4, ts: 2000
+
+(2,3) [l=2, d=3, est time=106.51419999999999, est N=0.0, rel.var.=13, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=110.08686666666667, est N=0.0, rel.var.=13, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=158.07989999999995, est N=0.0, rel.var.=13, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=447.2667333333332, est N=0.0, rel.var.=13, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=456.6266666666666, est N=0.0, rel.var.=13, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1468.4061000000008, est N=0.0, rel.var.=13, rel.var. in root=9, f. in root=9, uni.prod.=19, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=85.47783333333331, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=222.7456999999998, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=497.04903333333334, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=515.6260666666666, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=168.63033492063494, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=441.1958682539681, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=5, uni.prod.=19, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=335.5365666666666, est N=0.0, rel.var.=15, rel.var. in root=2, f. in root=2, uni.prod.=21, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=77.35013333333332, est N=0.0, rel.var.=15, rel.var. in root=2, f. in root=2, uni.prod.=21, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=93.5321333333333, est N=0.0, rel.var.=15, rel.var. in root=2, f. in root=2, uni.prod.=21, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=257.9209666666667, est N=0.0, rel.var.=15, rel.var. in root=2, f. in root=2, uni.prod.=21, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=864.5852714285714, est N=0.0, rel.var.=15, rel.var. in root=2, f. in root=2, uni.prod.=21, est b=0.0,estimated]
+
+
+[T3] plan: 6 vs 2, ts: 2000
+
+(2,3) [l=2, d=3, est time=1.8923666666666594, est N=0.0, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=19, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=4.07473333333333, est N=0.0, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=19, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=12.328999999999995, est N=0.0, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=19, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=34.738833333333375, est N=0.0, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=19, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=48.04040000000004, est N=0.0, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=19, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=990.4093000000001, est N=0.0, rel.var.=11, rel.var. in root=2, f. in root=2, uni.prod.=19, est b=0.0,estimated]
+
+task: 2
+
+
+Parsing completed in 3ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 3ms.
+
+
+[agent] total number of instantiated actions: 35
+
+
+[T1] plan: 6 vs 6, ts: 1000
+
+(2,3) [l=2, d=3, est time=11.864866666666664, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=10, uni.prod.=15, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=14.570400000000012, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=10, uni.prod.=15, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=33.11933333333332, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=10, uni.prod.=15, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=111.81409999999998, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=10, uni.prod.=15, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=140.6615333333334, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=10, uni.prod.=15, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=10.378000000000007, est N=0.0, rel.var.=13, rel.var. in root=4, f. in root=6, uni.prod.=15, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=25.909000000000006, est N=0.0, rel.var.=13, rel.var. in root=4, f. in root=6, uni.prod.=15, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=50.242266666666666, est N=0.0, rel.var.=13, rel.var. in root=4, f. in root=6, uni.prod.=15, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=43.77813333333333, est N=0.0, rel.var.=13, rel.var. in root=4, f. in root=6, uni.prod.=15, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=104.70013333333345, est N=0.0, rel.var.=13, rel.var. in root=4, f. in root=6, uni.prod.=15, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=552.9687093073595, est N=0.0, rel.var.=13, rel.var. in root=4, f. in root=6, uni.prod.=15, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=189.68643333333327, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=5, uni.prod.=15, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=98.23826666666663, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=5, uni.prod.=15, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=102.78183333333331, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=5, uni.prod.=15, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=84.6149666666667, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=5, uni.prod.=15, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=468.4270714285711, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=5, uni.prod.=15, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=98.13219999999993, est N=0.0, rel.var.=16, rel.var. in root=5, f. in root=5, uni.prod.=17, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=102.69679999999995, est N=0.0, rel.var.=16, rel.var. in root=5, f. in root=5, uni.prod.=17, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=93.3387, est N=0.0, rel.var.=16, rel.var. in root=5, f. in root=5, uni.prod.=17, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=362.21756666666647, est N=0.0, rel.var.=16, rel.var. in root=5, f. in root=5, uni.prod.=17, est b=0.0,estimated]
+
+
+[T2] plan: 6 vs 2, ts: 4000
+
+(2,3) [l=2, d=3, est time=1.4627666666666737, est N=0.0, rel.var.=7, rel.var. in root=2, f. in root=2, uni.prod.=12, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=2.564800000000003, est N=0.0, rel.var.=7, rel.var. in root=2, f. in root=2, uni.prod.=12, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=6.267833333333337, est N=0.0, rel.var.=7, rel.var. in root=2, f. in root=2, uni.prod.=12, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=15.868409523809534, est N=0.0, rel.var.=7, rel.var. in root=2, f. in root=2, uni.prod.=12, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=40.23391428571427, est N=0.0, rel.var.=7, rel.var. in root=2, f. in root=2, uni.prod.=12, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=236.16977316572311, est N=0.0, rel.var.=7, rel.var. in root=2, f. in root=2, uni.prod.=12, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1718.5724333333335, est N=0.0, rel.var.=7, rel.var. in root=2, f. in root=2, uni.prod.=12, est b=0.0,estimated]
+
+task: 3
+
+
+Parsing completed in 3ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 3ms.
+
+
+[agent] total number of instantiated actions: 43
+
+
+[T1] plan: 9 vs 9, ts: 1000
+
+(2,3) [l=2, d=3, est time=7.154666666666662, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=14, uni.prod.=15, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=12.062000000000006, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=14, uni.prod.=15, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=38.16379999999999, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=14, uni.prod.=15, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=144.3332333333334, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=14, uni.prod.=15, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=622.9280666666666, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=14, uni.prod.=15, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=8.77386666666667, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=10, uni.prod.=17, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=16.01443333333334, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=10, uni.prod.=17, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=52.03443333333333, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=10, uni.prod.=17, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=55.83759999999997, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=10, uni.prod.=17, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=121.72923174603174, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=10, uni.prod.=17, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=428.5095111832608, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=10, uni.prod.=17, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=23.073333333333345, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=56.44013333333333, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=61.53463333333332, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=138.87442222222222, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=382.9743547619045, est N=0.0, rel.var.=15, rel.var. in root=5, f. in root=9, uni.prod.=17, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=275.0718666666669, est N=0.0, rel.var.=17, rel.var. in root=6, f. in root=8, uni.prod.=19, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=405.83393333333333, est N=0.0, rel.var.=17, rel.var. in root=6, f. in root=8, uni.prod.=19, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=796.3245666666674, est N=0.0, rel.var.=17, rel.var. in root=6, f. in root=8, uni.prod.=19, est b=0.0,estimated]
+
+
+[T2] plan: 9 vs 5, ts: 4000
+
+(2,3) [l=2, d=3, est time=1.848133333333335, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=6, uni.prod.=9, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=3.0842666666666774, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=6, uni.prod.=9, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=8.983233333333333, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=6, uni.prod.=9, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=25.741366666666668, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=6, uni.prod.=9, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=24.620366666666655, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=6, uni.prod.=9, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1850.2245246255982, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=6, uni.prod.=9, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=2.7822666666666755, est N=0.0, rel.var.=10, rel.var. in root=5, f. in root=6, uni.prod.=11, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=7.92783333333333, est N=0.0, rel.var.=10, rel.var. in root=5, f. in root=6, uni.prod.=11, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=21.204866666666668, est N=0.0, rel.var.=10, rel.var. in root=5, f. in root=6, uni.prod.=11, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=18.301266666666656, est N=0.0, rel.var.=10, rel.var. in root=5, f. in root=6, uni.prod.=11, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=2235.5055698412707, est N=0.0, rel.var.=10, rel.var. in root=5, f. in root=6, uni.prod.=11, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=23.622933333333314, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=6, uni.prod.=16, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=89.08359999999995, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=6, uni.prod.=16, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=105.77960784313728, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=6, uni.prod.=16, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1166.3151777777784, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=6, uni.prod.=16, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=106.82833333333336, est N=0.0, rel.var.=13, rel.var. in root=3, f. in root=3, uni.prod.=18, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=151.06533333333337, est N=0.0, rel.var.=13, rel.var. in root=3, f. in root=3, uni.prod.=18, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=476.02790000000005, est N=0.0, rel.var.=13, rel.var. in root=3, f. in root=3, uni.prod.=18, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=1164.1552, est N=0.0, rel.var.=13, rel.var. in root=3, f. in root=3, uni.prod.=18, est b=0.0,estimated]
+
+
+[T3] plan: 9 vs 2, ts: 3000
+
+(2,3) [l=2, d=3, est time=2.7829333333333452, est N=0.0, rel.var.=8, rel.var. in root=3, f. in root=3, uni.prod.=16, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=6.1376333333333335, est N=0.0, rel.var.=8, rel.var. in root=3, f. in root=3, uni.prod.=16, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=20.771966666666682, est N=0.0, rel.var.=8, rel.var. in root=3, f. in root=3, uni.prod.=16, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=77.97626666666663, est N=0.0, rel.var.=8, rel.var. in root=3, f. in root=3, uni.prod.=16, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=113.17366666666665, est N=0.0, rel.var.=8, rel.var. in root=3, f. in root=3, uni.prod.=16, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1212.2154039682541, est N=0.0, rel.var.=8, rel.var. in root=3, f. in root=3, uni.prod.=16, est b=0.0,estimated]
+
+task: 4
+
+
+Parsing completed in 3ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 3ms.
+
+
+[agent] total number of instantiated actions: 63
+
+
+[T1] plan: 8 vs 8, ts: 1000
+
+(2,3) [l=2, d=3, est time=6.327733333333323, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=10, uni.prod.=22, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=10.438200000000002, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=10, uni.prod.=22, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=29.58813333333334, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=10, uni.prod.=22, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=97.88920000000005, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=10, uni.prod.=22, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=151.08783333333324, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=10, uni.prod.=22, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=816.2403152683398, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=10, uni.prod.=22, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=16.747999999999994, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=9, uni.prod.=22, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=28.31233333333337, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=9, uni.prod.=22, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=97.37659999999997, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=9, uni.prod.=22, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=163.0467333333333, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=9, uni.prod.=22, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=379.81420396825416, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=9, uni.prod.=22, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=616.2060958874459, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=9, uni.prod.=22, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=121.22769999999998, est N=0.0, rel.var.=15, rel.var. in root=6, f. in root=8, uni.prod.=22, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=226.2983666666667, est N=0.0, rel.var.=15, rel.var. in root=6, f. in root=8, uni.prod.=22, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=272.08700000000005, est N=0.0, rel.var.=15, rel.var. in root=6, f. in root=8, uni.prod.=22, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=716.0794666666669, est N=0.0, rel.var.=15, rel.var. in root=6, f. in root=8, uni.prod.=22, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=294.1159666666666, est N=0.0, rel.var.=16, rel.var. in root=6, f. in root=8, uni.prod.=25, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=315.9276333333332, est N=0.0, rel.var.=16, rel.var. in root=6, f. in root=8, uni.prod.=25, est b=0.0,estimated]
+
+
+[T2] plan: 8 vs 6, ts: 2000
+
+(2,3) [l=2, d=3, est time=2.2397000000000062, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=3.572200000000008, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=10.286233333333335, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=44.877399999999994, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=65.97035555555556, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=587.5747273069037, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=6.496000000000015, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=8, uni.prod.=21, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=19.649800000000006, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=8, uni.prod.=21, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=96.50426666666662, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=8, uni.prod.=21, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=130.24723333333338, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=8, uni.prod.=21, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=90.34253333333331, est N=0.0, rel.var.=13, rel.var. in root=8, f. in root=8, uni.prod.=26, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=421.6376999999997, est N=0.0, rel.var.=13, rel.var. in root=8, f. in root=8, uni.prod.=26, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=499.6469666666664, est N=0.0, rel.var.=13, rel.var. in root=8, f. in root=8, uni.prod.=26, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=316.9202333333333, est N=0.0, rel.var.=14, rel.var. in root=6, f. in root=6, uni.prod.=26, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=365.01279999999997, est N=0.0, rel.var.=14, rel.var. in root=6, f. in root=6, uni.prod.=26, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=1013.0190396825398, est N=0.0, rel.var.=14, rel.var. in root=6, f. in root=6, uni.prod.=26, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=188.0047000000001, est N=0.0, rel.var.=15, rel.var. in root=3, f. in root=3, uni.prod.=29, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=1147.2349047619057, est N=0.0, rel.var.=15, rel.var. in root=3, f. in root=3, uni.prod.=29, est b=0.0,estimated]
+
+task: 5
+
+
+Parsing completed in 2ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 2ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 63
+
+
+[T1] plan: 11 vs 11, ts: 1000
+
+(2,3) [l=2, d=3, est time=7.636999999999991, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=11.928300000000013, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=44.406233333333304, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=165.11969999999985, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=260.64009999999985, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=828.4089708238953, est N=0.0, rel.var.=11, rel.var. in root=5, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=28.595599999999997, est N=0.0, rel.var.=13, rel.var. in root=6, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=54.81079523809519, est N=0.0, rel.var.=13, rel.var. in root=6, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=218.40190000000007, est N=0.0, rel.var.=13, rel.var. in root=6, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=402.5037333333334, est N=0.0, rel.var.=13, rel.var. in root=6, f. in root=13, uni.prod.=22, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=149.84130000000002, est N=0.0, rel.var.=15, rel.var. in root=7, f. in root=12, uni.prod.=22, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=307.1902333333333, est N=0.0, rel.var.=15, rel.var. in root=7, f. in root=12, uni.prod.=22, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=360.3749666666667, est N=0.0, rel.var.=15, rel.var. in root=7, f. in root=12, uni.prod.=22, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=548.5344666666662, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=12, uni.prod.=25, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=571.406333333333, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=12, uni.prod.=25, est b=0.0,estimated]
+
+
+[T2] plan: 11 vs 9, ts: 2000
+
+(2,3) [l=2, d=3, est time=6.181, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=12, uni.prod.=14, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=11.222266666666677, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=12, uni.prod.=14, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=35.73003333333331, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=12, uni.prod.=14, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=184.3123333333334, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=12, uni.prod.=14, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=214.61883333333338, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=12, uni.prod.=14, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1772.6335696969702, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=12, uni.prod.=14, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=12.753800000000012, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=12, uni.prod.=21, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=31.972399999999986, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=12, uni.prod.=21, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=145.99206666666672, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=12, uni.prod.=21, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=175.53150000000008, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=12, uni.prod.=21, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=93.38439523809525, est N=0.0, rel.var.=13, rel.var. in root=8, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=436.45513333333304, est N=0.0, rel.var.=13, rel.var. in root=8, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=527.404433333333, est N=0.0, rel.var.=13, rel.var. in root=8, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1718.9617666666672, est N=0.0, rel.var.=13, rel.var. in root=8, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=673.4365333333336, est N=0.0, rel.var.=15, rel.var. in root=8, f. in root=10, uni.prod.=26, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=753.413466666667, est N=0.0, rel.var.=15, rel.var. in root=8, f. in root=10, uni.prod.=26, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=865.5537000000006, est N=0.0, rel.var.=16, rel.var. in root=8, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+
+
+[T3] plan: 11 vs 7, ts: 2000
+
+(2,3) [l=2, d=3, est time=9.095433333333329, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=25, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=12.818366666666678, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=25, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=34.930366666666664, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=25, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=140.04347619047627, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=25, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=199.28010952380956, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=25, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=30.154566666666643, est N=0.0, rel.var.=12, rel.var. in root=7, f. in root=10, uni.prod.=25, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=54.8988, est N=0.0, rel.var.=12, rel.var. in root=7, f. in root=10, uni.prod.=25, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=167.28090952380956, est N=0.0, rel.var.=12, rel.var. in root=7, f. in root=10, uni.prod.=25, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=242.1863173669469, est N=0.0, rel.var.=12, rel.var. in root=7, f. in root=10, uni.prod.=25, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=176.99903333333322, est N=0.0, rel.var.=14, rel.var. in root=8, f. in root=9, uni.prod.=27, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=598.9683666666663, est N=0.0, rel.var.=14, rel.var. in root=8, f. in root=9, uni.prod.=27, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=672.7590333333333, est N=0.0, rel.var.=14, rel.var. in root=8, f. in root=9, uni.prod.=27, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1818.2420666666676, est N=0.0, rel.var.=14, rel.var. in root=8, f. in root=9, uni.prod.=27, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=832.3854000000005, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=7, uni.prod.=27, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=888.8788333333338, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=7, uni.prod.=27, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=1436.6499666666664, est N=0.0, rel.var.=17, rel.var. in root=7, f. in root=7, uni.prod.=30, est b=0.0,estimated]
+
+
+[T4] plan: 11 vs 3, ts: 4000
+
+(2,3) [l=2, d=3, est time=1.740966666666669, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=7, uni.prod.=18, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=3.508133333333342, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=7, uni.prod.=18, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=9.728347619047616, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=7, uni.prod.=18, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=30.3102, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=7, uni.prod.=18, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=31.095933333333328, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=7, uni.prod.=18, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1647.5103672496414, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=7, uni.prod.=18, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=43.09216666666673, est N=0.0, rel.var.=12, rel.var. in root=4, f. in root=4, uni.prod.=27, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=82.10123333333333, est N=0.0, rel.var.=12, rel.var. in root=4, f. in root=4, uni.prod.=27, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=688.7999333333336, est N=0.0, rel.var.=12, rel.var. in root=4, f. in root=4, uni.prod.=27, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=698.8108380952382, est N=0.0, rel.var.=12, rel.var. in root=4, f. in root=4, uni.prod.=27, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=956.9246507936513, est N=0.0, rel.var.=12, rel.var. in root=4, f. in root=4, uni.prod.=27, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=3077.351, est N=0.0, rel.var.=12, rel.var. in root=4, f. in root=4, uni.prod.=27, est b=0.0,estimated]
+
+task: 6
+
+
+Parsing completed in 3ms.	
+Grounding completed in 2ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 115
+
+
+[T1] plan: 11 vs 11, ts: 1000
+
+(2,3) [l=2, d=3, est time=339.7542000000002, est N=0.0, rel.var.=13, rel.var. in root=10, f. in root=20, uni.prod.=36, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=365.19636666666673, est N=0.0, rel.var.=13, rel.var. in root=10, f. in root=20, uni.prod.=36, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=439.26493333333326, est N=0.0, rel.var.=15, rel.var. in root=11, f. in root=20, uni.prod.=42, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=731.9880666666661, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=16, uni.prod.=42, est b=0.0,estimated]
+
+
+[T2] plan: 11 vs 8, ts: 3000
+
+(2,3) [l=2, d=3, est time=43.89670000000001, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=15, uni.prod.=35, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=71.2679333333333, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=15, uni.prod.=35, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=362.1329333333334, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=15, uni.prod.=35, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=2353.1818000000007, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=15, uni.prod.=35, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=92.12386666666667, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=14, uni.prod.=35, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=328.5368666666669, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=14, uni.prod.=35, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1941.4927666666676, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=14, uni.prod.=35, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=497.3385999999998, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=13, uni.prod.=39, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=2984.466433333335, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=13, uni.prod.=39, est b=0.0,estimated]
+
+
+[T3] plan: 11 vs 4, ts: 4000
+
+(2,3) [l=2, d=3, est time=43.53660000000001, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=9, uni.prod.=38, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=77.213, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=9, uni.prod.=38, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=362.16123333333337, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=9, uni.prod.=38, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=2123.9429000000014, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=9, uni.prod.=38, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=2274.158880952381, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=9, uni.prod.=38, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=2557.31183015873, est N=0.0, rel.var.=12, rel.var. in root=6, f. in root=9, uni.prod.=38, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=217.06889999999999, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=7, uni.prod.=38, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=369.93170000000003, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=7, uni.prod.=38, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1405.9889857142855, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=7, uni.prod.=38, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=2235.2069333333316, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=7, uni.prod.=38, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1708.3418801587304, est N=0.0, rel.var.=14, rel.var. in root=5, f. in root=7, uni.prod.=38, est b=0.0,estimated]
+
+
+[T4] plan: 11 vs 2, ts: 2000
+
+(2,3) [l=2, d=3, est time=37.22437142857145, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=4, uni.prod.=37, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=49.31566666666666, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=4, uni.prod.=37, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=203.3337999999999, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=4, uni.prod.=37, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=1412.1676666666663, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=4, uni.prod.=37, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=1417.3962904761902, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=4, uni.prod.=37, est b=0.0,estimated]
+
+task: 7
+
+
+Parsing completed in 1ms.	
+Grounding completed in 2ms.
+
+
+
+Parsing completed in 2ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 115
+
+
+[T1] plan: 14 vs 14, ts: 1000
+
+(2,3) [l=2, d=3, est time=6.1474999999999875, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=20, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=12.260433333333328, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=20, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=30.739399999999986, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=20, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=129.8625333333333, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=20, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=552.2776333333333, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=20, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=143.05563333333336, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=18, uni.prod.=35, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=597.1929333333334, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=18, uni.prod.=35, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=641.7292999999999, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=17, uni.prod.=39, est b=0.0,estimated]
+
+
+[T2] plan: 14 vs 11, ts: 3000
+
+(2,3) [l=2, d=3, est time=4.434499999999998, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=15, uni.prod.=16, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=8.54793333333334, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=15, uni.prod.=16, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=25.408633333333338, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=15, uni.prod.=16, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=130.38080000000005, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=15, uni.prod.=16, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=461.62983333333335, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=15, uni.prod.=16, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1106.0704958152962, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=15, uni.prod.=16, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=34.8274523809524, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=185.33906190476193, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1161.084965079365, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1222.684331746032, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1487.1808095238096, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=314.4108595238095, est N=0.0, rel.var.=14, rel.var. in root=6, f. in root=12, uni.prod.=38, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=1731.4110666666677, est N=0.0, rel.var.=14, rel.var. in root=6, f. in root=12, uni.prod.=38, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=2522.438833333334, est N=0.0, rel.var.=14, rel.var. in root=6, f. in root=12, uni.prod.=38, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=2408.7410111111117, est N=0.0, rel.var.=14, rel.var. in root=6, f. in root=12, uni.prod.=38, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=1287.847066666666, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=12, uni.prod.=38, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=2413.823433333334, est N=0.0, rel.var.=16, rel.var. in root=7, f. in root=12, uni.prod.=38, est b=0.0,estimated]
+
+
+[T3] plan: 14 vs 7, ts: 4000
+
+(2,3) [l=2, d=3, est time=4.724366666666668, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=11, uni.prod.=16, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=7.255366666666678, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=11, uni.prod.=16, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=26.833933333333352, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=11, uni.prod.=16, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=116.64539999999998, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=11, uni.prod.=16, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=167.96220000000008, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=11, uni.prod.=16, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1762.0286030303034, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=11, uni.prod.=16, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=15.540233333333335, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=42.612133333333325, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=154.75874285714286, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=242.40884285714293, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=11, uni.prod.=26, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=45.731738095238065, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=10, uni.prod.=26, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=222.18453333333332, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=10, uni.prod.=26, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=294.71634117647073, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=10, uni.prod.=26, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=2977.945666666666, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=10, uni.prod.=26, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=1491.7719666666662, est N=0.0, rel.var.=14, rel.var. in root=8, f. in root=10, uni.prod.=36, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=1928.4236999999987, est N=0.0, rel.var.=14, rel.var. in root=8, f. in root=10, uni.prod.=36, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=2837.470247619048, est N=0.0, rel.var.=14, rel.var. in root=8, f. in root=10, uni.prod.=36, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=2062.341133333333, est N=0.0, rel.var.=15, rel.var. in root=6, f. in root=8, uni.prod.=36, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=2233.165766666667, est N=0.0, rel.var.=15, rel.var. in root=6, f. in root=8, uni.prod.=36, est b=0.0,estimated]
+
+
+[T4] plan: 14 vs 3, ts: 4000
+
+(2,3) [l=2, d=3, est time=4.514799999999992, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=23, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=7.644200000000009, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=23, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=20.581080952380958, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=23, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=71.26723333333335, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=23, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=95.52310952380957, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=23, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1745.7947387013396, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=23, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=2281.6370000000006, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=5, uni.prod.=44, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=2615.133933333334, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=5, uni.prod.=44, est b=0.0,estimated]
+
+task: 8
+
+
+Parsing completed in 2ms.	
+Grounding completed in 4ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 4ms.
+
+
+[agent] total number of instantiated actions: 174
+
+
+[T1] plan: 14 vs 14, ts: 1000
+
+(2,3) [l=2, d=3, est time=12.983299999999987, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=30, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=31.890399999999993, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=30, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=203.96069523809524, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=19, uni.prod.=30, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=57.736400000000025, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=19, uni.prod.=34, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=202.34340000000003, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=19, uni.prod.=34, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=689.4567000000001, est N=0.0, rel.var.=15, rel.var. in root=7, f. in root=18, uni.prod.=38, est b=0.0,estimated]
+
+
+[T2] plan: 14 vs 12, ts: 2000
+
+(2,3) [l=2, d=3, est time=22.856866666666647, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=18, uni.prod.=33, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=44.80943333333336, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=18, uni.prod.=33, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=179.03063809523812, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=18, uni.prod.=33, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=789.7113476190472, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=18, uni.prod.=33, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=34.27773333333337, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=16, uni.prod.=33, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=132.83927142857144, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=16, uni.prod.=33, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=569.4032666666667, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=16, uni.prod.=33, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1883.3995, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=16, uni.prod.=33, est b=0.0,estimated]
+
+
+[T3] plan: 14 vs 9, ts: 3000
+
+(2,3) [l=2, d=3, est time=339.48823333333337, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=14, uni.prod.=53, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=365.34936666666675, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=14, uni.prod.=53, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=714.5716666666667, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=14, uni.prod.=53, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=982.6272333333338, est N=0.0, rel.var.=13, rel.var. in root=7, f. in root=13, uni.prod.=61, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=1451.7470000000003, est N=0.0, rel.var.=13, rel.var. in root=7, f. in root=13, uni.prod.=61, est b=0.0,estimated]
+
+
+[T4] plan: 14 vs 6, ts: 3000
+
+(2,3) [l=2, d=3, est time=2.5958333333333394, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=6.5023555555555665, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=18.833509523809518, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=64.68046666666666, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=81.86439523809524, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=243.0333047922666, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=298.2847618326116, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=572.8779952380951, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=11, uni.prod.=24, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=8.197966666666677, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=10, uni.prod.=24, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=23.464299999999994, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=10, uni.prod.=24, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=75.59317619047623, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=10, uni.prod.=24, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=105.08450952380956, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=10, uni.prod.=24, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1881.717757293858, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=10, uni.prod.=24, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=325.0057333333333, est N=0.0, rel.var.=12, rel.var. in root=7, f. in root=10, uni.prod.=36, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=1533.9287428571433, est N=0.0, rel.var.=12, rel.var. in root=7, f. in root=10, uni.prod.=36, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=1582.8729428571428, est N=0.0, rel.var.=12, rel.var. in root=7, f. in root=10, uni.prod.=36, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=1176.2392619047616, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=8, uni.prod.=36, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=1511.8262761904755, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=8, uni.prod.=36, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=1060.8245880952381, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=8, uni.prod.=36, est b=0.0,estimated]
+
+
+[T5] plan: 14 vs 3, ts: 3000
+
+(2,3) [l=2, d=3, est time=19.205633333333317, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=33, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=38.31720158730157, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=33, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=179.07118571428572, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=33, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=927.0999904761904, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=33, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=904.0368238095238, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=33, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1988.0531526263032, est N=0.0, rel.var.=9, rel.var. in root=5, f. in root=8, uni.prod.=33, est b=0.0,estimated]
+
+task: 9
+
+
+Parsing completed in 2ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 245
+
+
+[T1] plan: 18 vs 18, ts: 1000
+
+(2,3) [l=2, d=3, est time=15.676669696969684, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=22, uni.prod.=42, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=34.67816666666668, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=22, uni.prod.=42, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=160.05116666666666, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=22, uni.prod.=42, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=862.623733333333, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=22, uni.prod.=42, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=152.73933333333326, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=22, uni.prod.=47, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=576.5687666666666, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=22, uni.prod.=47, est b=0.0,estimated]
+
+
+[T2] plan: 18 vs 16, ts: 2000
+
+(2,3) [l=2, d=3, est time=43.50559999999998, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=21, uni.prod.=45, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=77.78393333333334, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=21, uni.prod.=45, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=438.3531999999999, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=21, uni.prod.=45, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=89.77099999999997, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=20, uni.prod.=45, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=560.8952666666668, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=20, uni.prod.=45, est b=0.0,estimated]
+
+
+[T3] plan: 18 vs 13, ts: 3000
+
+(2,3) [l=2, d=3, est time=866.1740333333335, est N=0.0, rel.var.=11, rel.var. in root=9, f. in root=20, uni.prod.=75, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1298.7399333333337, est N=0.0, rel.var.=11, rel.var. in root=9, f. in root=20, uni.prod.=75, est b=0.0,estimated]
+
+
+[T4] plan: 18 vs 11, ts: 2000
+
+(2,3) [l=2, d=3, est time=426.8954666666666, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=17, uni.prod.=75, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=778.0305, est N=0.0, rel.var.=11, rel.var. in root=6, f. in root=17, uni.prod.=75, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=1288.5936666666662, est N=0.0, rel.var.=13, rel.var. in root=5, f. in root=15, uni.prod.=85, est b=0.0,estimated]
+
+
+[T5] plan: 18 vs 8, ts: 3000
+
+(2,3) [l=2, d=3, est time=8.225833333333338, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=23.16489999999998, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=103.97869523809531, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=393.9365857142857, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=464.4677309523811, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=297.7551640038152, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=435.8758859307359, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=1078.760945238094, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=34, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=55.586544588744616, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=245.44289920634918, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1063.037102380952, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1189.8734595238097, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=13, uni.prod.=34, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=522.7920999999999, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=13, uni.prod.=48, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=2826.5143428571423, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=13, uni.prod.=48, est b=0.0,estimated]
+
+task: 10
+
+
+Parsing completed in 2ms.	
+Grounding completed in 2ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 256
+
+
+[T1] plan: 21 vs 21, ts: 1000
+
+(2,3) [l=2, d=3, est time=819.0304666666665, est N=0.0, rel.var.=11, rel.var. in root=9, f. in root=27, uni.prod.=82, est b=0.0,estimated]
+
+
+[T2] plan: 21 vs 19, ts: 2000
+
+(2,3) [l=2, d=3, est time=896.1031666666664, est N=0.0, rel.var.=12, rel.var. in root=9, f. in root=26, uni.prod.=78, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1313.3672000000004, est N=0.0, rel.var.=12, rel.var. in root=9, f. in root=26, uni.prod.=78, est b=0.0,estimated]
+
+
+[T3] plan: 21 vs 17, ts: 2000
+
+(2,3) [l=2, d=3, est time=482.15389848484836, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=25, uni.prod.=74, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=815.9390166666669, est N=0.0, rel.var.=10, rel.var. in root=7, f. in root=25, uni.prod.=74, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=1057.9117999999999, est N=0.0, rel.var.=12, rel.var. in root=8, f. in root=24, uni.prod.=78, est b=0.0,estimated]
+
+
+[T4] plan: 21 vs 14, ts: 3000
+
+(2,3) [l=2, d=3, est time=633.8549333333332, est N=0.0, rel.var.=12, rel.var. in root=8, f. in root=22, uni.prod.=78, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1061.1140999999996, est N=0.0, rel.var.=12, rel.var. in root=8, f. in root=22, uni.prod.=78, est b=0.0,estimated]
+
+
+[T5] plan: 21 vs 12, ts: 2000
+
+(2,3) [l=2, d=3, est time=3802.4146666666657, est N=0.0, rel.var.=14, rel.var. in root=11, f. in root=21, uni.prod.=82, est b=0.0,estimated]
+
+task: 11
+
+
+Parsing completed in 3ms.	
+Grounding completed in 4ms.
+
+
+
+Parsing completed in 6ms.	
+Grounding completed in 9ms.
+
+
+[agent] total number of instantiated actions: 798
+
+
+[T1] plan: 35 vs 35, ts: 1000
+
+(2,3) [l=2, d=3, est time=323.28219999999993, est N=0.0, rel.var.=10, rel.var. in root=9, f. in root=47, uni.prod.=85, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=606.7244333333333, est N=0.0, rel.var.=10, rel.var. in root=9, f. in root=47, uni.prod.=85, est b=0.0,estimated]
+
+
+[T2] plan: 35 vs 33, ts: 2000
+
+(2,3) [l=2, d=3, est time=5126.647366666669, est N=0.0, rel.var.=12, rel.var. in root=11, f. in root=47, uni.prod.=115, est b=0.0,estimated]
+
+
+[T3] plan: 35 vs 31, ts: 2000
+
+(2,3) [l=2, d=3, est time=1165.6638817460318, est N=0.0, rel.var.=11, rel.var. in root=10, f. in root=47, uni.prod.=110, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1654.5002227272726, est N=0.0, rel.var.=11, rel.var. in root=10, f. in root=47, uni.prod.=110, est b=0.0,estimated]
+
+
+[T4] plan: 35 vs 29, ts: 2000
+
+(2,3) [l=2, d=3, est time=143.6758666666667, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=40, uni.prod.=94, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=267.2046690476191, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=40, uni.prod.=94, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=1467.1060000000004, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=40, uni.prod.=94, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=1188.6592484126988, est N=0.0, rel.var.=11, rel.var. in root=4, f. in root=40, uni.prod.=94, est b=0.0,estimated]
+
+
+[T5] plan: 35 vs 27, ts: 2000
+
+(2,3) [l=2, d=3, est time=43.62030476190476, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=39, uni.prod.=54, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=60.83033333333333, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=39, uni.prod.=54, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=169.95933571428583, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=39, uni.prod.=54, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=513.0068333333335, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=39, uni.prod.=54, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=597.7427222222224, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=39, uni.prod.=54, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=420.51446746031763, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=39, uni.prod.=54, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1357.4931039682533, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=39, uni.prod.=54, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=719.6812666666663, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=38, uni.prod.=72, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=1681.693979365079, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=37, uni.prod.=72, est b=0.0,estimated]
+
+task: 12
+
+
+Parsing completed in 5ms.	
+Grounding completed in 7ms.
+
+
+
+Parsing completed in 11ms.	
+Grounding completed in 14ms.
+
+
+[agent] total number of instantiated actions: 798
+
+
+[T1] plan: 39 vs 39, ts: 1000
+
+(2,3) [l=2, d=3, est time=312.24316666666664, est N=0.0, rel.var.=10, rel.var. in root=9, f. in root=50, uni.prod.=85, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=545.3924666666669, est N=0.0, rel.var.=10, rel.var. in root=9, f. in root=50, uni.prod.=85, est b=0.0,estimated]
+
+
+[T2] plan: 39 vs 37, ts: 2000
+
+(2,3) [l=2, d=3, est time=10147.243266666666, est N=0.0, rel.var.=13, rel.var. in root=12, f. in root=50, uni.prod.=117, est b=0.0,estimated]
+
+
+[T3] plan: 39 vs 35, ts: 2000
+
+(2,3) [l=2, d=3, est time=614.2020904761903, est N=0.0, rel.var.=12, rel.var. in root=10, f. in root=49, uni.prod.=112, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=885.7237047619046, est N=0.0, rel.var.=12, rel.var. in root=10, f. in root=49, uni.prod.=112, est b=0.0,estimated]
+
+
+[T4] plan: 39 vs 33, ts: 2000
+
+(2,3) [l=2, d=3, est time=64.55836666666669, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=43, uni.prod.=92, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=106.3744523809524, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=43, uni.prod.=92, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=463.8066952380953, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=43, uni.prod.=92, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=1972.6908637806641, est N=0.0, rel.var.=10, rel.var. in root=4, f. in root=43, uni.prod.=92, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=231.15279230769212, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=43, uni.prod.=110, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=951.8980952380954, est N=0.0, rel.var.=12, rel.var. in root=5, f. in root=43, uni.prod.=110, est b=0.0,estimated]
+
+
+[T5] plan: 39 vs 31, ts: 2000
+
+(2,3) [l=2, d=3, est time=1596.5294333333331, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=42, uni.prod.=68, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1788.7256666666667, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=42, uni.prod.=68, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=1873.5172999999998, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=41, uni.prod.=68, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=546.9205000000001, est N=0.0, rel.var.=14, rel.var. in root=10, f. in root=40, uni.prod.=84, est b=0.0,estimated]
+
+
+logistics	1	20	1	3	7	1000	673.4645833333336	363.0	184	6	6	11	52	52
+logistics	1	17	2	4	8	3000	2671.5947857142855	692.0	293	8	6	9	42	42
+logistics	1	13	3	7	11	4000	2145.514899999999	1294.0	508	7	5	7	30	30
+logistics	1	6	4	2	11	7000	3610.202433333335	28.0	50	4	4	7	38	38
+logistics	1	4	5	3	9	2000	1064.0266082251087	21.0	54	6	4	5	38	38
+logistics	2	27	1	4	6	1000	983.2239333333328	228.0	384	7	7	12	64	64
+logistics	2	23	2	6	10	4000	3309.7326134920622	2789.0	612	7	5	10	40	40
+logistics	2	17	3	4	11	6000	4320.12981904762	17.0	14	4	3	9	28	28
+logistics	2	13	4	2	10	4000	1494.7542793650778	24.0	44	6	6	9	28	28
+logistics	2	11	5	3	10	2000	1494.7542793650778	18.0	24	6	6	9	28	28
+logistics	3	25	1	3	7	1000	725.2321857142856	110.0	141	6	6	13	52	52
+logistics	3	22	2	3	10	3000	2540.6066230158717	21.0	41	6	4	11	38	38
+logistics	3	19	3	8	10	3000	2585.0390563492047	860.0	607	5	4	10	40	40
+logistics	3	11	4	6	7	8000	6676.6134	1795.0	1967	9	9	10	64	64
+logistics	3	5	5	5	7	6000	4969.661566666667	5053.0	6262	10	6	6	76	76
+logistics	4	36	1	3	6	1000	715.2111023809525	249.0	227	7	7	17	78	78
+logistics	4	33	2	2	8	3000	2067.9071142857133	58.0	48	5	5	17	58	58
+logistics	4	31	3	5	7	2000	1665.6824666666669	35.0	52	9	6	14	58	58
+logistics	4	26	4	4	10	5000	4850.157566666668	464.0	300	6	6	14	44	44
+logistics	4	22	5	3	9	4000	2329.063130952382	744.0	375	6	6	14	44	44
+logistics	5	31	1	3	6	1000	693.1367595238089	62.0	105	7	7	18	78	78
+logistics	5	28	2	6	7	3000	2539.897333333334	2907.0	1280	8	6	16	64	64
+logistics	5	22	3	3	8	6000	3209.3548976301486	168.0	122	7	4	13	46	46
+logistics	5	19	4	6	8	3000	1918.9685365079356	3326.0	1466	5	4	12	62	62
+logistics	5	13	5	3	10	6000	5051.379923809527	1629.0	616	6	6	12	44	44
+logistics	6	36	1	4	5	1000	411.5733999999999	126.0	309	8	8	19	96	96
+logistics	6	32	2	4	6	4000	3059.9449666666674	437.0	316	9	7	17	66	66
+logistics	6	28	3	2	10	4000	3495.061132539682	492.0	291	4	4	17	44	44
+logistics	6	26	4	4	9	2000	1238.7056341269843	240.0	279	4	3	16	44	44
+logistics	6	22	5	7	8	4000	3503.4829428682447	2593.0	1306	7	5	14	62	62
+logistics	7	46	1	3	5	1000	457.41920476190484	155.0	174	8	8	23	104	104
+logistics	7	43	2	4	6	3000	2278.6010476190477	916.0	534	8	8	23	126	126
+logistics	7	39	3	2	8	4000	3137.087765079365	24.0	18	6	4	21	52	52
+logistics	7	37	4	3	7	2000	1435.4789158730164	39.0	52	7	6	20	76	76
+logistics	7	34	5	4	7	3000	2321.761361904762	553.0	463	9	9	20	64	64
+logistics	8	50	1	3	6	1000	864.8426532467533	317.0	227	7	7	24	102	102
+logistics	8	47	2	4	6	3000	2318.3381523809517	892.0	534	8	8	24	126	126
+logistics	8	43	3	5	7	4000	3488.9443833333344	86.0	61	9	4	19	76	76
+logistics	8	38	4	5	6	5000	2560.850623809523	138.0	180	9	8	18	112	112
+logistics	8	33	5	5	9	5000	1999.378124603173	551.0	333	3	3	18	60	60
+logistics	9	42	1	3	5	1000	465.5710666666668	141.0	174	8	8	25	104	104
+logistics	9	39	2	4	6	3000	2805.592680952382	447.0	384	8	8	25	126	126
+logistics	9	35	3	2	8	4000	3136.4083650793655	25.0	18	6	4	23	52	52
+logistics	9	33	4	4	7	2000	1959.5514640876145	774.0	505	5	5	23	86	86
+logistics	9	29	5	2	8	4000	2978.0035761904765	22.0	31	6	3	20	52	52
+logistics	10	81	1	3	5	1000	399.1257195138197	79.0	106	7	7	30	166	166
+logistics	10	78	2	3	7	3000	2508.5763128427134	1229.0	263	7	7	30	166	166
+logistics	10	75	3	3	5	3000	771.9042567099574	171.0	156	8	8	30	168	168
+logistics	10	72	4	3	6	3000	1450.1862317460316	627.0	264	8	8	30	126	126
+logistics	10	69	5	3	7	3000	2211.023283333333	69.0	55	8	5	27	64	64
+
+(3,9) [l=3, d=9, est time=186.65022720057723, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=305.46375238095254, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=31.85307619047619, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=100.29359682539683, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=173.11920714285722, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=318.8324761904761, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=1375.5613079365073, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(4,10) [l=4, d=10, est time=3309.7326134920622, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=100.29359682539683, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=173.11920714285722, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=318.8324761904761, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=1375.5613079365073, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,10) [l=5, d=10, est time=3309.7326134920622, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=173.11920714285722, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=318.8324761904761, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,9) [l=6, d=9, est time=1375.5613079365073, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,10) [l=6, d=10, est time=3309.7326134920622, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(7,8) [l=7, d=8, est time=328.4476476190475, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(7,9) [l=7, d=9, est time=1402.779455555555, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(7,10) [l=7, d=10, est time=3243.050918253969, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(8,9) [l=8, d=9, est time=1402.779455555555, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(8,10) [l=8, d=10, est time=3243.050918253969, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+
+
+[T3] plan: 27 vs 17, ts: 6000
+
+(2,3) [l=2, d=3, est time=1.001866666666665, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1.0218666666666614, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=1.0053999999999996, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=1.0248333333333357, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=2.017890909090904, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=93.3296492895993, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=183.34899841269848, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=96.0704333333333, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,11) [l=2, d=11, est time=4320.040685714286, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=1.0218666666666614, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=1.0053999999999996, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1.0248333333333357, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=2.017890909090904, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=93.3296492895993, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=183.34899841269848, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=96.0704333333333, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,11) [l=3, d=11, est time=4320.040685714286, est N=0.0, rel.var.=3, rel.var. in root=2, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=5.041052958152972, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=8.257190050154524, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=11.961437275151743, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=93.41821718281719, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=143.3161746031746, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(4,10) [l=4, d=10, est time=81.67816666666661, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(4,11) [l=4, d=11, est time=4320.12981904762, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=84.68253333333328, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=158.18513333333325, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=379.3718873015873, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=1213.5998415584409, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,10) [l=5, d=10, est time=2374.0012801587295, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=1127.2416380952384, est N=0.0, rel.var.=8, rel.var. in root=7, f. in root=9, uni.prod.=42, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=3441.2565285714286, est N=0.0, rel.var.=8, rel.var. in root=7, f. in root=9, uni.prod.=42, est b=0.0,estimated]
+
+
+[T4] plan: 27 vs 13, ts: 4000
+
+(2,3) [l=2, d=3, est time=3.63322380952381, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=4.157533333333339, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=7.4308805194805005, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=16.06084069264069, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=70.09702066201768, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=401.83662578532596, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1320.5231506493496, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=1494.7542793650778, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=18.10092222222221, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=38.685400000000016, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=89.99297259407264, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=232.1484484848486, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1159.359663492063, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=38.685400000000016, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=89.99297259407264, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=232.1484484848486, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1159.359663492063, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=89.99297259407264, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=232.1484484848486, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=1159.359663492063, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=1337.6256253968254, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=9, uni.prod.=52, est b=0.0,estimated]
+
+
+[T5] plan: 27 vs 11, ts: 2000
+
+(2,3) [l=2, d=3, est time=1.0175, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1.0208333333333304, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=1.3889761904761708, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=1.7003714285713978, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=6.398343162393138, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=136.97263632011268, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=244.83904754689746, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=194.5886984126985, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=9, uni.prod.=16, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=4.157533333333339, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=7.4308805194805005, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=16.06084069264069, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=70.09702066201768, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=401.83662578532596, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=1320.5231506493496, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=1494.7542793650778, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=9, uni.prod.=28, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=38.685400000000016, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=89.99297259407264, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=232.1484484848486, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1159.359663492063, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=9, uni.prod.=40, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=621.6370333333329, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=9, uni.prod.=52, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=1337.6256253968254, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=9, uni.prod.=52, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=1337.6256253968254, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=9, uni.prod.=52, est b=0.0,estimated]
+
+task: 3
+
+
+Parsing completed in 1ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 2ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 78
+
+
+[T1] plan: 25 vs 25, ts: 1000
+
+(2,3) [l=2, d=3, est time=3.1916103174603103, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=40, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=6.9749000000000265, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=40, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=19.212021428571447, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=40, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=47.346855555555564, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=40, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=112.87403571428578, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=40, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=394.7286132312132, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=40, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=12.288271428571443, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=13, uni.prod.=52, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=60.42404285714285, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=13, uni.prod.=52, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=197.63475476190462, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=13, uni.prod.=52, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=725.2321857142856, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=13, uni.prod.=52, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=200.94510158730145, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=13, uni.prod.=64, est b=0.0,estimated]
+
+
+[T2] plan: 25 vs 22, ts: 3000
+
+(2,3) [l=2, d=3, est time=1.8602714285714228, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=2.7353968253968213, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=4.613164285714287, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=7.295031746031747, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=10.474217909867914, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=136.03030281500406, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=208.37419401154403, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=831.0913460317464, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=13, uni.prod.=26, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=8.062861904761892, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=11, uni.prod.=38, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=15.910990476190468, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=11, uni.prod.=38, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=40.35245714285716, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=11, uni.prod.=38, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=70.3148619047619, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=11, uni.prod.=38, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=209.91726111111117, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=11, uni.prod.=38, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=990.7065987012992, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=11, uni.prod.=38, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=2540.6066230158717, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=11, uni.prod.=38, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=32.24469523809525, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=109.5412507936508, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=178.55907380952385, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=321.6946761904762, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=1291.9283555555555, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=109.5412507936508, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=178.55907380952385, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=321.6946761904762, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=1291.9283555555555, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=178.55907380952385, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=321.6946761904762, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(6,9) [l=6, d=9, est time=1291.9283555555555, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(7,8) [l=7, d=8, est time=321.6946761904762, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(7,9) [l=7, d=9, est time=1291.9283555555555, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(8,9) [l=8, d=9, est time=1409.583255555555, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+
+
+[T3] plan: 25 vs 19, ts: 3000
+
+(2,3) [l=2, d=3, est time=2.73798333333333, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=3.9299534632034665, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=10.0142213009213, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=21.41289466089465, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=22.27378126318124, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=118.18605493656662, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=176.38984862914867, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=297.73680000000013, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=3.9299534632034665, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=10.0142213009213, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=21.41289466089465, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=22.27378126318124, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=118.18605493656662, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=176.38984862914867, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=297.73680000000013, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=11, uni.prod.=28, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=39.75532142857144, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=108.69057619047624, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=197.85309523809505, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=413.07061323121326, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=1147.8081063492061, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(4,10) [l=4, d=10, est time=2468.467240476188, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=11, uni.prod.=40, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=88.02895396825394, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=163.63634206349192, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=379.59104920634917, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=1220.2042415584408, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(5,10) [l=5, d=10, est time=2585.0390563492047, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=163.63634206349192, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=379.59104920634917, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,9) [l=6, d=9, est time=1220.2042415584408, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(6,10) [l=6, d=10, est time=2585.0390563492047, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(7,8) [l=7, d=8, est time=379.59104920634917, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(7,9) [l=7, d=9, est time=1220.2042415584408, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(7,10) [l=7, d=10, est time=2585.0390563492047, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(8,9) [l=8, d=9, est time=1220.2042415584408, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(8,10) [l=8, d=10, est time=2585.0390563492047, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+
+
+[T4] plan: 25 vs 11, ts: 8000
+
+(2,3) [l=2, d=3, est time=3.6710571428571455, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=4.365099999999998, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=8.104125757575755, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=17.16777085137083, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=72.67348732868444, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=435.02029245199253, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1404.547433982683, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=2015.808946031743, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=10, uni.prod.=28, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=17.84900317460316, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=39.47404523809525, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=95.95228340548336, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=237.72020764790778, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1281.3209968253977, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=4274.958910317459, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=10, uni.prod.=40, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=830.5829476190473, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=10, uni.prod.=52, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=627.7974333333327, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=10, uni.prod.=52, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=1417.0334206349205, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=10, uni.prod.=52, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=5201.6382309523815, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=10, uni.prod.=52, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=627.7974333333327, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=10, uni.prod.=52, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=1417.0334206349205, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=10, uni.prod.=52, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=5201.6382309523815, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=10, uni.prod.=52, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=6676.6134, est N=0.0, rel.var.=9, rel.var. in root=9, f. in root=10, uni.prod.=64, est b=0.0,estimated]
+
+
+[T5] plan: 25 vs 5, ts: 6000
+
+(2,3) [l=2, d=3, est time=1.002333333333334, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1.018, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=1.008, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=1.0046666666666662, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=2.1148242424242363, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=20.51639943389944, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=71.9369746031746, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=77.18963333333332, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(2,11) [l=2, d=11, est time=4437.620085714286, est N=0.0, rel.var.=4, rel.var. in root=2, f. in root=8, uni.prod.=14, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=1.061300000000001, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=1.4975499999999975, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1.7469666666666543, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=2.6936939393939245, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=15.541619047619056, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=69.70570649350647, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=79.40029999999996, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(3,11) [l=3, d=11, est time=1358.3086190476195, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=7, uni.prod.=16, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=4.765888383838386, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=7, uni.prod.=28, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=9.606393950493956, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=7, uni.prod.=28, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=20.01018928293928, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=7, uni.prod.=28, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=31.271132634032625, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=7, uni.prod.=28, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=49.352881096681074, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=7, uni.prod.=28, est b=0.0,estimated]
+(4,10) [l=4, d=10, est time=72.98785238095236, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=7, uni.prod.=28, est b=0.0,estimated]
+(4,11) [l=4, d=11, est time=1359.6036190476195, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=7, uni.prod.=28, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=745.9660333333331, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=6, uni.prod.=76, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=4969.661566666667, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=6, uni.prod.=76, est b=0.0,estimated]
+
+task: 4
+
+
+Parsing completed in 2ms.	
+Grounding completed in 4ms.
+
+
+
+Parsing completed in 2ms.	
+Grounding completed in 3ms.
+
+
+[agent] total number of instantiated actions: 174
+
+
+[T1] plan: 36 vs 36, ts: 1000
+
+(2,3) [l=2, d=3, est time=9.548378571428573, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=20.598225396825423, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=69.6792571428571, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=200.77870158730136, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=496.2555285714286, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=51.41419682539684, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=17, uni.prod.=78, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=184.5115015873016, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=17, uni.prod.=78, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=715.2111023809525, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=17, uni.prod.=78, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=515.8725333333332, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=17, uni.prod.=96, est b=0.0,estimated]
+
+
+[T2] plan: 36 vs 33, ts: 3000
+
+(2,3) [l=2, d=3, est time=5.2299230158730206, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=9.405252380952385, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=29.735399999999995, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=80.95033333333335, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=195.3966500000002, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=2067.9071142857133, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=14.793061111111111, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=39.18107936507936, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=198.86791666666667, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=579.1815166666665, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=17, uni.prod.=58, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=164.4949000000001, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=15, uni.prod.=76, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=381.3171333333334, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=15, uni.prod.=76, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=381.3171333333334, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=15, uni.prod.=76, est b=0.0,estimated]
+
+
+[T3] plan: 36 vs 31, ts: 2000
+
+(2,3) [l=2, d=3, est time=2.6684547619047496, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=15, uni.prod.=38, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1.3629333333333216, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=15, uni.prod.=38, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=2.29080209235212, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=15, uni.prod.=38, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=3.300966666666667, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=15, uni.prod.=38, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=26.934021406371397, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=15, uni.prod.=38, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=258.250123953824, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=15, uni.prod.=38, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=961.4314293650795, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=15, uni.prod.=38, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=11.40608571428571, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=12.068900000000003, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=15.360209523809521, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=156.6472666666666, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1020.291676190476, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=12.068900000000003, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=15.360209523809521, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=156.6472666666666, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1020.291676190476, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=15, uni.prod.=56, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=105.49181904761899, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=14, uni.prod.=58, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=1665.6824666666669, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=14, uni.prod.=58, est b=0.0,estimated]
+
+
+[T4] plan: 36 vs 26, ts: 5000
+
+(2,3) [l=2, d=3, est time=1.9524714285714309, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=3.2398214285713838, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=6.13370793650793, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=8.820105555555568, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=77.89566875444805, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=138.54371377626507, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=205.23831147186144, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=622.9113984126988, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=14, uni.prod.=26, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=10.277833333333348, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=34.79336031746028, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=81.00308830058825, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=451.79620620490635, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1245.7214380952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=2329.063130952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=4850.157566666668, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=34.79336031746028, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=81.00308830058825, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=451.79620620490635, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1245.7214380952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=2329.063130952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(4,10) [l=4, d=10, est time=4850.157566666668, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=892.8560111111115, est N=0.0, rel.var.=9, rel.var. in root=9, f. in root=14, uni.prod.=46, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=3522.507411111112, est N=0.0, rel.var.=9, rel.var. in root=9, f. in root=14, uni.prod.=46, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=3552.7540833333346, est N=0.0, rel.var.=10, rel.var. in root=10, f. in root=14, uni.prod.=64, est b=0.0,estimated]
+
+
+[T5] plan: 36 vs 22, ts: 4000
+
+(2,3) [l=2, d=3, est time=6.66586666666669, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=10.277833333333348, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=34.79336031746028, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=81.00308830058825, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=451.79620620490635, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1245.7214380952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=2329.063130952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=10.277833333333348, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=34.79336031746028, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=81.00308830058825, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=451.79620620490635, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1245.7214380952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=2329.063130952382, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=14, uni.prod.=44, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=80.78974285714285, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=14, uni.prod.=62, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=372.4745015873015, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=14, uni.prod.=62, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=744.8494523809525, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=14, uni.prod.=62, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=372.4745015873015, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=14, uni.prod.=62, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=744.8494523809525, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=14, uni.prod.=62, est b=0.0,estimated]
+
+task: 5
+
+
+Parsing completed in 2ms.	
+Grounding completed in 5ms.
+
+
+
+Parsing completed in 3ms.	
+Grounding completed in 3ms.
+
+
+[agent] total number of instantiated actions: 174
+
+
+[T1] plan: 31 vs 31, ts: 1000
+
+(2,3) [l=2, d=3, est time=5.264275396825398, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=9.929693406593397, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=30.97339999999998, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=70.45248333333333, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=181.3476285714287, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=43.760804761904794, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=18, uni.prod.=78, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=177.66168174603183, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=18, uni.prod.=78, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=693.1367595238089, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=18, uni.prod.=78, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=417.2301, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=18, uni.prod.=96, est b=0.0,estimated]
+
+
+[T2] plan: 31 vs 28, ts: 3000
+
+(2,3) [l=2, d=3, est time=5.264275396825398, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=9.929693406593397, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=30.97339999999998, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=70.45248333333333, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=181.3476285714287, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=2065.7736142857134, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=13.875861904761909, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=36.580412698412715, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=190.47099285714282, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=570.0128928571428, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=18, uni.prod.=58, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=46.651838095238105, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=16, uni.prod.=58, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=142.92072222222225, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=16, uni.prod.=58, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=327.3126984126984, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=16, uni.prod.=58, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=758.7086333333333, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=16, uni.prod.=64, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=2539.897333333334, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=16, uni.prod.=64, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=2539.897333333334, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=16, uni.prod.=64, est b=0.0,estimated]
+
+
+[T3] plan: 31 vs 22, ts: 6000
+
+(2,3) [l=2, d=3, est time=4.518157142857143, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=6.980866666666667, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=15.951529365079374, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=28.149866666666654, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=110.54983768184006, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=306.70305569708063, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=475.3127893939395, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=1472.6773333333313, est N=0.0, rel.var.=6, rel.var. in root=5, f. in root=15, uni.prod.=28, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=13.43916666666667, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=13, uni.prod.=46, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=47.54450000000001, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=13, uni.prod.=46, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=166.03491017316023, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=13, uni.prod.=46, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=316.85702460317475, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=13, uni.prod.=46, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=3209.3548976301486, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=13, uni.prod.=46, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=103.28275714285712, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=13, uni.prod.=64, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=546.6372999999996, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=13, uni.prod.=64, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=2443.1670999999997, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=13, uni.prod.=64, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=474.9876666666665, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=12, uni.prod.=64, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=2221.609628571429, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=12, uni.prod.=64, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=2221.609628571429, est N=0.0, rel.var.=8, rel.var. in root=4, f. in root=12, uni.prod.=64, est b=0.0,estimated]
+
+
+[T4] plan: 31 vs 19, ts: 3000
+
+(2,3) [l=2, d=3, est time=3.20826666666667, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=9.305361904761913, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=23.310238095238084, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=62.4378571428572, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=150.64463333333333, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=699.2702057720059, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1374.5892103174601, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=18.889280952380965, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=100.98651904761904, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=342.8269454545456, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=343.13323896103924, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1918.9685365079356, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=100.98651904761904, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=342.8269454545456, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=343.13323896103924, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1918.9685365079356, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=342.8269454545456, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=343.13323896103924, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=1918.9685365079356, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=343.13323896103924, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=1918.9685365079356, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+
+
+[T5] plan: 31 vs 13, ts: 6000
+
+(2,3) [l=2, d=3, est time=6.569238095238119, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=10.556271428571447, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=23.936894588744554, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=56.970421461871474, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=251.63210050505037, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1280.4066570707073, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=2468.3657738095258, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=5051.379923809527, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=10.556271428571447, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=23.936894588744554, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=56.970421461871474, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=251.63210050505037, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1280.4066570707073, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=2468.3657738095258, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(3,10) [l=3, d=10, est time=5051.379923809527, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=12, uni.prod.=44, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=86.07339999999999, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=294.96930634920625, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=661.3047873015875, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=294.96930634920625, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=661.3047873015875, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=661.3047873015875, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=12, uni.prod.=62, est b=0.0,estimated]
+
+task: 6
+
+
+Parsing completed in 1ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 2ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 174
+
+
+[T1] plan: 36 vs 36, ts: 1000
+
+(2,3) [l=2, d=3, est time=5.789901587301598, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=19, uni.prod.=58, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=12.473261111111112, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=19, uni.prod.=58, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=31.24738571428574, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=19, uni.prod.=58, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=78.97469999999996, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=19, uni.prod.=58, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=185.21055714285725, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=19, uni.prod.=58, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=30.21197619047619, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=19, uni.prod.=76, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=73.64264761904761, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=19, uni.prod.=76, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=310.5908761904762, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=19, uni.prod.=76, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=411.5733999999999, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=19, uni.prod.=96, est b=0.0,estimated]
+
+
+[T2] plan: 36 vs 32, ts: 4000
+
+(2,3) [l=2, d=3, est time=7.894100000000004, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=19, uni.prod.=42, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=11.841666666666672, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=19, uni.prod.=42, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=40.203295238095244, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=19, uni.prod.=42, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=116.60700923520923, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=19, uni.prod.=42, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=604.7289380952382, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=19, uni.prod.=42, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=2968.639562637363, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=19, uni.prod.=42, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=18.57345396825397, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=87.6392571428572, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=312.2039690476192, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1136.6598595238102, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=17, uni.prod.=60, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=318.28772380952375, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=17, uni.prod.=66, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=3059.9449666666674, est N=0.0, rel.var.=9, rel.var. in root=7, f. in root=17, uni.prod.=66, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=2271.16042857143, est N=0.0, rel.var.=10, rel.var. in root=8, f. in root=17, uni.prod.=84, est b=0.0,estimated]
+
+
+[T3] plan: 36 vs 28, ts: 4000
+
+(2,3) [l=2, d=3, est time=3.6668062770562755, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=13.019138888888877, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=39.10018982683978, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=97.14785079365073, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=152.06590793650798, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=633.5055968253968, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1212.5474277777778, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=3495.061132539682, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=17, uni.prod.=44, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=22.953547619047654, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=62, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=97.36882857142854, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=62, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=297.79332380952377, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=62, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=357.5762428571429, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=62, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=2081.4950142857138, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=17, uni.prod.=62, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=98.35136666666665, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=317.26476904761927, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=298.3905238095238, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1674.840222222222, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=317.26476904761927, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=298.3905238095238, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=1674.840222222222, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=298.3905238095238, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(6,8) [l=6, d=8, est time=1674.840222222222, est N=0.0, rel.var.=5, rel.var. in root=4, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+
+
+[T4] plan: 36 vs 26, ts: 2000
+
+(2,3) [l=2, d=3, est time=3.591066666666675, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=8.331053968253963, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=19.464345165945183, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=41.01007297147296, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=125.54652775557773, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=648.5145348484846, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1238.7056341269843, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=8.331053968253963, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=19.464345165945183, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=41.01007297147296, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=125.54652775557773, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=648.5145348484846, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=1238.7056341269843, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=19.464345165945183, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=41.01007297147296, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=125.54652775557773, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=648.5145348484846, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=1238.7056341269843, est N=0.0, rel.var.=4, rel.var. in root=3, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=261.2661912698413, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=16, uni.prod.=46, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=779.8056888888884, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=16, uni.prod.=46, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=779.8056888888884, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=16, uni.prod.=46, est b=0.0,estimated]
+
+
+[T5] plan: 36 vs 22, ts: 4000
+
+(2,3) [l=2, d=3, est time=1.8440333333333492, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=3.0801523809523643, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=5.4874941724941655, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=7.763226706626707, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=76.77370260393201, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=142.15271755815576, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=215.92861450216446, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(2,10) [l=2, d=10, est time=618.9524650793654, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=16, uni.prod.=26, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=9.969833333333357, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=31.521909523809555, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=63.75011118326121, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=548.570861904762, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1071.0376166666663, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=2265.171764285714, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=31.521909523809555, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=63.75011118326121, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=548.570861904762, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=1071.0376166666663, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=2265.171764285714, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=16, uni.prod.=44, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=350.975611111111, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=684.7562333333331, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=684.7562333333331, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=16, uni.prod.=62, est b=0.0,estimated]
+(7,8) [l=7, d=8, est time=3503.4829428682447, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=14, uni.prod.=62, est b=0.0,estimated]
+
+task: 7
+
+
+Parsing completed in 1ms.	
+Grounding completed in 2ms.
+
+
+
+Parsing completed in 1ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 308
+
+
+[T1] plan: 46 vs 46, ts: 1000
+
+(2,3) [l=2, d=3, est time=11.341424488256838, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=23, uni.prod.=78, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=24.53842251082254, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=23, uni.prod.=78, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=86.64117344877353, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=23, uni.prod.=78, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=261.83874365079373, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=23, uni.prod.=78, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=88.92016208236208, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=23, uni.prod.=104, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=457.41920476190484, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=23, uni.prod.=104, est b=0.0,estimated]
+
+
+[T2] plan: 46 vs 43, ts: 3000
+
+(2,3) [l=2, d=3, est time=7.323940415140416, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=76, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=12.544438095238126, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=76, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=36.131573015873045, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=76, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=79.73018095238099, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=76, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=1186.3187333333344, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=76, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=65.75624734154728, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=23, uni.prod.=102, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=221.866703246753, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=23, uni.prod.=102, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=836.0724398212893, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=23, uni.prod.=102, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=468.3636999999998, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=23, uni.prod.=126, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=2278.6010476190477, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=23, uni.prod.=126, est b=0.0,estimated]
+
+
+[T3] plan: 46 vs 39, ts: 4000
+
+(2,3) [l=2, d=3, est time=3.5773178932179124, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=4.456590476190482, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=8.553300000000007, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=18.481696031746033, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=207.5201904761904, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=3137.087765079365, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=26.718828571428574, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=21, uni.prod.=76, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=31.95744444444445, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=21, uni.prod.=76, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=88.95262698412697, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=21, uni.prod.=76, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1389.756236507936, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=21, uni.prod.=76, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=314.7463857142858, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=21, uni.prod.=100, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=556.8491582251086, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=21, uni.prod.=100, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=2141.6766523809515, est N=0.0, rel.var.=11, rel.var. in root=8, f. in root=20, uni.prod.=102, est b=0.0,estimated]
+
+
+[T4] plan: 46 vs 37, ts: 2000
+
+(2,3) [l=2, d=3, est time=4.545435286608812, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=21, uni.prod.=74, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=17.509415057165068, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=21, uni.prod.=74, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=41.08211212121214, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=21, uni.prod.=74, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=90.44927002441995, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=21, uni.prod.=74, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=418.0971865079361, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=21, uni.prod.=74, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=28.447371428571415, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=30.950704761904753, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=85.9403682539683, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1435.4789158730164, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=360.8359573593072, est N=0.0, rel.var.=8, rel.var. in root=7, f. in root=20, uni.prod.=100, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=374.7787714285714, est N=0.0, rel.var.=8, rel.var. in root=7, f. in root=20, uni.prod.=100, est b=0.0,estimated]
+
+
+[T5] plan: 46 vs 34, ts: 3000
+
+(2,3) [l=2, d=3, est time=1.9320306637806517, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=20, uni.prod.=50, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=2.0882428571428537, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=20, uni.prod.=50, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=3.549716666666678, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=20, uni.prod.=50, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=5.723766666666668, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=20, uni.prod.=50, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=272.9502666666668, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=20, uni.prod.=50, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=981.4748665223664, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=20, uni.prod.=50, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=23.921173809523825, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=20, uni.prod.=62, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=76.81402142857144, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=20, uni.prod.=62, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=188.73838412698393, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=20, uni.prod.=62, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=447.75333968253983, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=20, uni.prod.=62, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=142.06813333333324, est N=0.0, rel.var.=9, rel.var. in root=9, f. in root=20, uni.prod.=64, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=645.0740119047615, est N=0.0, rel.var.=9, rel.var. in root=9, f. in root=20, uni.prod.=64, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=2321.761361904762, est N=0.0, rel.var.=9, rel.var. in root=9, f. in root=20, uni.prod.=64, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=1618.6630047619037, est N=0.0, rel.var.=10, rel.var. in root=10, f. in root=20, uni.prod.=88, est b=0.0,estimated]
+
+task: 8
+
+
+Parsing completed in 1ms.	
+Grounding completed in 2ms.
+
+
+
+Parsing completed in 1ms.	
+Grounding completed in 2ms.
+
+
+[agent] total number of instantiated actions: 308
+
+
+[T1] plan: 50 vs 50, ts: 1000
+
+(2,3) [l=2, d=3, est time=11.340833687391044, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=24, uni.prod.=78, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=24.69713412698413, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=24, uni.prod.=78, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=88.5204698412699, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=24, uni.prod.=78, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=266.32092557997555, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=24, uni.prod.=78, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=65.5994172549672, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=24, uni.prod.=102, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=219.47846212121237, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=24, uni.prod.=102, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=864.8426532467533, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=24, uni.prod.=102, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=453.21669999999983, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=24, uni.prod.=126, est b=0.0,estimated]
+
+
+[T2] plan: 50 vs 47, ts: 3000
+
+(2,3) [l=2, d=3, est time=7.312921042846046, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=24, uni.prod.=76, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=12.650763492063536, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=24, uni.prod.=76, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=33.583001587301595, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=24, uni.prod.=76, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=77.89676904761909, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=24, uni.prod.=76, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=1184.4237896825402, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=24, uni.prod.=76, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=65.5994172549672, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=24, uni.prod.=102, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=219.47846212121237, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=24, uni.prod.=102, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=864.8426532467533, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=24, uni.prod.=102, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=453.21669999999983, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=24, uni.prod.=126, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=2318.3381523809517, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=24, uni.prod.=126, est b=0.0,estimated]
+
+
+[T3] plan: 50 vs 43, ts: 4000
+
+(2,3) [l=2, d=3, est time=1.2903973304473275, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=1.4634190476190525, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=2.001133333333333, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=2.395013492063461, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=188.05363571428555, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=847.8634365079369, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=3058.1982888888906, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=1.4634190476190525, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=2.001133333333333, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=2.395013492063461, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=188.05363571428555, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=847.8634365079369, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=3058.1982888888906, est N=0.0, rel.var.=5, rel.var. in root=3, f. in root=22, uni.prod.=50, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=14.244399999999992, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=39.976676190476184, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=1660.973542857143, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=21, uni.prod.=52, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=77.15861666666666, est N=0.0, rel.var.=9, rel.var. in root=4, f. in root=19, uni.prod.=76, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=3488.9443833333344, est N=0.0, rel.var.=9, rel.var. in root=4, f. in root=19, uni.prod.=76, est b=0.0,estimated]
+
+
+[T4] plan: 50 vs 38, ts: 5000
+
+(2,3) [l=2, d=3, est time=6.838291594516584, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=19, uni.prod.=74, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=26.23801202686201, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=19, uni.prod.=74, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=66.01752720057718, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=19, uni.prod.=74, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=215.9326663447662, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=19, uni.prod.=74, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=552.2720828282828, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=19, uni.prod.=74, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=29.575680952380957, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=18, uni.prod.=76, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=22.44032857142859, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=18, uni.prod.=76, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=46.63475714285717, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=18, uni.prod.=76, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1434.0922476190476, est N=0.0, rel.var.=7, rel.var. in root=6, f. in root=18, uni.prod.=76, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=375.0647383116882, est N=0.0, rel.var.=8, rel.var. in root=7, f. in root=18, uni.prod.=100, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=291.2695666666667, est N=0.0, rel.var.=8, rel.var. in root=7, f. in root=18, uni.prod.=100, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=2560.850623809523, est N=0.0, rel.var.=9, rel.var. in root=8, f. in root=18, uni.prod.=112, est b=0.0,estimated]
+
+
+[T5] plan: 50 vs 33, ts: 5000
+
+(2,3) [l=2, d=3, est time=4.47046666666666, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=15.020264718614717, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=39.4283106976357, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=88.58469182141378, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=95.88687679199889, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=817.7482445054948, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(2,9) [l=2, d=9, est time=1999.378124603173, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=15.020264718614717, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=39.4283106976357, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=88.58469182141378, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=95.88687679199889, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=817.7482445054948, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(3,9) [l=3, d=9, est time=1999.378124603173, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=39.4283106976357, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=88.58469182141378, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=95.88687679199889, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(4,8) [l=4, d=8, est time=817.7482445054948, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(4,9) [l=4, d=9, est time=1999.378124603173, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=88.58469182141378, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(5,7) [l=5, d=7, est time=95.88687679199889, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(5,8) [l=5, d=8, est time=817.7482445054948, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(5,9) [l=5, d=9, est time=1999.378124603173, est N=0.0, rel.var.=3, rel.var. in root=3, f. in root=18, uni.prod.=60, est b=0.0,estimated]
+(6,7) [l=6, d=7, est time=518.9366825396826, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=18, uni.prod.=62, est b=0.0,estimated]
+
+task: 9
+
+
+Parsing completed in 1ms.	
+Grounding completed in 1ms.
+
+
+
+Parsing completed in 1ms.	
+Grounding completed in 1ms.
+
+
+[agent] total number of instantiated actions: 308
+
+
+[T1] plan: 42 vs 42, ts: 1000
+
+(2,3) [l=2, d=3, est time=12.21396420687156, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=25, uni.prod.=78, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=28.478495238095245, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=25, uni.prod.=78, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=108.96255555555555, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=25, uni.prod.=78, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=310.4610000000001, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=25, uni.prod.=78, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=89.04822874902872, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=25, uni.prod.=104, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=465.5710666666668, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=25, uni.prod.=104, est b=0.0,estimated]
+
+
+[T2] plan: 42 vs 39, ts: 3000
+
+(2,3) [l=2, d=3, est time=7.44644297646797, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=25, uni.prod.=76, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=15.411553174603178, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=25, uni.prod.=76, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=41.55823737373739, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=25, uni.prod.=76, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=103.93700346320341, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=25, uni.prod.=76, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=1206.73638917749, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=25, uni.prod.=76, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=56.586976035076006, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=25, uni.prod.=100, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=176.73930652680647, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=25, uni.prod.=100, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=524.171096969697, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=25, uni.prod.=100, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=471.21589999999986, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=25, uni.prod.=126, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=2805.592680952382, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=25, uni.prod.=126, est b=0.0,estimated]
+
+
+[T3] plan: 42 vs 35, ts: 4000
+
+(2,3) [l=2, d=3, est time=4.868292496392505, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=23, uni.prod.=52, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=7.660676190476197, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=23, uni.prod.=52, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=22.784750000000013, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=23, uni.prod.=52, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=29.695387950937942, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=23, uni.prod.=52, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=212.99323953823952, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=23, uni.prod.=52, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=3136.4083650793655, est N=0.0, rel.var.=6, rel.var. in root=4, f. in root=23, uni.prod.=52, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=31.66945952380953, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=23, uni.prod.=64, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=161.08060952380953, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=23, uni.prod.=64, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=510.57121428571384, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=23, uni.prod.=64, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=1232.252933333334, est N=0.0, rel.var.=7, rel.var. in root=5, f. in root=23, uni.prod.=64, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=306.33050476190465, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=23, uni.prod.=88, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=2335.828752380953, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=23, uni.prod.=88, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=2335.828752380953, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=23, uni.prod.=88, est b=0.0,estimated]
+
+
+[T4] plan: 42 vs 33, ts: 2000
+
+(2,3) [l=2, d=3, est time=9.54053864468865, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=36.13803015873015, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=126.59027886002887, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=338.12343112998093, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=320.57019938394893, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=1677.6586363247861, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=36.13803015873015, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=126.59027886002887, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=338.12343112998093, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=320.57019938394893, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(3,8) [l=3, d=8, est time=1677.6586363247861, est N=0.0, rel.var.=4, rel.var. in root=4, f. in root=23, uni.prod.=62, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=169.17110726641772, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=86, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=738.6192418653932, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=86, est b=0.0,estimated]
+(4,7) [l=4, d=7, est time=1959.5514640876145, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=23, uni.prod.=86, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=1928.233666666667, est N=0.0, rel.var.=8, rel.var. in root=7, f. in root=22, uni.prod.=88, est b=0.0,estimated]
+
+
+[T5] plan: 42 vs 29, ts: 4000
+
+(2,3) [l=2, d=3, est time=3.2995865079365174, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=20, uni.prod.=52, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=3.6439428571428634, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=20, uni.prod.=52, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=7.63154444444444, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=20, uni.prod.=52, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=17.25533333333335, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=20, uni.prod.=52, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=204.85946666666658, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=20, uni.prod.=52, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=2978.0035761904765, est N=0.0, rel.var.=6, rel.var. in root=3, f. in root=20, uni.prod.=52, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=32.06011666666668, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=33.33950476190474, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=85.42572063492067, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=698.4278349206354, est N=0.0, rel.var.=7, rel.var. in root=4, f. in root=20, uni.prod.=76, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=148.24129047619053, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=19, uni.prod.=78, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=282.5405333333335, est N=0.0, rel.var.=10, rel.var. in root=6, f. in root=19, uni.prod.=78, est b=0.0,estimated]
+(5,6) [l=5, d=6, est time=1828.8882412698408, est N=0.0, rel.var.=11, rel.var. in root=7, f. in root=19, uni.prod.=102, est b=0.0,estimated]
+
+task: 10
+
+
+Parsing completed in 1ms.	
+Grounding completed in 3ms.
+
+
+
+Parsing completed in 1ms.	
+Grounding completed in 3ms.
+
+
+[agent] total number of instantiated actions: 650
+
+
+[T1] plan: 81 vs 81, ts: 1000
+
+(2,3) [l=2, d=3, est time=13.827068398268397, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=30, uni.prod.=124, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=22.510200000000008, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=30, uni.prod.=124, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=59.540566666666635, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=30, uni.prod.=124, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=148.27848095238102, est N=0.0, rel.var.=5, rel.var. in root=5, f. in root=30, uni.prod.=124, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=135.73411417471414, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=30, uni.prod.=166, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=399.1257195138197, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=30, uni.prod.=166, est b=0.0,estimated]
+
+
+[T2] plan: 81 vs 78, ts: 3000
+
+(2,3) [l=2, d=3, est time=15.687934410034414, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=42.67007856130795, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=150.5206252546474, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=463.51498735284315, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=135.73411417471414, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=30, uni.prod.=166, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=399.1257195138197, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=30, uni.prod.=166, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1559.9508493506492, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=30, uni.prod.=166, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=2508.5763128427134, est N=0.0, rel.var.=7, rel.var. in root=7, f. in root=30, uni.prod.=166, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=2161.7213722222214, est N=0.0, rel.var.=9, rel.var. in root=9, f. in root=30, uni.prod.=208, est b=0.0,estimated]
+
+
+[T3] plan: 81 vs 75, ts: 3000
+
+(2,3) [l=2, d=3, est time=15.687934410034414, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=42.67007856130795, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=150.5206252546474, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=463.51498735284315, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=206.23916507936508, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=30, uni.prod.=168, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=771.9042567099574, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=30, uni.prod.=168, est b=0.0,estimated]
+
+
+[T4] plan: 81 vs 72, ts: 3000
+
+(2,3) [l=2, d=3, est time=15.687934410034414, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=42.67007856130795, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=150.5206252546474, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=463.51498735284315, est N=0.0, rel.var.=6, rel.var. in root=6, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=125.11828018093016, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=344.0162833333333, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=1450.1862317460316, est N=0.0, rel.var.=8, rel.var. in root=8, f. in root=30, uni.prod.=126, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=237.74706666666674, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=28, uni.prod.=126, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=816.9897609834605, est N=0.0, rel.var.=8, rel.var. in root=6, f. in root=28, uni.prod.=126, est b=0.0,estimated]
+
+
+[T5] plan: 81 vs 69, ts: 3000
+
+(2,3) [l=2, d=3, est time=7.845188644688639, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=27, uni.prod.=62, est b=0.0,estimated]
+(2,4) [l=2, d=4, est time=25.046157142857133, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=27, uni.prod.=62, est b=0.0,estimated]
+(2,5) [l=2, d=5, est time=48.767623809523826, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=27, uni.prod.=62, est b=0.0,estimated]
+(2,6) [l=2, d=6, est time=63.80012594072596, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=27, uni.prod.=62, est b=0.0,estimated]
+(2,7) [l=2, d=7, est time=105.71399260739257, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=27, uni.prod.=62, est b=0.0,estimated]
+(2,8) [l=2, d=8, est time=956.2705888888887, est N=0.0, rel.var.=5, rel.var. in root=2, f. in root=27, uni.prod.=62, est b=0.0,estimated]
+(3,4) [l=3, d=4, est time=39.276299999999964, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=27, uni.prod.=64, est b=0.0,estimated]
+(3,5) [l=3, d=5, est time=94.50621428571428, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=27, uni.prod.=64, est b=0.0,estimated]
+(3,6) [l=3, d=6, est time=447.16414999999995, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=27, uni.prod.=64, est b=0.0,estimated]
+(3,7) [l=3, d=7, est time=2211.023283333333, est N=0.0, rel.var.=8, rel.var. in root=5, f. in root=27, uni.prod.=64, est b=0.0,estimated]
+(4,5) [l=4, d=5, est time=300.6670666666666, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=27, uni.prod.=104, est b=0.0,estimated]
+(4,6) [l=4, d=6, est time=1023.9014999999998, est N=0.0, rel.var.=9, rel.var. in root=6, f. in root=27, uni.prod.=104, est b=0.0,estimated]
+
+

@@ -1,0 +1,24 @@
+El código termina siendo totalmente inútil cuando cuando se puede hacer con menos lineas de código. 
+
+<code>
+        filename=$(basename "$NEWFILE".tex)
+	extension="${filename##*.}"
+	filename="${filename%.*}"
+	dir=`dirname "$NEWFILE".tex`
+	echo $dir
+	echo $filename
+	echo $extension
+</code>
+
+
+
+
+
+
+
+
+
+for FILE in $FLI; do CONF=`echo $FILE | sed 's/[ \t]/*/g' | cut -d '*' -f 1-2 | sed 's/*/ /g' | sort -u`; cat $CONF > prueba; done
+
+
+

@@ -1,0 +1,42 @@
+/* parcprinterDirectGraph. */
+digraph parcprinterDirectGraph{ 
+	rankdir=LR;
+	size="8,5"
+	
+	1; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 19; 20; 21; 24; 25; 26[label="26/2"];
+
+	1->3 [ label="1" ];
+	3->5 [label="2" ]
+	3->6 [label="3" ]
+	4->5 [label="4" ]
+	4->6 [label="5" ]
+	5->9 [label="6" ]
+	5->7 [label="7" ]
+	8->9 [label="8" ]
+	8->9 [label="9" ]
+	7->8 [label="10" ]
+	6->12 [label="11" ]
+	6->10 [label="12" ]
+	11->12 [label="13" ]
+	11->12 [label="14" ] 
+	10->11 [label="15" ]
+	13->4 [label="16" ]
+	9->16 [label="17" ]
+	9->14 [label="18" ]
+	15->16 [label="19" ]
+	15->16 [label="20" ]
+	14->15 [label="21" ]
+	14->15 [label="22" ]
+	12->21 [label="23" ]
+	12->19 [label="24" ]
+	20->21 [label="25" ]
+	20->21 [label="26" ]
+	19->20 [label="27" ]
+	19->20 [label="28" ]
+	24->13 [label="29" ]
+	16->25 [label="30" ]
+	21->25 [label="31" ]
+	16->24 [label="32" ]
+	21->24 [label="33" ]
+	25->26 [label="34" ]
+}

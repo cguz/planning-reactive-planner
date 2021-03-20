@@ -1,0 +1,29 @@
+/* parcprinterDirectGraph. */
+digraph parcprinterDirectGraph{ 
+	rankdir=LR;
+	size="8,5"; 
+	node [shape=box];
+	
+	1[label="feeder"]; 2[label="transporter"]; 3[label="transporter"]; 4[label="IME"]; 
+	5[label="IME"]; 6[label="container"]; 7[label="down"]; 8[label="container"];
+	9[label="finisher"]; 
+	10[label="finisherTray"]; 
+	//11[label="finisher2Exit"]; 
+	
+	1->2 [ label="move" ]
+	1->2 [ label="moveInv" ]
+	1->3 [ label="move" ]
+	1->3 [ label="moveInv" ]
+	2->4 [ label="move" ]
+	3->5 [label="move" ]
+	4->8 [ label="print\nblack" ]
+	5->6 [label="print\ncolor" ]
+	6->7 [label="move" ]
+	7->9 [label="move" ]
+	7->4 [label="move" ]
+	7->3 [label="move" ]
+	8->9 [label="move" ]
+	8->2 [label="move" ]
+	9->10 [label="stack" ]
+	//9->11 [label="stack" ]
+}

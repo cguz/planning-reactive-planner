@@ -1,0 +1,125 @@
+;; printing an image in the front by each sheet
+(define (problem pfile9)
+(:domain cPrint)
+(:objects
+
+		Black Color - color
+		Front Back - side
+
+		location_1
+		location_2
+		location_3
+		location_4
+		location_5
+		location_6
+		location_7
+		location_8
+		location_9
+		location_10 - location
+
+		ColorFeeder-RSRC
+		BlackFeeder-RSRC
+		ColorTransporter-RSRC
+		BlackTransporter-RSRC
+		ColorPrinter-RSRC
+		BlackPrinter-RSRC
+		ColorContainer-RSRC
+		BlackContainer-RSRC
+		Down-RSRC
+		FinisherContainer-RSRC - resource
+
+		dummy-sheet
+		sheet1
+		sheet2 - sheet
+
+		image-1
+		image-2
+		image-6
+		image-7 - image
+)
+(:init
+		;; *********************
+		;; problem specification
+		(CanTurn ColorFeeder-RSRC)
+		(CanTurn BlackFeeder-RSRC)
+		(CanTurn Down-RSRC)
+
+		(In ColorFeeder-RSRC location_1)
+		(In BlackFeeder-RSRC location_1)
+		(In ColorTransporter-RSRC location_2)
+		(In BlackTransporter-RSRC location_3)
+		(In ColorPrinter-RSRC location_4)
+		(In BlackPrinter-RSRC location_5)
+		(In BlackContainer-RSRC location_6)
+		(In ColorContainer-RSRC location_8)
+		(In Down-RSRC location_7)
+		(In FinisherContainer-RSRC location_9)
+
+		;; moving from a location to other
+		(Connection location_1 location_2)
+		(Connection location_1 location_3)
+		(Connection location_2 location_4)
+		(Connection location_3 location_5)
+		(Connection location_4 location_8)
+		(Connection location_5 location_6)
+		(Connection location_8 location_7)
+		(Connection location_7 location_9)
+		(Connection location_7 location_5)
+		(Connection location_7 location_2)
+		(Connection location_6 location_9)
+
+		(CanStack FinisherContainer-RSRC location_10)
+
+		;; printing and moving from a location to other
+		(CanPrint ColorPrinter-RSRC Color location_8)
+		(CanPrint ColorPrinter-RSRC Black location_8)
+		(CanPrint BlackPrinter-RSRC Black location_6)
+
+		(Oppositeside Front Back)
+		(Oppositeside Back Front)
+
+
+		;; *********************
+		;; problem specification
+
+		(Is ColorFeeder-RSRC)
+		(Is BlackFeeder-RSRC)
+		(Is ColorTransporter-RSRC)
+		(Is BlackTransporter-RSRC)
+		(Is ColorPrinter-RSRC)
+		(Is BlackPrinter-RSRC)
+		(Is ColorContainer-RSRC)
+		(Is BlackContainer-RSRC)
+		(Is Down-RSRC)
+		(Is FinisherContainer-RSRC)
+
+		(Imagecolor image-1 Black)
+		(Imagecolor image-2 Black)
+		(Imagecolor image-6 Color)
+		(Imagecolor image-7 Color)
+
+		(SideIs sheet1 Front)
+		(SideIs sheet2 Front)
+
+		;; dummy-sheet in all finisherry
+		(Stacked dummy-sheet)
+
+		(Prevsheet sheet1 dummy-sheet)
+		(Prevsheet sheet2 sheet1)
+
+		(Location dummy-sheet location_10)
+		(Location sheet1 location_1)
+		(Location sheet2 location_1)
+)
+(:goal (and
+		(Hasimage sheet1 Front image-1)
+		(Hasimage sheet1 Back image-2)
+		(Hasimage sheet1 Back image-6)
+
+		(Hasimage sheet2 Front image-2)
+		(Hasimage sheet2 Back image-1)
+		(Hasimage sheet2 Back image-7)
+		
+		(Stacked sheet1)
+		(Stacked sheet2))
+))

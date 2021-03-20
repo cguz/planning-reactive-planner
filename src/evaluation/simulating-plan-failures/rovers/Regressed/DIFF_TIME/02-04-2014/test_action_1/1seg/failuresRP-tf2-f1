@@ -1,0 +1,1978 @@
+
+
+
+
+**********************
+Rovers - pfile1
+TIME STEP=0
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <calibration_target-camera0,objective1>
+- <calibrated-camera0-rover0,not> changed by <calibrated-camera0-rover0,yes>]
+= <at-rover0,waypoint3>
+= <on_board-camera0,rover0>
+= <equipped_for_imaging-rover0,true>
+= <visible_from-objective1-waypoint3,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (calibrate rover0 camera0 objective1 waypoint3) [1]
+1: (take_image rover0 waypoint3 objective1 camera0 high_res) [1]
+2: (communicate_image_data rover0 general objective1 high_res waypoint3 waypoint0) [1]
+3: (sample_rock rover0 rover0store waypoint3) [1]
+4: (drop rover0 rover0store) [1]
+5: (navigate rover0 waypoint3 waypoint1) [1]
+6: (navigate rover0 waypoint1 waypoint2) [1]
+7: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0) [1]
+8: (sample_soil rover0 rover0store waypoint2) [1]
+9: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	91 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <calibration_target-camera0,objective1>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover0-objective1-high_res,not>, <supports-camera0-high_res,true>, <calibrated-camera0-rover0,not>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <visible-waypoint3-waypoint1,true>, <at-rover0,waypoint3>, <at_rock_sample-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <on_board-camera0,rover0>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <equipped_for_imaging-rover0,true>, <visible_from-objective1-waypoint3,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+Origin found:	34 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover0-objective1-high_res,not>, <supports-camera0-high_res,true>, <calibrated-camera0-rover0,yes>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <visible-waypoint3-waypoint1,true>, <at-rover0,waypoint3>, <at_rock_sample-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <on_board-camera0,rover0>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <equipped_for_imaging-rover0,true>, <visible_from-objective1-waypoint3,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:take_image rover0 waypoint3 objective1 camera0 high_res
+1.0:communicate_image_data rover0 general objective1 high_res waypoint3 waypoint0
+2.0:sample_rock rover0 rover0store waypoint3
+3.0:drop rover0 rover0store
+4.0:navigate rover0 waypoint3 waypoint1
+5.0:navigate rover0 waypoint1 waypoint2
+6.0:communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0
+7.0:sample_soil rover0 rover0store waypoint2
+8.0:communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0
+
+Search time: 366466.0 ns
+
+
+
+
+**********************
+Rovers - pfile1
+TIME STEP=1
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <calibrated-camera0-rover0,yes>
+= <at-rover0,waypoint3>
+= <on_board-camera0,rover0>
+- <equipped_for_imaging-rover0,true> changed by <equipped_for_imaging-rover0,false>]
+= <visible_from-objective1-waypoint3,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (take_image rover0 waypoint3 objective1 camera0 high_res) [1]
+2: (communicate_image_data rover0 general objective1 high_res waypoint3 waypoint0) [1]
+3: (sample_rock rover0 rover0store waypoint3) [1]
+4: (drop rover0 rover0store) [1]
+5: (navigate rover0 waypoint3 waypoint1) [1]
+6: (navigate rover0 waypoint1 waypoint2) [1]
+7: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0) [1]
+8: (sample_soil rover0 rover0store waypoint2) [1]
+9: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	34 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover0-objective1-high_res,not>, <supports-camera0-high_res,true>, <calibrated-camera0-rover0,yes>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <visible-waypoint3-waypoint1,true>, <at-rover0,waypoint3>, <at_rock_sample-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <on_board-camera0,rover0>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <equipped_for_imaging-rover0,true>, <visible_from-objective1-waypoint3,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 5003729.0 ns
+
+
+
+
+**********************
+Rovers - pfile1
+TIME STEP=2
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint3> changed by <at-rover0,waypoint1>]
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (communicate_image_data rover0 general objective1 high_res waypoint3 waypoint0) [1]
+3: (sample_rock rover0 rover0store waypoint3) [1]
+4: (drop rover0 rover0store) [1]
+5: (navigate rover0 waypoint3 waypoint1) [1]
+6: (navigate rover0 waypoint1 waypoint2) [1]
+7: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0) [1]
+8: (sample_soil rover0 rover0store waypoint2) [1]
+9: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	12 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover0-objective1-high_res,yes>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <visible-waypoint3-waypoint1,true>, <at-rover0,waypoint3>, <at_rock_sample-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+Origin found:	36 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover0-objective1-high_res,yes>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <visible-waypoint3-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint1>, <visible-waypoint2-waypoint0,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <can_traverse-rover0-waypoint1-waypoint3,true>, <visible-waypoint1-waypoint3,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint1 waypoint3
+1.0:communicate_image_data rover0 general objective1 high_res waypoint3 waypoint0
+2.0:sample_rock rover0 rover0store waypoint3
+3.0:drop rover0 rover0store
+4.0:navigate rover0 waypoint3 waypoint1
+5.0:navigate rover0 waypoint1 waypoint2
+6.0:communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0
+7.0:sample_soil rover0 rover0store waypoint2
+8.0:communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0
+
+Search time: 176178.0 ns
+
+
+
+
+**********************
+Rovers - pfile1
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint3> changed by <at-rover0,waypoint1>]
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (sample_rock rover0 rover0store waypoint3) [1]
+4: (drop rover0 rover0store) [1]
+5: (navigate rover0 waypoint3 waypoint1) [1]
+6: (navigate rover0 waypoint1 waypoint2) [1]
+7: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0) [1]
+8: (sample_soil rover0 rover0store waypoint2) [1]
+9: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	2 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint1,true>, <at-rover0,waypoint3>, <at_rock_sample-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <communicated_image_data-objective1-high_res,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+Origin found:	11 [<status-rover0store,empty>, <can_traverse-rover0-waypoint3-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint1>, <visible-waypoint2-waypoint0,true>, <communicated_image_data-objective1-high_res,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint2,true>, <can_traverse-rover0-waypoint1-waypoint3,true>, <visible-waypoint1-waypoint3,true>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint1 waypoint3
+1.0:sample_rock rover0 rover0store waypoint3
+2.0:drop rover0 rover0store
+3.0:navigate rover0 waypoint3 waypoint1
+4.0:navigate rover0 waypoint1 waypoint2
+5.0:communicate_rock_data rover0 general waypoint3 waypoint2 waypoint0
+6.0:sample_soil rover0 rover0store waypoint2
+7.0:communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0
+
+Search time: 115181.0 ns
+
+
+
+
+**********************
+Rovers - pfile2
+TIME STEP=0
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <calibration_target-camera0,objective0>
+= <visible_from-objective0-waypoint0,true>
+= <calibrated-camera0-rover0,not>
+- <at-rover0,waypoint0> changed by <at-rover0,waypoint1>]
+= <on_board-camera0,rover0>
+= <equipped_for_imaging-rover0,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (calibrate rover0 camera0 objective0 waypoint0) [1]
+1: (take_image rover0 waypoint0 objective1 camera0 low_res) [1]
+2: (communicate_image_data rover0 general objective1 low_res waypoint0 waypoint1) [1]
+3: (sample_rock rover0 rover0store waypoint0) [1]
+4: (drop rover0 rover0store) [1]
+5: (sample_soil rover0 rover0store waypoint0) [1]
+6: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+7: (communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+
+Destiny found:	45 [<status-rover0store,empty>, <calibration_target-camera0,objective0>, <visible-waypoint0-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera0-rover0,not>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint1>, <at-rover0,waypoint0>, <visible_from-objective1-waypoint0,true>, <on_board-camera0,rover0>, <have_image-rover0-objective1-low_res,not>, <equipped_for_imaging-rover0,true>, <supports-camera0-low_res,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+Origin found:	69 [<status-rover0store,empty>, <calibration_target-camera0,objective0>, <visible-waypoint0-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera0-rover0,not>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint1>, <at-rover0,waypoint1>, <visible_from-objective1-waypoint0,true>, <on_board-camera0,rover0>, <can_traverse-rover0-waypoint1-waypoint0,true>, <visible-waypoint1-waypoint0,true>, <have_image-rover0-objective1-low_res,not>, <equipped_for_imaging-rover0,true>, <supports-camera0-low_res,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint1 waypoint0
+1.0:calibrate rover0 camera0 objective0 waypoint0
+2.0:take_image rover0 waypoint0 objective1 camera0 low_res
+3.0:communicate_image_data rover0 general objective1 low_res waypoint0 waypoint1
+4.0:sample_rock rover0 rover0store waypoint0
+5.0:drop rover0 rover0store
+6.0:sample_soil rover0 rover0store waypoint0
+7.0:communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1
+8.0:communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1
+
+Search time: 209918.0 ns
+
+
+
+
+**********************
+Rovers - pfile2
+TIME STEP=1
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <calibrated-camera0-rover0,yes>
+= <at-rover0,waypoint0>
+= <on_board-camera0,rover0>
+- <equipped_for_imaging-rover0,true> changed by <equipped_for_imaging-rover0,false>]
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (take_image rover0 waypoint0 objective1 camera0 low_res) [1]
+2: (communicate_image_data rover0 general objective1 low_res waypoint0 waypoint1) [1]
+3: (sample_rock rover0 rover0store waypoint0) [1]
+4: (drop rover0 rover0store) [1]
+5: (sample_soil rover0 rover0store waypoint0) [1]
+6: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+7: (communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+
+Destiny found:	23 [<status-rover0store,empty>, <visible-waypoint0-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <calibrated-camera0-rover0,yes>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint1>, <at-rover0,waypoint0>, <visible_from-objective1-waypoint0,true>, <on_board-camera0,rover0>, <have_image-rover0-objective1-low_res,not>, <equipped_for_imaging-rover0,true>, <supports-camera0-low_res,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 1252663.0 ns
+
+
+
+
+**********************
+Rovers - pfile2
+TIME STEP=2
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint0> changed by <at-rover0,waypoint1>]
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (communicate_image_data rover0 general objective1 low_res waypoint0 waypoint1) [1]
+3: (sample_rock rover0 rover0store waypoint0) [1]
+4: (drop rover0 rover0store) [1]
+5: (sample_soil rover0 rover0store waypoint0) [1]
+6: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+7: (communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+
+Destiny found:	10 [<at_lander-general,waypoint1>, <status-rover0store,empty>, <at-rover0,waypoint0>, <visible-waypoint0-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover0-objective1-low_res,yes>, <at_rock_sample-waypoint0,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+Origin found:	24 [<at_lander-general,waypoint1>, <status-rover0store,empty>, <visible-waypoint0-waypoint1,true>, <at-rover0,waypoint1>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <can_traverse-rover0-waypoint1-waypoint0,true>, <visible-waypoint1-waypoint0,true>, <have_image-rover0-objective1-low_res,yes>, <at_rock_sample-waypoint0,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint1 waypoint0
+1.0:communicate_image_data rover0 general objective1 low_res waypoint0 waypoint1
+2.0:sample_rock rover0 rover0store waypoint0
+3.0:drop rover0 rover0store
+4.0:sample_soil rover0 rover0store waypoint0
+5.0:communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1
+6.0:communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1
+
+Search time: 120914.0 ns
+
+
+
+
+**********************
+Rovers - pfile2
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint0> changed by <at-rover0,waypoint2>]
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (sample_rock rover0 rover0store waypoint0) [1]
+4: (drop rover0 rover0store) [1]
+5: (sample_soil rover0 rover0store waypoint0) [1]
+6: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+7: (communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1) [1]
+
+Destiny found:	1 [<at_lander-general,waypoint1>, <status-rover0store,empty>, <at-rover0,waypoint0>, <visible-waypoint0-waypoint1,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover0,true>, <at_rock_sample-waypoint0,true>, <communicated_image_data-objective1-low_res,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+Origin found:	8 [<at_lander-general,waypoint1>, <status-rover0store,empty>, <visible-waypoint0-waypoint1,true>, <at-rover0,waypoint2>, <equipped_for_soil_analysis-rover0,true>, <visible-waypoint2-waypoint0,true>, <equipped_for_rock_analysis-rover0,true>, <can_traverse-rover0-waypoint2-waypoint0,true>, <at_rock_sample-waypoint0,true>, <communicated_image_data-objective1-low_res,true>, <at_soil_sample-waypoint0,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint2 waypoint0
+1.0:sample_rock rover0 rover0store waypoint0
+2.0:drop rover0 rover0store
+3.0:sample_soil rover0 rover0store waypoint0
+4.0:communicate_rock_data rover0 general waypoint0 waypoint0 waypoint1
+5.0:communicate_soil_data rover0 general waypoint0 waypoint0 waypoint1
+
+Search time: 116108.0 ns
+
+
+
+
+**********************
+Rovers - pfile3
+TIME STEP=0
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover1,waypoint3> changed by <at-rover1,waypoint0>]
+= <visible-waypoint3-waypoint0,true>
+= <can_traverse-rover1-waypoint3-waypoint0,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (navigate rover1 waypoint3 waypoint0) [1]
+1: (calibrate rover1 camera1 objective0 waypoint0) [1]
+2: (take_image rover1 waypoint0 objective0 camera1 colour) [1]
+3: (sample_rock rover1 rover1store waypoint0) [1]
+4: (navigate rover1 waypoint0 waypoint3) [1]
+5: (navigate rover1 waypoint3 waypoint2) [1]
+6: (communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0) [1]
+7: (communicate_image_data rover1 general objective0 colour waypoint2 waypoint0) [1]
+8: (drop rover1 rover1store) [1]
+9: (sample_soil rover1 rover1store waypoint2) [1]
+10: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	51 [<visible-waypoint0-waypoint3,true>, <calibration_target-camera1,objective0>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <supports-camera1-colour,true>, <visible_from-objective0-waypoint0,true>, <store_of-rover1store,rover1>, <calibrated-camera1-rover1,not>, <have_image-rover1-objective0-colour,not>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <at-rover1,waypoint3>, <visible-waypoint3-waypoint0,true>, <visible-waypoint2-waypoint0,true>, <on_board-camera1,rover1>, <status-rover1store,empty>, <can_traverse-rover1-waypoint3-waypoint0,true>, <equipped_for_imaging-rover1,true>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Origin found:	23 [<visible-waypoint0-waypoint3,true>, <calibration_target-camera1,objective0>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <supports-camera1-colour,true>, <visible_from-objective0-waypoint0,true>, <store_of-rover1store,rover1>, <calibrated-camera1-rover1,not>, <have_image-rover1-objective0-colour,not>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <at-rover1,waypoint0>, <visible-waypoint2-waypoint0,true>, <on_board-camera1,rover1>, <status-rover1store,empty>, <equipped_for_imaging-rover1,true>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Repaired plan (RP):
+0.0:calibrate rover1 camera1 objective0 waypoint0
+1.0:take_image rover1 waypoint0 objective0 camera1 colour
+2.0:sample_rock rover1 rover1store waypoint0
+3.0:navigate rover1 waypoint0 waypoint3
+4.0:navigate rover1 waypoint3 waypoint2
+5.0:communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0
+6.0:communicate_image_data rover1 general objective0 colour waypoint2 waypoint0
+7.0:drop rover1 rover1store
+8.0:sample_soil rover1 rover1store waypoint2
+9.0:communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0
+
+Search time: 317636.0 ns
+
+
+
+
+**********************
+Rovers - pfile3
+TIME STEP=1
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover1,waypoint0> changed by <at-rover1,waypoint2>]
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (calibrate rover1 camera1 objective0 waypoint0) [1]
+2: (take_image rover1 waypoint0 objective0 camera1 colour) [1]
+3: (sample_rock rover1 rover1store waypoint0) [1]
+4: (navigate rover1 waypoint0 waypoint3) [1]
+5: (navigate rover1 waypoint3 waypoint2) [1]
+6: (communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0) [1]
+7: (communicate_image_data rover1 general objective0 colour waypoint2 waypoint0) [1]
+8: (drop rover1 rover1store) [1]
+9: (sample_soil rover1 rover1store waypoint2) [1]
+10: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	23 [<visible-waypoint0-waypoint3,true>, <calibration_target-camera1,objective0>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <supports-camera1-colour,true>, <visible_from-objective0-waypoint0,true>, <store_of-rover1store,rover1>, <calibrated-camera1-rover1,not>, <have_image-rover1-objective0-colour,not>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <at-rover1,waypoint0>, <visible-waypoint2-waypoint0,true>, <on_board-camera1,rover1>, <status-rover1store,empty>, <equipped_for_imaging-rover1,true>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Origin found:	98 [<visible-waypoint0-waypoint3,true>, <calibration_target-camera1,objective0>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <supports-camera1-colour,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <store_of-rover1store,rover1>, <calibrated-camera1-rover1,not>, <have_image-rover1-objective0-colour,not>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at-rover1,waypoint2>, <can_traverse-rover1-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <on_board-camera1,rover1>, <status-rover1store,empty>, <can_traverse-rover1-waypoint3-waypoint0,true>, <equipped_for_imaging-rover1,true>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Repaired plan (RP):
+0.0:navigate rover1 waypoint2 waypoint3
+1.0:navigate rover1 waypoint3 waypoint0
+2.0:calibrate rover1 camera1 objective0 waypoint0
+3.0:take_image rover1 waypoint0 objective0 camera1 colour
+4.0:sample_rock rover1 rover1store waypoint0
+5.0:navigate rover1 waypoint0 waypoint3
+6.0:navigate rover1 waypoint3 waypoint2
+7.0:communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0
+8.0:communicate_image_data rover1 general objective0 colour waypoint2 waypoint0
+9.0:drop rover1 rover1store
+10.0:sample_soil rover1 rover1store waypoint2
+11.0:communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0
+
+Search time: 348774.0 ns
+
+
+
+
+**********************
+Rovers - pfile3
+TIME STEP=2
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover1,waypoint0> changed by <at-rover1,waypoint1>]
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (take_image rover1 waypoint0 objective0 camera1 colour) [1]
+3: (sample_rock rover1 rover1store waypoint0) [1]
+4: (navigate rover1 waypoint0 waypoint3) [1]
+5: (navigate rover1 waypoint3 waypoint2) [1]
+6: (communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0) [1]
+7: (communicate_image_data rover1 general objective0 colour waypoint2 waypoint0) [1]
+8: (drop rover1 rover1store) [1]
+9: (sample_soil rover1 rover1store waypoint2) [1]
+10: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	9 [<visible-waypoint0-waypoint3,true>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <supports-camera1-colour,true>, <visible_from-objective0-waypoint0,true>, <store_of-rover1store,rover1>, <calibrated-camera1-rover1,yes>, <have_image-rover1-objective0-colour,not>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <at-rover1,waypoint0>, <visible-waypoint2-waypoint0,true>, <on_board-camera1,rover1>, <status-rover1store,empty>, <equipped_for_imaging-rover1,true>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Origin found:	24 [<visible-waypoint0-waypoint3,true>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <supports-camera1-colour,true>, <visible_from-objective0-waypoint0,true>, <store_of-rover1store,rover1>, <calibrated-camera1-rover1,yes>, <have_image-rover1-objective0-colour,not>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <can_traverse-rover1-waypoint1-waypoint0,true>, <at-rover1,waypoint1>, <visible-waypoint2-waypoint0,true>, <on_board-camera1,rover1>, <status-rover1store,empty>, <visible-waypoint1-waypoint0,true>, <equipped_for_imaging-rover1,true>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Repaired plan (RP):
+0.0:navigate rover1 waypoint1 waypoint0
+1.0:take_image rover1 waypoint0 objective0 camera1 colour
+2.0:sample_rock rover1 rover1store waypoint0
+3.0:navigate rover1 waypoint0 waypoint3
+4.0:navigate rover1 waypoint3 waypoint2
+5.0:communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0
+6.0:communicate_image_data rover1 general objective0 colour waypoint2 waypoint0
+7.0:drop rover1 rover1store
+8.0:sample_soil rover1 rover1store waypoint2
+9.0:communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0
+
+Search time: 212175.0 ns
+
+
+
+
+**********************
+Rovers - pfile3
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover1,waypoint0> changed by <at-rover1,waypoint2>]
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (sample_rock rover1 rover1store waypoint0) [1]
+4: (navigate rover1 waypoint0 waypoint3) [1]
+5: (navigate rover1 waypoint3 waypoint2) [1]
+6: (communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0) [1]
+7: (communicate_image_data rover1 general objective0 colour waypoint2 waypoint0) [1]
+8: (drop rover1 rover1store) [1]
+9: (sample_soil rover1 rover1store waypoint2) [1]
+10: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0) [1]
+
+Destiny found:	2 [<visible-waypoint0-waypoint3,true>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <store_of-rover1store,rover1>, <have_image-rover1-objective0-colour,yes>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <at-rover1,waypoint0>, <visible-waypoint2-waypoint0,true>, <status-rover1store,empty>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Origin found:	17 [<visible-waypoint0-waypoint3,true>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_rock_analysis-rover1,true>, <visible-waypoint2-waypoint3,true>, <store_of-rover1store,rover1>, <have_image-rover1-objective0-colour,yes>, <visible-waypoint3-waypoint2,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at-rover1,waypoint2>, <can_traverse-rover1-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint3-waypoint0,true>, <at_soil_sample-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint2,true>]
+
+Repaired plan (RP):
+0.0:navigate rover1 waypoint2 waypoint3
+1.0:navigate rover1 waypoint3 waypoint0
+2.0:sample_rock rover1 rover1store waypoint0
+3.0:navigate rover1 waypoint0 waypoint3
+4.0:navigate rover1 waypoint3 waypoint2
+5.0:communicate_rock_data rover1 general waypoint0 waypoint2 waypoint0
+6.0:communicate_image_data rover1 general objective0 colour waypoint2 waypoint0
+7.0:drop rover1 rover1store
+8.0:sample_soil rover1 rover1store waypoint2
+9.0:communicate_soil_data rover1 general waypoint2 waypoint2 waypoint0
+
+Search time: 253911.0 ns
+
+
+
+
+**********************
+Rovers - pfile4
+TIME STEP=0
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+= <status-rover0store,empty>
+= <equipped_for_soil_analysis-rover0,true>
+= <at_soil_sample-waypoint3,true>
+= <at-rover0,waypoint3>
+- <store_of-rover0store,rover0> changed by <store_of-rover0store,rover1>]
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (sample_soil rover0 rover0store waypoint3) [1]
+1: (calibrate rover1 camera0 objective0 waypoint2) [1]
+2: (communicate_soil_data rover0 general waypoint3 waypoint3 waypoint2) [1]
+3: (navigate rover1 waypoint2 waypoint1) [1]
+4: (sample_rock rover1 rover1store waypoint1) [1]
+5: (take_image rover1 waypoint1 objective0 camera0 high_res) [1]
+6: (communicate_rock_data rover1 general waypoint1 waypoint1 waypoint2) [1]
+7: (communicate_image_data rover1 general objective0 high_res waypoint1 waypoint2) [1]
+
+Destiny found:	22 [<status-rover0store,empty>, <calibration_target-camera0,objective0>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_rock_analysis-rover1,true>, <visible_from-objective0-waypoint2,true>, <supports-camera0-high_res,true>, <visible_from-objective0-waypoint1,true>, <store_of-rover1store,rover1>, <calibrated-camera0-rover1,not>, <visible-waypoint3-waypoint2,true>, <at_lander-general,waypoint2>, <at-rover1,waypoint2>, <at_rock_sample-waypoint1,true>, <at_soil_sample-waypoint3,true>, <at-rover0,waypoint3>, <status-rover1store,empty>, <can_traverse-rover1-waypoint2-waypoint1,true>, <on_board-camera0,rover1>, <visible-waypoint2-waypoint1,true>, <visible-waypoint1-waypoint2,true>, <equipped_for_imaging-rover1,true>, <have_image-rover1-objective0-high_res,not>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 4491720.0 ns
+
+
+
+
+**********************
+Rovers - pfile4
+TIME STEP=1
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint3> changed by <at-rover0,waypoint0>]
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (calibrate rover1 camera0 objective0 waypoint2) [1]
+2: (communicate_soil_data rover0 general waypoint3 waypoint3 waypoint2) [1]
+3: (navigate rover1 waypoint2 waypoint1) [1]
+4: (sample_rock rover1 rover1store waypoint1) [1]
+5: (take_image rover1 waypoint1 objective0 camera0 high_res) [1]
+6: (communicate_rock_data rover1 general waypoint1 waypoint1 waypoint2) [1]
+7: (communicate_image_data rover1 general objective0 high_res waypoint1 waypoint2) [1]
+
+Destiny found:	6 [<calibration_target-camera0,objective0>, <equipped_for_rock_analysis-rover1,true>, <visible_from-objective0-waypoint2,true>, <supports-camera0-high_res,true>, <visible_from-objective0-waypoint1,true>, <store_of-rover1store,rover1>, <calibrated-camera0-rover1,not>, <visible-waypoint3-waypoint2,true>, <at_lander-general,waypoint2>, <at-rover1,waypoint2>, <have_soil_analysis-rover0-waypoint3,true>, <at_rock_sample-waypoint1,true>, <at-rover0,waypoint3>, <status-rover1store,empty>, <can_traverse-rover1-waypoint2-waypoint1,true>, <on_board-camera0,rover1>, <visible-waypoint2-waypoint1,true>, <visible-waypoint1-waypoint2,true>, <equipped_for_imaging-rover1,true>, <have_image-rover1-objective0-high_res,not>]
+
+No se ha encontrado el origen
+
+Search time: 3256430.0 ns
+
+
+
+
+**********************
+Rovers - pfile4
+TIME STEP=2
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint3> changed by <at-rover0,waypoint0>]
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (communicate_soil_data rover0 general waypoint3 waypoint3 waypoint2) [1]
+3: (navigate rover1 waypoint2 waypoint1) [1]
+4: (sample_rock rover1 rover1store waypoint1) [1]
+5: (take_image rover1 waypoint1 objective0 camera0 high_res) [1]
+6: (communicate_rock_data rover1 general waypoint1 waypoint1 waypoint2) [1]
+7: (communicate_image_data rover1 general objective0 high_res waypoint1 waypoint2) [1]
+
+Destiny found:	2 [<equipped_for_rock_analysis-rover1,true>, <supports-camera0-high_res,true>, <visible_from-objective0-waypoint1,true>, <store_of-rover1store,rover1>, <calibrated-camera0-rover1,yes>, <visible-waypoint3-waypoint2,true>, <at_lander-general,waypoint2>, <at-rover1,waypoint2>, <have_soil_analysis-rover0-waypoint3,true>, <at_rock_sample-waypoint1,true>, <at-rover0,waypoint3>, <status-rover1store,empty>, <can_traverse-rover1-waypoint2-waypoint1,true>, <on_board-camera0,rover1>, <visible-waypoint2-waypoint1,true>, <visible-waypoint1-waypoint2,true>, <equipped_for_imaging-rover1,true>, <have_image-rover1-objective0-high_res,not>]
+
+No se ha encontrado el origen
+
+Search time: 4130494.0 ns
+
+
+
+
+**********************
+Rovers - pfile5
+TIME STEP=0
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <visible-waypoint0-waypoint1,true>
+- <communicated_rock_data-waypoint0,true> changed by <communicated_rock_data-waypoint0,false>]
+- <can_traverse-rover1-waypoint0-waypoint1,true> changed by <can_traverse-rover1-waypoint0-waypoint1,false>]
+= <at-rover1,waypoint0>
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (navigate rover1 waypoint0 waypoint1) [1]
+1: (sample_rock rover0 rover0store waypoint0) [1]
+2: (calibrate rover1 camera1 objective1 waypoint1) [1]
+3: (communicate_rock_data rover0 general waypoint0 waypoint1 waypoint3) [1]
+4: (take_image rover1 waypoint1 objective0 camera1 high_res) [1]
+5: (navigate rover0 waypoint0 waypoint1) [1]
+6: (communicate_image_data rover1 general objective0 high_res waypoint1 waypoint3) [1]
+7: (calibrate rover1 camera1 objective1 waypoint1) [1]
+8: (drop rover0 rover0store) [1]
+9: (sample_rock rover0 rover0store waypoint1) [1]
+10: (take_image rover1 waypoint1 objective0 camera1 colour) [1]
+11: (communicate_image_data rover1 general objective0 colour waypoint1 waypoint3) [1]
+12: (communicate_rock_data rover0 general waypoint1 waypoint1 waypoint3) [1]
+13: (calibrate rover1 camera1 objective1 waypoint1) [1]
+14: (take_image rover1 waypoint1 objective2 camera1 high_res) [1]
+15: (communicate_image_data rover1 general objective2 high_res waypoint1 waypoint3) [1]
+16: (sample_soil rover1 rover1store waypoint1) [1]
+17: (navigate rover1 waypoint1 waypoint2) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint2 waypoint3) [1]
+19: (drop rover1 rover1store) [1]
+20: (sample_soil rover1 rover1store waypoint2) [1]
+21: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	57 [<calibration_target-camera1,objective1>, <visible-waypoint0-waypoint1,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera1-rover1,not>, <have_image-rover1-objective0-colour,not>, <supports-camera1-high_res,true>, <visible_from-objective2-waypoint1,true>, <communicated_rock_data-waypoint0,true>, <status-rover1store,empty>, <equipped_for_imaging-rover1,true>, <status-rover0store,empty>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <can_traverse-rover1-waypoint0-waypoint1,true>, <at_rock_sample-waypoint0,true>, <have_image-rover1-objective2-high_res,not>, <at_lander-general,waypoint3>, <at-rover1,waypoint0>, <at_rock_sample-waypoint1,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at-rover0,waypoint0>, <on_board-camera1,rover1>, <can_traverse-rover0-waypoint0-waypoint1,true>, <visible_from-objective1-waypoint1,true>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <at_soil_sample-waypoint1,true>, <have_image-rover1-objective0-high_res,not>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 1.1608718E7 ns
+
+
+
+
+**********************
+Rovers - pfile5
+TIME STEP=1
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <visible-waypoint0-waypoint1,true> changed by <visible-waypoint0-waypoint1,false>]
+- <communicated_rock_data-waypoint0,true> changed by <communicated_rock_data-waypoint0,false>]
+= <at-rover1,waypoint1>
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (sample_rock rover0 rover0store waypoint0) [1]
+2: (calibrate rover1 camera1 objective1 waypoint1) [1]
+3: (communicate_rock_data rover0 general waypoint0 waypoint1 waypoint3) [1]
+4: (take_image rover1 waypoint1 objective0 camera1 high_res) [1]
+5: (navigate rover0 waypoint0 waypoint1) [1]
+6: (communicate_image_data rover1 general objective0 high_res waypoint1 waypoint3) [1]
+7: (calibrate rover1 camera1 objective1 waypoint1) [1]
+8: (drop rover0 rover0store) [1]
+9: (sample_rock rover0 rover0store waypoint1) [1]
+10: (take_image rover1 waypoint1 objective0 camera1 colour) [1]
+11: (communicate_image_data rover1 general objective0 colour waypoint1 waypoint3) [1]
+12: (communicate_rock_data rover0 general waypoint1 waypoint1 waypoint3) [1]
+13: (calibrate rover1 camera1 objective1 waypoint1) [1]
+14: (take_image rover1 waypoint1 objective2 camera1 high_res) [1]
+15: (communicate_image_data rover1 general objective2 high_res waypoint1 waypoint3) [1]
+16: (sample_soil rover1 rover1store waypoint1) [1]
+17: (navigate rover1 waypoint1 waypoint2) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint2 waypoint3) [1]
+19: (drop rover1 rover1store) [1]
+20: (sample_soil rover1 rover1store waypoint2) [1]
+21: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	13 [<calibration_target-camera1,objective1>, <visible-waypoint0-waypoint1,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera1-rover1,not>, <have_image-rover1-objective0-colour,not>, <supports-camera1-high_res,true>, <visible_from-objective2-waypoint1,true>, <communicated_rock_data-waypoint0,true>, <status-rover1store,empty>, <equipped_for_imaging-rover1,true>, <status-rover0store,empty>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <have_image-rover1-objective2-high_res,not>, <at_lander-general,waypoint3>, <at-rover1,waypoint1>, <at_rock_sample-waypoint1,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at-rover0,waypoint0>, <on_board-camera1,rover1>, <can_traverse-rover0-waypoint0-waypoint1,true>, <visible_from-objective1-waypoint1,true>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <at_soil_sample-waypoint1,true>, <have_image-rover1-objective0-high_res,not>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 6682531.0 ns
+
+
+
+
+**********************
+Rovers - pfile5
+TIME STEP=2
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <visible-waypoint0-waypoint1,true> changed by <visible-waypoint0-waypoint1,false>]
+- <communicated_rock_data-waypoint0,true> changed by <communicated_rock_data-waypoint0,false>]
+= <at-rover1,waypoint1>
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (calibrate rover1 camera1 objective1 waypoint1) [1]
+3: (communicate_rock_data rover0 general waypoint0 waypoint1 waypoint3) [1]
+4: (take_image rover1 waypoint1 objective0 camera1 high_res) [1]
+5: (navigate rover0 waypoint0 waypoint1) [1]
+6: (communicate_image_data rover1 general objective0 high_res waypoint1 waypoint3) [1]
+7: (calibrate rover1 camera1 objective1 waypoint1) [1]
+8: (drop rover0 rover0store) [1]
+9: (sample_rock rover0 rover0store waypoint1) [1]
+10: (take_image rover1 waypoint1 objective0 camera1 colour) [1]
+11: (communicate_image_data rover1 general objective0 colour waypoint1 waypoint3) [1]
+12: (communicate_rock_data rover0 general waypoint1 waypoint1 waypoint3) [1]
+13: (calibrate rover1 camera1 objective1 waypoint1) [1]
+14: (take_image rover1 waypoint1 objective2 camera1 high_res) [1]
+15: (communicate_image_data rover1 general objective2 high_res waypoint1 waypoint3) [1]
+16: (sample_soil rover1 rover1store waypoint1) [1]
+17: (navigate rover1 waypoint1 waypoint2) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint2 waypoint3) [1]
+19: (drop rover1 rover1store) [1]
+20: (sample_soil rover1 rover1store waypoint2) [1]
+21: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	6 [<calibration_target-camera1,objective1>, <visible-waypoint0-waypoint1,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera1-rover1,not>, <have_image-rover1-objective0-colour,not>, <supports-camera1-high_res,true>, <visible_from-objective2-waypoint1,true>, <communicated_rock_data-waypoint0,true>, <status-rover1store,empty>, <equipped_for_imaging-rover1,true>, <status-rover0store,full>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <have_image-rover1-objective2-high_res,not>, <at_lander-general,waypoint3>, <at-rover1,waypoint1>, <at_rock_sample-waypoint1,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at-rover0,waypoint0>, <on_board-camera1,rover1>, <can_traverse-rover0-waypoint0-waypoint1,true>, <visible_from-objective1-waypoint1,true>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <at_soil_sample-waypoint1,true>, <have_image-rover1-objective0-high_res,not>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 7250457.0 ns
+
+
+
+
+**********************
+Rovers - pfile5
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <visible-waypoint0-waypoint1,true> changed by <visible-waypoint0-waypoint1,false>]
+- <communicated_rock_data-waypoint0,true> changed by <communicated_rock_data-waypoint0,false>]
+= <at-rover1,waypoint1>
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (communicate_rock_data rover0 general waypoint0 waypoint1 waypoint3) [1]
+4: (take_image rover1 waypoint1 objective0 camera1 high_res) [1]
+5: (navigate rover0 waypoint0 waypoint1) [1]
+6: (communicate_image_data rover1 general objective0 high_res waypoint1 waypoint3) [1]
+7: (calibrate rover1 camera1 objective1 waypoint1) [1]
+8: (drop rover0 rover0store) [1]
+9: (sample_rock rover0 rover0store waypoint1) [1]
+10: (take_image rover1 waypoint1 objective0 camera1 colour) [1]
+11: (communicate_image_data rover1 general objective0 colour waypoint1 waypoint3) [1]
+12: (communicate_rock_data rover0 general waypoint1 waypoint1 waypoint3) [1]
+13: (calibrate rover1 camera1 objective1 waypoint1) [1]
+14: (take_image rover1 waypoint1 objective2 camera1 high_res) [1]
+15: (communicate_image_data rover1 general objective2 high_res waypoint1 waypoint3) [1]
+16: (sample_soil rover1 rover1store waypoint1) [1]
+17: (navigate rover1 waypoint1 waypoint2) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint2 waypoint3) [1]
+19: (drop rover1 rover1store) [1]
+20: (sample_soil rover1 rover1store waypoint2) [1]
+21: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	0 [<calibration_target-camera1,objective1>, <visible-waypoint0-waypoint1,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera1-rover1,yes>, <have_image-rover1-objective0-colour,not>, <supports-camera1-high_res,true>, <visible_from-objective2-waypoint1,true>, <communicated_rock_data-waypoint0,true>, <status-rover1store,empty>, <equipped_for_imaging-rover1,true>, <status-rover0store,full>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <have_image-rover1-objective2-high_res,not>, <at_lander-general,waypoint3>, <at-rover1,waypoint1>, <at_rock_sample-waypoint1,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at-rover0,waypoint0>, <on_board-camera1,rover1>, <can_traverse-rover0-waypoint0-waypoint1,true>, <visible_from-objective1-waypoint1,true>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <at_soil_sample-waypoint1,true>, <have_image-rover1-objective0-high_res,not>, <at_soil_sample-waypoint2,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 2084373.0 ns
+
+
+
+
+**********************
+Rovers - pfile6
+TIME STEP=0
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <can_traverse-rover0-waypoint1-waypoint0,true>
+= <at-rover0,waypoint1>
+- <visible-waypoint1-waypoint0,true> changed by <visible-waypoint1-waypoint0,false>]
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (navigate rover0 waypoint1 waypoint0) [1]
+1: (sample_soil rover1 rover1store waypoint4) [1]
+2: (calibrate rover0 camera1 objective1 waypoint0) [1]
+3: (drop rover1 rover1store) [1]
+4: (take_image rover0 waypoint0 objective1 camera1 low_res) [1]
+5: (calibrate rover0 camera1 objective1 waypoint0) [1]
+6: (communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3) [1]
+7: (communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3) [1]
+8: (sample_rock rover0 rover0store waypoint0) [1]
+9: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3) [1]
+10: (drop rover0 rover0store) [1]
+11: (take_image rover0 waypoint0 objective0 camera1 colour) [1]
+12: (communicate_image_data rover0 general objective0 colour waypoint0 waypoint3) [1]
+13: (calibrate rover0 camera1 objective1 waypoint0) [1]
+14: (take_image rover0 waypoint0 objective0 camera1 low_res) [1]
+15: (communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3) [1]
+16: (navigate rover1 waypoint4 waypoint1) [1]
+17: (sample_soil rover1 rover1store waypoint1) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3) [1]
+19: (navigate rover1 waypoint1 waypoint4) [1]
+20: (navigate rover1 waypoint4 waypoint5) [1]
+21: (drop rover1 rover1store) [1]
+22: (sample_soil rover1 rover1store waypoint5) [1]
+23: (communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3) [1]
+24: (navigate rover1 waypoint5 waypoint2) [1]
+25: (drop rover1 rover1store) [1]
+26: (sample_soil rover1 rover1store waypoint2) [1]
+27: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+28: (navigate rover0 waypoint0 waypoint3) [1]
+29: (sample_rock rover0 rover0store waypoint3) [1]
+30: (navigate rover0 waypoint3 waypoint0) [1]
+31: (navigate rover0 waypoint0 waypoint2) [1]
+32: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3) [1]
+33: (drop rover0 rover0store) [1]
+34: (sample_rock rover0 rover0store waypoint2) [1]
+35: (communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	182 [<can_traverse-rover0-waypoint3-waypoint0,true>, <visible-waypoint0-waypoint3,true>, <visible-waypoint0-waypoint2,true>, <calibration_target-camera1,objective1>, <supports-camera1-low_res,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera1-rover0,not>, <visible-waypoint5-waypoint3,true>, <visible-waypoint5-waypoint2,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint4-waypoint5,true>, <can_traverse-rover0-waypoint1-waypoint0,true>, <can_traverse-rover1-waypoint4-waypoint1,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <visible-waypoint1-waypoint4,true>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint5,true>, <at-rover1,waypoint4>, <visible-waypoint4-waypoint3,true>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <at-rover0,waypoint1>, <can_traverse-rover1-waypoint1-waypoint4,true>, <on_board-camera1,rover0>, <have_image-rover0-objective0-colour,not>, <can_traverse-rover0-waypoint0-waypoint2,true>, <can_traverse-rover0-waypoint0-waypoint3,true>, <visible-waypoint4-waypoint5,true>, <visible_from-objective1-waypoint0,true>, <visible-waypoint1-waypoint0,true>, <visible-waypoint1-waypoint3,true>, <have_image-rover0-objective1-low_res,not>, <at_soil_sample-waypoint1,true>, <at_soil_sample-waypoint2,true>, <have_image-rover0-objective0-low_res,not>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 2.1366725E7 ns
+
+
+
+
+**********************
+Rovers - pfile6
+TIME STEP=1
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint0> changed by <at-rover0,waypoint2>]
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (sample_soil rover1 rover1store waypoint4) [1]
+2: (calibrate rover0 camera1 objective1 waypoint0) [1]
+3: (drop rover1 rover1store) [1]
+4: (take_image rover0 waypoint0 objective1 camera1 low_res) [1]
+5: (calibrate rover0 camera1 objective1 waypoint0) [1]
+6: (communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3) [1]
+7: (communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3) [1]
+8: (sample_rock rover0 rover0store waypoint0) [1]
+9: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3) [1]
+10: (drop rover0 rover0store) [1]
+11: (take_image rover0 waypoint0 objective0 camera1 colour) [1]
+12: (communicate_image_data rover0 general objective0 colour waypoint0 waypoint3) [1]
+13: (calibrate rover0 camera1 objective1 waypoint0) [1]
+14: (take_image rover0 waypoint0 objective0 camera1 low_res) [1]
+15: (communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3) [1]
+16: (navigate rover1 waypoint4 waypoint1) [1]
+17: (sample_soil rover1 rover1store waypoint1) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3) [1]
+19: (navigate rover1 waypoint1 waypoint4) [1]
+20: (navigate rover1 waypoint4 waypoint5) [1]
+21: (drop rover1 rover1store) [1]
+22: (sample_soil rover1 rover1store waypoint5) [1]
+23: (communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3) [1]
+24: (navigate rover1 waypoint5 waypoint2) [1]
+25: (drop rover1 rover1store) [1]
+26: (sample_soil rover1 rover1store waypoint2) [1]
+27: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+28: (navigate rover0 waypoint0 waypoint3) [1]
+29: (sample_rock rover0 rover0store waypoint3) [1]
+30: (navigate rover0 waypoint3 waypoint0) [1]
+31: (navigate rover0 waypoint0 waypoint2) [1]
+32: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3) [1]
+33: (drop rover0 rover0store) [1]
+34: (sample_rock rover0 rover0store waypoint2) [1]
+35: (communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	63 [<can_traverse-rover0-waypoint3-waypoint0,true>, <visible-waypoint0-waypoint3,true>, <visible-waypoint0-waypoint2,true>, <calibration_target-camera1,objective1>, <supports-camera1-low_res,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera1-rover0,not>, <visible-waypoint5-waypoint3,true>, <visible-waypoint5-waypoint2,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint4-waypoint5,true>, <can_traverse-rover1-waypoint4-waypoint1,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <visible-waypoint1-waypoint4,true>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint5,true>, <at-rover1,waypoint4>, <visible-waypoint4-waypoint3,true>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint0>, <at_soil_sample-waypoint4,true>, <can_traverse-rover1-waypoint1-waypoint4,true>, <on_board-camera1,rover0>, <have_image-rover0-objective0-colour,not>, <can_traverse-rover0-waypoint0-waypoint2,true>, <can_traverse-rover0-waypoint0-waypoint3,true>, <visible-waypoint4-waypoint5,true>, <visible_from-objective1-waypoint0,true>, <visible-waypoint1-waypoint3,true>, <have_image-rover0-objective1-low_res,not>, <at_soil_sample-waypoint1,true>, <at_soil_sample-waypoint2,true>, <have_image-rover0-objective0-low_res,not>, <store_of-rover0store,rover0>]
+
+Origin found:	186 [<can_traverse-rover0-waypoint3-waypoint0,true>, <visible-waypoint0-waypoint3,true>, <visible-waypoint0-waypoint2,true>, <calibration_target-camera1,objective1>, <supports-camera1-low_res,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera1-rover0,not>, <visible-waypoint5-waypoint3,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint5-waypoint2,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint4-waypoint5,true>, <can_traverse-rover1-waypoint4-waypoint1,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <visible-waypoint1-waypoint4,true>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint5,true>, <at-rover1,waypoint4>, <visible-waypoint4-waypoint3,true>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <at-rover0,waypoint2>, <can_traverse-rover1-waypoint1-waypoint4,true>, <on_board-camera1,rover0>, <have_image-rover0-objective0-colour,not>, <can_traverse-rover0-waypoint0-waypoint2,true>, <can_traverse-rover0-waypoint0-waypoint3,true>, <visible-waypoint4-waypoint5,true>, <visible_from-objective1-waypoint0,true>, <visible-waypoint1-waypoint3,true>, <have_image-rover0-objective1-low_res,not>, <at_soil_sample-waypoint1,true>, <can_traverse-rover0-waypoint2-waypoint0,true>, <at_soil_sample-waypoint2,true>, <have_image-rover0-objective0-low_res,not>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint2 waypoint0
+1.0:calibrate rover0 camera1 objective1 waypoint0
+2.0:sample_soil rover1 rover1store waypoint4
+3.0:drop rover1 rover1store
+4.0:take_image rover0 waypoint0 objective1 camera1 low_res
+5.0:calibrate rover0 camera1 objective1 waypoint0
+6.0:communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3
+7.0:communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3
+8.0:sample_rock rover0 rover0store waypoint0
+9.0:communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3
+10.0:drop rover0 rover0store
+11.0:take_image rover0 waypoint0 objective0 camera1 colour
+12.0:communicate_image_data rover0 general objective0 colour waypoint0 waypoint3
+13.0:calibrate rover0 camera1 objective1 waypoint0
+14.0:take_image rover0 waypoint0 objective0 camera1 low_res
+15.0:communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3
+16.0:navigate rover1 waypoint4 waypoint1
+17.0:sample_soil rover1 rover1store waypoint1
+18.0:communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3
+19.0:navigate rover1 waypoint1 waypoint4
+20.0:navigate rover1 waypoint4 waypoint5
+21.0:drop rover1 rover1store
+22.0:sample_soil rover1 rover1store waypoint5
+23.0:communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3
+24.0:navigate rover1 waypoint5 waypoint2
+25.0:drop rover1 rover1store
+26.0:sample_soil rover1 rover1store waypoint2
+27.0:communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3
+28.0:navigate rover0 waypoint0 waypoint3
+29.0:sample_rock rover0 rover0store waypoint3
+30.0:navigate rover0 waypoint3 waypoint0
+31.0:navigate rover0 waypoint0 waypoint2
+32.0:communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3
+33.0:drop rover0 rover0store
+34.0:sample_rock rover0 rover0store waypoint2
+35.0:communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3
+
+Search time: 119777.0 ns
+
+
+
+
+**********************
+Rovers - pfile6
+TIME STEP=2
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint0> changed by <at-rover0,waypoint4>]
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (calibrate rover0 camera1 objective1 waypoint0) [1]
+3: (drop rover1 rover1store) [1]
+4: (take_image rover0 waypoint0 objective1 camera1 low_res) [1]
+5: (calibrate rover0 camera1 objective1 waypoint0) [1]
+6: (communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3) [1]
+7: (communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3) [1]
+8: (sample_rock rover0 rover0store waypoint0) [1]
+9: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3) [1]
+10: (drop rover0 rover0store) [1]
+11: (take_image rover0 waypoint0 objective0 camera1 colour) [1]
+12: (communicate_image_data rover0 general objective0 colour waypoint0 waypoint3) [1]
+13: (calibrate rover0 camera1 objective1 waypoint0) [1]
+14: (take_image rover0 waypoint0 objective0 camera1 low_res) [1]
+15: (communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3) [1]
+16: (navigate rover1 waypoint4 waypoint1) [1]
+17: (sample_soil rover1 rover1store waypoint1) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3) [1]
+19: (navigate rover1 waypoint1 waypoint4) [1]
+20: (navigate rover1 waypoint4 waypoint5) [1]
+21: (drop rover1 rover1store) [1]
+22: (sample_soil rover1 rover1store waypoint5) [1]
+23: (communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3) [1]
+24: (navigate rover1 waypoint5 waypoint2) [1]
+25: (drop rover1 rover1store) [1]
+26: (sample_soil rover1 rover1store waypoint2) [1]
+27: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+28: (navigate rover0 waypoint0 waypoint3) [1]
+29: (sample_rock rover0 rover0store waypoint3) [1]
+30: (navigate rover0 waypoint3 waypoint0) [1]
+31: (navigate rover0 waypoint0 waypoint2) [1]
+32: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3) [1]
+33: (drop rover0 rover0store) [1]
+34: (sample_rock rover0 rover0store waypoint2) [1]
+35: (communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	17 [<can_traverse-rover0-waypoint3-waypoint0,true>, <visible-waypoint0-waypoint3,true>, <visible-waypoint0-waypoint2,true>, <calibration_target-camera1,objective1>, <supports-camera1-low_res,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera1-rover0,not>, <have_soil_analysis-rover1-waypoint4,true>, <visible-waypoint5-waypoint3,true>, <visible-waypoint5-waypoint2,true>, <status-rover1store,full>, <can_traverse-rover1-waypoint4-waypoint5,true>, <can_traverse-rover1-waypoint4-waypoint1,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <visible-waypoint1-waypoint4,true>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint5,true>, <at-rover1,waypoint4>, <visible-waypoint4-waypoint3,true>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint0>, <can_traverse-rover1-waypoint1-waypoint4,true>, <on_board-camera1,rover0>, <have_image-rover0-objective0-colour,not>, <can_traverse-rover0-waypoint0-waypoint2,true>, <can_traverse-rover0-waypoint0-waypoint3,true>, <visible-waypoint4-waypoint5,true>, <visible_from-objective1-waypoint0,true>, <visible-waypoint1-waypoint3,true>, <have_image-rover0-objective1-low_res,not>, <at_soil_sample-waypoint1,true>, <at_soil_sample-waypoint2,true>, <have_image-rover0-objective0-low_res,not>, <store_of-rover0store,rover0>]
+
+Origin found:	204 [<can_traverse-rover0-waypoint3-waypoint0,true>, <visible-waypoint0-waypoint3,true>, <visible-waypoint0-waypoint2,true>, <calibration_target-camera1,objective1>, <supports-camera1-low_res,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera1-rover0,not>, <have_soil_analysis-rover1-waypoint4,true>, <visible-waypoint5-waypoint3,true>, <visible-waypoint5-waypoint2,true>, <status-rover1store,full>, <can_traverse-rover1-waypoint4-waypoint5,true>, <can_traverse-rover0-waypoint1-waypoint0,true>, <can_traverse-rover1-waypoint4-waypoint1,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <can_traverse-rover0-waypoint4-waypoint1,true>, <can_traverse-rover1-waypoint5-waypoint2,true>, <visible-waypoint1-waypoint4,true>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint5,true>, <at-rover1,waypoint4>, <visible-waypoint4-waypoint3,true>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint4>, <can_traverse-rover1-waypoint1-waypoint4,true>, <on_board-camera1,rover0>, <have_image-rover0-objective0-colour,not>, <can_traverse-rover0-waypoint0-waypoint2,true>, <can_traverse-rover0-waypoint0-waypoint3,true>, <visible-waypoint4-waypoint5,true>, <visible_from-objective1-waypoint0,true>, <visible-waypoint1-waypoint0,true>, <visible-waypoint1-waypoint3,true>, <have_image-rover0-objective1-low_res,not>, <at_soil_sample-waypoint1,true>, <at_soil_sample-waypoint2,true>, <have_image-rover0-objective0-low_res,not>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint4 waypoint1
+1.0:navigate rover0 waypoint1 waypoint0
+2.0:calibrate rover0 camera1 objective1 waypoint0
+3.0:drop rover1 rover1store
+4.0:take_image rover0 waypoint0 objective1 camera1 low_res
+5.0:calibrate rover0 camera1 objective1 waypoint0
+6.0:communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3
+7.0:communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3
+8.0:sample_rock rover0 rover0store waypoint0
+9.0:communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3
+10.0:drop rover0 rover0store
+11.0:take_image rover0 waypoint0 objective0 camera1 colour
+12.0:communicate_image_data rover0 general objective0 colour waypoint0 waypoint3
+13.0:calibrate rover0 camera1 objective1 waypoint0
+14.0:take_image rover0 waypoint0 objective0 camera1 low_res
+15.0:communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3
+16.0:navigate rover1 waypoint4 waypoint1
+17.0:sample_soil rover1 rover1store waypoint1
+18.0:communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3
+19.0:navigate rover1 waypoint1 waypoint4
+20.0:navigate rover1 waypoint4 waypoint5
+21.0:drop rover1 rover1store
+22.0:sample_soil rover1 rover1store waypoint5
+23.0:communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3
+24.0:navigate rover1 waypoint5 waypoint2
+25.0:drop rover1 rover1store
+26.0:sample_soil rover1 rover1store waypoint2
+27.0:communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3
+28.0:navigate rover0 waypoint0 waypoint3
+29.0:sample_rock rover0 rover0store waypoint3
+30.0:navigate rover0 waypoint3 waypoint0
+31.0:navigate rover0 waypoint0 waypoint2
+32.0:communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3
+33.0:drop rover0 rover0store
+34.0:sample_rock rover0 rover0store waypoint2
+35.0:communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3
+
+Search time: 168749.0 ns
+
+
+
+
+**********************
+Rovers - pfile6
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover0,waypoint0> changed by <at-rover0,waypoint5>]
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (drop rover1 rover1store) [1]
+4: (take_image rover0 waypoint0 objective1 camera1 low_res) [1]
+5: (calibrate rover0 camera1 objective1 waypoint0) [1]
+6: (communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3) [1]
+7: (communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3) [1]
+8: (sample_rock rover0 rover0store waypoint0) [1]
+9: (communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3) [1]
+10: (drop rover0 rover0store) [1]
+11: (take_image rover0 waypoint0 objective0 camera1 colour) [1]
+12: (communicate_image_data rover0 general objective0 colour waypoint0 waypoint3) [1]
+13: (calibrate rover0 camera1 objective1 waypoint0) [1]
+14: (take_image rover0 waypoint0 objective0 camera1 low_res) [1]
+15: (communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3) [1]
+16: (navigate rover1 waypoint4 waypoint1) [1]
+17: (sample_soil rover1 rover1store waypoint1) [1]
+18: (communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3) [1]
+19: (navigate rover1 waypoint1 waypoint4) [1]
+20: (navigate rover1 waypoint4 waypoint5) [1]
+21: (drop rover1 rover1store) [1]
+22: (sample_soil rover1 rover1store waypoint5) [1]
+23: (communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3) [1]
+24: (navigate rover1 waypoint5 waypoint2) [1]
+25: (drop rover1 rover1store) [1]
+26: (sample_soil rover1 rover1store waypoint2) [1]
+27: (communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3) [1]
+28: (navigate rover0 waypoint0 waypoint3) [1]
+29: (sample_rock rover0 rover0store waypoint3) [1]
+30: (navigate rover0 waypoint3 waypoint0) [1]
+31: (navigate rover0 waypoint0 waypoint2) [1]
+32: (communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3) [1]
+33: (drop rover0 rover0store) [1]
+34: (sample_rock rover0 rover0store waypoint2) [1]
+35: (communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	2 [<can_traverse-rover0-waypoint3-waypoint0,true>, <visible-waypoint0-waypoint3,true>, <visible-waypoint0-waypoint2,true>, <calibration_target-camera1,objective1>, <supports-camera1-low_res,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera1-rover0,yes>, <have_soil_analysis-rover1-waypoint4,true>, <visible-waypoint5-waypoint3,true>, <visible-waypoint5-waypoint2,true>, <status-rover1store,full>, <can_traverse-rover1-waypoint4-waypoint5,true>, <can_traverse-rover1-waypoint4-waypoint1,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <visible-waypoint1-waypoint4,true>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint5,true>, <at-rover1,waypoint4>, <visible-waypoint4-waypoint3,true>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint0>, <can_traverse-rover1-waypoint1-waypoint4,true>, <on_board-camera1,rover0>, <have_image-rover0-objective0-colour,not>, <can_traverse-rover0-waypoint0-waypoint2,true>, <can_traverse-rover0-waypoint0-waypoint3,true>, <visible-waypoint4-waypoint5,true>, <visible_from-objective1-waypoint0,true>, <visible-waypoint1-waypoint3,true>, <have_image-rover0-objective1-low_res,not>, <at_soil_sample-waypoint1,true>, <at_soil_sample-waypoint2,true>, <have_image-rover0-objective0-low_res,not>, <store_of-rover0store,rover0>]
+
+Origin found:	23 [<can_traverse-rover0-waypoint3-waypoint0,true>, <visible-waypoint0-waypoint3,true>, <visible-waypoint0-waypoint2,true>, <calibration_target-camera1,objective1>, <supports-camera1-low_res,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint0,true>, <calibrated-camera1-rover0,yes>, <have_soil_analysis-rover1-waypoint4,true>, <can_traverse-rover0-waypoint5-waypoint0,true>, <visible-waypoint5-waypoint3,true>, <visible-waypoint5-waypoint2,true>, <status-rover1store,full>, <can_traverse-rover1-waypoint4-waypoint5,true>, <visible-waypoint5-waypoint0,true>, <can_traverse-rover1-waypoint4-waypoint1,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <visible-waypoint1-waypoint4,true>, <equipped_for_soil_analysis-rover1,true>, <supports-camera1-colour,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint5,true>, <at-rover1,waypoint4>, <visible-waypoint4-waypoint3,true>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint5>, <can_traverse-rover1-waypoint1-waypoint4,true>, <on_board-camera1,rover0>, <have_image-rover0-objective0-colour,not>, <can_traverse-rover0-waypoint0-waypoint2,true>, <can_traverse-rover0-waypoint0-waypoint3,true>, <visible-waypoint4-waypoint5,true>, <visible_from-objective1-waypoint0,true>, <visible-waypoint1-waypoint3,true>, <have_image-rover0-objective1-low_res,not>, <at_soil_sample-waypoint1,true>, <at_soil_sample-waypoint2,true>, <have_image-rover0-objective0-low_res,not>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover0 waypoint5 waypoint0
+1.0:drop rover1 rover1store
+2.0:take_image rover0 waypoint0 objective1 camera1 low_res
+3.0:calibrate rover0 camera1 objective1 waypoint0
+4.0:communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3
+5.0:communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3
+6.0:sample_rock rover0 rover0store waypoint0
+7.0:communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3
+8.0:drop rover0 rover0store
+9.0:take_image rover0 waypoint0 objective0 camera1 colour
+10.0:communicate_image_data rover0 general objective0 colour waypoint0 waypoint3
+11.0:calibrate rover0 camera1 objective1 waypoint0
+12.0:take_image rover0 waypoint0 objective0 camera1 low_res
+13.0:communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3
+14.0:navigate rover1 waypoint4 waypoint1
+15.0:sample_soil rover1 rover1store waypoint1
+16.0:communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3
+17.0:navigate rover1 waypoint1 waypoint4
+18.0:navigate rover1 waypoint4 waypoint5
+19.0:drop rover1 rover1store
+20.0:sample_soil rover1 rover1store waypoint5
+21.0:communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3
+22.0:navigate rover1 waypoint5 waypoint2
+23.0:drop rover1 rover1store
+24.0:sample_soil rover1 rover1store waypoint2
+25.0:communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3
+26.0:navigate rover0 waypoint0 waypoint3
+27.0:sample_rock rover0 rover0store waypoint3
+28.0:navigate rover0 waypoint3 waypoint0
+29.0:navigate rover0 waypoint0 waypoint2
+30.0:communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3
+31.0:drop rover0 rover0store
+32.0:sample_rock rover0 rover0store waypoint2
+33.0:communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3
+
+Search time: 110117.0 ns
+
+
+
+
+**********************
+Rovers - pfile7
+TIME STEP=0
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+- <equipped_for_rock_analysis-rover1,true> changed by <equipped_for_rock_analysis-rover1,false>]
+= <status-rover1store,empty>
+= <store_of-rover1store,rover1>
+= <at-rover1,waypoint3>
+= <at_rock_sample-waypoint3,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (sample_rock rover1 rover1store waypoint3) [1]
+1: (sample_rock rover2 rover2store waypoint4) [1]
+2: (calibrate rover0 camera0 objective0 waypoint2) [1]
+3: (navigate rover0 waypoint2 waypoint1) [1]
+4: (sample_soil rover0 rover0store waypoint1) [1]
+5: (take_image rover0 waypoint1 objective0 camera0 high_res) [1]
+6: (communicate_rock_data rover2 general waypoint4 waypoint4 waypoint3) [1]
+7: (navigate rover0 waypoint1 waypoint2) [1]
+8: (communicate_soil_data rover0 general waypoint1 waypoint2 waypoint3) [1]
+9: (communicate_image_data rover0 general objective0 high_res waypoint2 waypoint3) [1]
+10: (navigate rover1 waypoint3 waypoint4) [1]
+11: (communicate_rock_data rover1 general waypoint3 waypoint4 waypoint3) [1]
+12: (drop rover2 rover2store) [1]
+13: (sample_soil rover2 rover2store waypoint4) [1]
+14: (communicate_soil_data rover2 general waypoint4 waypoint4 waypoint3) [1]
+15: (drop rover0 rover0store) [1]
+16: (sample_rock rover0 rover0store waypoint2) [1]
+17: (communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3) [1]
+
+
+No se ha encontrado el destino
+
+Search time: 2.3720919E7 ns
+
+
+
+
+**********************
+Rovers - pfile7
+TIME STEP=1
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover1,waypoint3> changed by <at-rover1,waypoint1>]
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (sample_rock rover2 rover2store waypoint4) [1]
+2: (calibrate rover0 camera0 objective0 waypoint2) [1]
+3: (navigate rover0 waypoint2 waypoint1) [1]
+4: (sample_soil rover0 rover0store waypoint1) [1]
+5: (take_image rover0 waypoint1 objective0 camera0 high_res) [1]
+6: (communicate_rock_data rover2 general waypoint4 waypoint4 waypoint3) [1]
+7: (navigate rover0 waypoint1 waypoint2) [1]
+8: (communicate_soil_data rover0 general waypoint1 waypoint2 waypoint3) [1]
+9: (communicate_image_data rover0 general objective0 high_res waypoint2 waypoint3) [1]
+10: (navigate rover1 waypoint3 waypoint4) [1]
+11: (communicate_rock_data rover1 general waypoint3 waypoint4 waypoint3) [1]
+12: (drop rover2 rover2store) [1]
+13: (sample_soil rover2 rover2store waypoint4) [1]
+14: (communicate_soil_data rover2 general waypoint4 waypoint4 waypoint3) [1]
+15: (drop rover0 rover0store) [1]
+16: (sample_rock rover0 rover0store waypoint2) [1]
+17: (communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	12 [<calibration_target-camera0,objective0>, <have_image-rover0-objective0-high_res,not>, <equipped_for_rock_analysis-rover2,true>, <store_of-rover2store,rover2>, <equipped_for_rock_analysis-rover0,true>, <visible_from-objective0-waypoint2,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera0-rover0,not>, <status-rover2store,empty>, <visible-waypoint2-waypoint1,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover2,true>, <supports-camera0-high_res,true>, <visible-waypoint3-waypoint4,true>, <have_rock_analysis-rover1-waypoint3,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint4-waypoint3,true>, <at-rover1,waypoint3>, <at-rover2,waypoint4>, <at_rock_sample-waypoint4,true>, <at_soil_sample-waypoint4,true>, <at-rover0,waypoint2>, <on_board-camera0,rover0>, <visible-waypoint1-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint4,true>, <at_soil_sample-waypoint1,true>, <store_of-rover0store,rover0>, <can_traverse-rover0-waypoint2-waypoint1,true>]
+
+Origin found:	352 [<calibration_target-camera0,objective0>, <visible-waypoint0-waypoint3,true>, <have_image-rover0-objective0-high_res,not>, <equipped_for_rock_analysis-rover2,true>, <store_of-rover2store,rover2>, <equipped_for_rock_analysis-rover0,true>, <visible_from-objective0-waypoint2,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera0-rover0,not>, <status-rover2store,empty>, <visible-waypoint2-waypoint1,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover2,true>, <supports-camera0-high_res,true>, <visible-waypoint3-waypoint4,true>, <have_rock_analysis-rover1-waypoint3,true>, <can_traverse-rover1-waypoint0-waypoint3,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint4-waypoint3,true>, <can_traverse-rover1-waypoint1-waypoint0,true>, <at-rover1,waypoint1>, <at-rover2,waypoint4>, <at_rock_sample-waypoint4,true>, <at_soil_sample-waypoint4,true>, <at-rover0,waypoint2>, <on_board-camera0,rover0>, <visible-waypoint1-waypoint0,true>, <visible-waypoint1-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint4,true>, <at_soil_sample-waypoint1,true>, <store_of-rover0store,rover0>, <can_traverse-rover0-waypoint2-waypoint1,true>]
+
+Repaired plan (RP):
+0.0:navigate rover1 waypoint1 waypoint0
+1.0:navigate rover1 waypoint0 waypoint3
+2.0:calibrate rover0 camera0 objective0 waypoint2
+3.0:sample_rock rover2 rover2store waypoint4
+4.0:navigate rover0 waypoint2 waypoint1
+5.0:sample_soil rover0 rover0store waypoint1
+6.0:take_image rover0 waypoint1 objective0 camera0 high_res
+7.0:communicate_rock_data rover2 general waypoint4 waypoint4 waypoint3
+8.0:navigate rover0 waypoint1 waypoint2
+9.0:communicate_soil_data rover0 general waypoint1 waypoint2 waypoint3
+10.0:communicate_image_data rover0 general objective0 high_res waypoint2 waypoint3
+11.0:navigate rover1 waypoint3 waypoint4
+12.0:communicate_rock_data rover1 general waypoint3 waypoint4 waypoint3
+13.0:drop rover2 rover2store
+14.0:sample_soil rover2 rover2store waypoint4
+15.0:communicate_soil_data rover2 general waypoint4 waypoint4 waypoint3
+16.0:drop rover0 rover0store
+17.0:sample_rock rover0 rover0store waypoint2
+18.0:communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3
+
+Search time: 263595.0 ns
+
+
+
+
+**********************
+Rovers - pfile7
+TIME STEP=2
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover1,waypoint3> changed by <at-rover1,waypoint4>]
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (calibrate rover0 camera0 objective0 waypoint2) [1]
+3: (navigate rover0 waypoint2 waypoint1) [1]
+4: (sample_soil rover0 rover0store waypoint1) [1]
+5: (take_image rover0 waypoint1 objective0 camera0 high_res) [1]
+6: (communicate_rock_data rover2 general waypoint4 waypoint4 waypoint3) [1]
+7: (navigate rover0 waypoint1 waypoint2) [1]
+8: (communicate_soil_data rover0 general waypoint1 waypoint2 waypoint3) [1]
+9: (communicate_image_data rover0 general objective0 high_res waypoint2 waypoint3) [1]
+10: (navigate rover1 waypoint3 waypoint4) [1]
+11: (communicate_rock_data rover1 general waypoint3 waypoint4 waypoint3) [1]
+12: (drop rover2 rover2store) [1]
+13: (sample_soil rover2 rover2store waypoint4) [1]
+14: (communicate_soil_data rover2 general waypoint4 waypoint4 waypoint3) [1]
+15: (drop rover0 rover0store) [1]
+16: (sample_rock rover0 rover0store waypoint2) [1]
+17: (communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3) [1]
+
+Destiny found:	2 [<calibration_target-camera0,objective0>, <have_image-rover0-objective0-high_res,not>, <store_of-rover2store,rover2>, <equipped_for_rock_analysis-rover0,true>, <visible_from-objective0-waypoint2,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera0-rover0,not>, <status-rover2store,full>, <visible-waypoint2-waypoint1,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover2,true>, <supports-camera0-high_res,true>, <visible-waypoint3-waypoint4,true>, <have_rock_analysis-rover1-waypoint3,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint4-waypoint3,true>, <at-rover1,waypoint3>, <at-rover2,waypoint4>, <at_soil_sample-waypoint4,true>, <at-rover0,waypoint2>, <have_rock_analysis-rover2-waypoint4,true>, <on_board-camera0,rover0>, <visible-waypoint1-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint4,true>, <at_soil_sample-waypoint1,true>, <store_of-rover0store,rover0>, <can_traverse-rover0-waypoint2-waypoint1,true>]
+
+Origin found:	29 [<calibration_target-camera0,objective0>, <have_image-rover0-objective0-high_res,not>, <store_of-rover2store,rover2>, <equipped_for_rock_analysis-rover0,true>, <visible_from-objective0-waypoint2,true>, <visible-waypoint2-waypoint3,true>, <visible_from-objective0-waypoint1,true>, <calibrated-camera0-rover0,not>, <status-rover2store,full>, <visible-waypoint2-waypoint1,true>, <can_traverse-rover1-waypoint4-waypoint3,true>, <can_traverse-rover0-waypoint1-waypoint2,true>, <equipped_for_imaging-rover0,true>, <status-rover0store,empty>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover2,true>, <supports-camera0-high_res,true>, <visible-waypoint3-waypoint4,true>, <have_rock_analysis-rover1-waypoint3,true>, <at_lander-general,waypoint3>, <at_rock_sample-waypoint2,true>, <visible-waypoint4-waypoint3,true>, <at-rover1,waypoint4>, <at-rover2,waypoint4>, <at_soil_sample-waypoint4,true>, <at-rover0,waypoint2>, <have_rock_analysis-rover2-waypoint4,true>, <on_board-camera0,rover0>, <visible-waypoint1-waypoint2,true>, <can_traverse-rover1-waypoint3-waypoint4,true>, <at_soil_sample-waypoint1,true>, <store_of-rover0store,rover0>, <can_traverse-rover0-waypoint2-waypoint1,true>]
+
+Repaired plan (RP):
+0.0:navigate rover1 waypoint4 waypoint3
+1.0:calibrate rover0 camera0 objective0 waypoint2
+2.0:navigate rover0 waypoint2 waypoint1
+3.0:sample_soil rover0 rover0store waypoint1
+4.0:take_image rover0 waypoint1 objective0 camera0 high_res
+5.0:communicate_rock_data rover2 general waypoint4 waypoint4 waypoint3
+6.0:navigate rover0 waypoint1 waypoint2
+7.0:communicate_soil_data rover0 general waypoint1 waypoint2 waypoint3
+8.0:communicate_image_data rover0 general objective0 high_res waypoint2 waypoint3
+9.0:navigate rover1 waypoint3 waypoint4
+10.0:communicate_rock_data rover1 general waypoint3 waypoint4 waypoint3
+11.0:drop rover2 rover2store
+12.0:sample_soil rover2 rover2store waypoint4
+13.0:communicate_soil_data rover2 general waypoint4 waypoint4 waypoint3
+14.0:drop rover0 rover0store
+15.0:sample_rock rover0 rover0store waypoint2
+16.0:communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3
+
+Search time: 99925.0 ns
+
+
+
+
+**********************
+Rovers - pfile8
+TIME STEP=0
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <can_traverse-rover3-waypoint3-waypoint0,true>
+- <at-rover3,waypoint3> changed by <at-rover3,waypoint1>]
+= <visible-waypoint3-waypoint0,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (navigate rover3 waypoint3 waypoint0) [1]
+1: (navigate rover0 waypoint2 waypoint4) [1]
+2: (sample_rock rover0 rover0store waypoint4) [1]
+3: (calibrate rover3 camera0 objective1 waypoint0) [1]
+4: (navigate rover3 waypoint0 waypoint1) [1]
+5: (sample_soil rover3 rover3store waypoint1) [1]
+6: (communicate_soil_data rover3 general waypoint1 waypoint1 waypoint0) [1]
+7: (communicate_rock_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+8: (navigate rover1 waypoint2 waypoint5) [1]
+9: (sample_rock rover1 rover1store waypoint5) [1]
+10: (navigate rover1 waypoint5 waypoint2) [1]
+11: (communicate_rock_data rover1 general waypoint5 waypoint2 waypoint0) [1]
+12: (take_image rover3 waypoint1 objective0 camera0 low_res) [1]
+13: (communicate_image_data rover3 general objective0 low_res waypoint1 waypoint0) [1]
+14: (calibrate rover1 camera2 objective0 waypoint2) [1]
+15: (take_image rover1 waypoint2 objective2 camera2 low_res) [1]
+16: (communicate_image_data rover1 general objective2 low_res waypoint2 waypoint0) [1]
+17: (calibrate rover3 camera1 objective0 waypoint1) [1]
+18: (take_image rover3 waypoint1 objective0 camera1 high_res) [1]
+19: (communicate_image_data rover3 general objective0 high_res waypoint1 waypoint0) [1]
+20: (drop rover0 rover0store) [1]
+21: (sample_soil rover0 rover0store waypoint4) [1]
+22: (communicate_soil_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+23: (navigate rover0 waypoint4 waypoint2) [1]
+24: (navigate rover0 waypoint2 waypoint3) [1]
+25: (drop rover0 rover0store) [1]
+26: (sample_soil rover0 rover0store waypoint3) [1]
+27: (communicate_soil_data rover0 general waypoint3 waypoint3 waypoint0) [1]
+
+Destiny found:	175 [<calibration_target-camera0,objective1>, <calibration_target-camera1,objective0>, <calibration_target-camera2,objective0>, <equipped_for_rock_analysis-rover1,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint4,true>, <calibrated-camera0-rover3,not>, <can_traverse-rover3-waypoint3-waypoint0,true>, <visible-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint5,true>, <have_image-rover3-objective0-high_res,not>, <calibrated-camera1-rover3,not>, <calibrated-camera2-rover1,not>, <supports-camera1-high_res,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint5-waypoint2,true>, <equipped_for_imaging-rover1,true>, <equipped_for_imaging-rover3,true>, <visible_from-objective2-waypoint2,true>, <status-rover0store,empty>, <status-rover3store,empty>, <can_traverse-rover0-waypoint4-waypoint2,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <visible-waypoint4-waypoint0,true>, <at-rover1,waypoint2>, <at_rock_sample-waypoint4,true>, <visible-waypoint4-waypoint2,true>, <at-rover0,waypoint2>, <on_board-camera1,rover3>, <have_image-rover1-objective2-low_res,not>, <on_board-camera2,rover1>, <at_rock_sample-waypoint5,true>, <at-rover3,waypoint3>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint0,true>, <have_image-rover3-objective0-low_res,not>, <supports-camera0-low_res,true>, <visible-waypoint0-waypoint1,true>, <visible_from-objective0-waypoint2,true>, <visible_from-objective0-waypoint1,true>, <supports-camera2-low_res,true>, <can_traverse-rover1-waypoint2-waypoint5,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <visible_from-objective1-waypoint0,true>, <store_of-rover3store,rover3>, <can_traverse-rover0-waypoint2-waypoint4,true>, <can_traverse-rover0-waypoint2-waypoint3,true>, <at_soil_sample-waypoint1,true>, <can_traverse-rover3-waypoint0-waypoint1,true>, <store_of-rover0store,rover0>]
+
+Origin found:	176 [<calibration_target-camera0,objective1>, <calibration_target-camera1,objective0>, <calibration_target-camera2,objective0>, <equipped_for_rock_analysis-rover1,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint4,true>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint5,true>, <have_image-rover3-objective0-high_res,not>, <calibrated-camera1-rover3,not>, <calibrated-camera2-rover1,not>, <supports-camera1-high_res,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint5-waypoint2,true>, <equipped_for_imaging-rover1,true>, <equipped_for_imaging-rover3,true>, <visible_from-objective2-waypoint2,true>, <status-rover0store,empty>, <status-rover3store,empty>, <can_traverse-rover0-waypoint4-waypoint2,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <visible-waypoint4-waypoint0,true>, <at-rover1,waypoint2>, <at_rock_sample-waypoint4,true>, <visible-waypoint4-waypoint2,true>, <at-rover0,waypoint2>, <on_board-camera1,rover3>, <have_image-rover1-objective2-low_res,not>, <on_board-camera2,rover1>, <at_rock_sample-waypoint5,true>, <at-rover3,waypoint1>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint0,true>, <have_image-rover3-objective0-low_res,not>, <supports-camera0-low_res,true>, <can_traverse-rover3-waypoint1-waypoint0,true>, <visible-waypoint0-waypoint1,true>, <visible_from-objective0-waypoint2,true>, <visible_from-objective0-waypoint1,true>, <supports-camera2-low_res,true>, <can_traverse-rover1-waypoint2-waypoint5,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <visible_from-objective1-waypoint0,true>, <store_of-rover3store,rover3>, <can_traverse-rover0-waypoint2-waypoint4,true>, <can_traverse-rover0-waypoint2-waypoint3,true>, <at_soil_sample-waypoint1,true>, <can_traverse-rover3-waypoint0-waypoint1,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover3 waypoint1 waypoint0
+1.0:calibrate rover3 camera0 objective1 waypoint0
+2.0:navigate rover0 waypoint2 waypoint4
+3.0:sample_rock rover0 rover0store waypoint4
+4.0:navigate rover3 waypoint0 waypoint1
+5.0:sample_soil rover3 rover3store waypoint1
+6.0:communicate_soil_data rover3 general waypoint1 waypoint1 waypoint0
+7.0:communicate_rock_data rover0 general waypoint4 waypoint4 waypoint0
+8.0:navigate rover1 waypoint2 waypoint5
+9.0:sample_rock rover1 rover1store waypoint5
+10.0:navigate rover1 waypoint5 waypoint2
+11.0:communicate_rock_data rover1 general waypoint5 waypoint2 waypoint0
+12.0:take_image rover3 waypoint1 objective0 camera0 low_res
+13.0:communicate_image_data rover3 general objective0 low_res waypoint1 waypoint0
+14.0:calibrate rover1 camera2 objective0 waypoint2
+15.0:take_image rover1 waypoint2 objective2 camera2 low_res
+16.0:communicate_image_data rover1 general objective2 low_res waypoint2 waypoint0
+17.0:calibrate rover3 camera1 objective0 waypoint1
+18.0:take_image rover3 waypoint1 objective0 camera1 high_res
+19.0:communicate_image_data rover3 general objective0 high_res waypoint1 waypoint0
+20.0:drop rover0 rover0store
+21.0:sample_soil rover0 rover0store waypoint4
+22.0:communicate_soil_data rover0 general waypoint4 waypoint4 waypoint0
+23.0:navigate rover0 waypoint4 waypoint2
+24.0:navigate rover0 waypoint2 waypoint3
+25.0:drop rover0 rover0store
+26.0:sample_soil rover0 rover0store waypoint3
+27.0:communicate_soil_data rover0 general waypoint3 waypoint3 waypoint0
+
+Search time: 378111.0 ns
+
+
+
+
+**********************
+Rovers - pfile8
+TIME STEP=1
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <at-rover3,waypoint0>
+- <visible-waypoint3-waypoint0,true> changed by <visible-waypoint3-waypoint0,false>]
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (navigate rover0 waypoint2 waypoint4) [1]
+2: (sample_rock rover0 rover0store waypoint4) [1]
+3: (calibrate rover3 camera0 objective1 waypoint0) [1]
+4: (navigate rover3 waypoint0 waypoint1) [1]
+5: (sample_soil rover3 rover3store waypoint1) [1]
+6: (communicate_soil_data rover3 general waypoint1 waypoint1 waypoint0) [1]
+7: (communicate_rock_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+8: (navigate rover1 waypoint2 waypoint5) [1]
+9: (sample_rock rover1 rover1store waypoint5) [1]
+10: (navigate rover1 waypoint5 waypoint2) [1]
+11: (communicate_rock_data rover1 general waypoint5 waypoint2 waypoint0) [1]
+12: (take_image rover3 waypoint1 objective0 camera0 low_res) [1]
+13: (communicate_image_data rover3 general objective0 low_res waypoint1 waypoint0) [1]
+14: (calibrate rover1 camera2 objective0 waypoint2) [1]
+15: (take_image rover1 waypoint2 objective2 camera2 low_res) [1]
+16: (communicate_image_data rover1 general objective2 low_res waypoint2 waypoint0) [1]
+17: (calibrate rover3 camera1 objective0 waypoint1) [1]
+18: (take_image rover3 waypoint1 objective0 camera1 high_res) [1]
+19: (communicate_image_data rover3 general objective0 high_res waypoint1 waypoint0) [1]
+20: (drop rover0 rover0store) [1]
+21: (sample_soil rover0 rover0store waypoint4) [1]
+22: (communicate_soil_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+23: (navigate rover0 waypoint4 waypoint2) [1]
+24: (navigate rover0 waypoint2 waypoint3) [1]
+25: (drop rover0 rover0store) [1]
+26: (sample_soil rover0 rover0store waypoint3) [1]
+27: (communicate_soil_data rover0 general waypoint3 waypoint3 waypoint0) [1]
+
+Destiny found:	53 [<calibration_target-camera0,objective1>, <calibration_target-camera1,objective0>, <calibration_target-camera2,objective0>, <equipped_for_rock_analysis-rover1,true>, <equipped_for_rock_analysis-rover0,true>, <visible-waypoint2-waypoint4,true>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint5,true>, <have_image-rover3-objective0-high_res,not>, <calibrated-camera1-rover3,not>, <calibrated-camera2-rover1,not>, <supports-camera1-high_res,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint5-waypoint2,true>, <equipped_for_imaging-rover1,true>, <equipped_for_imaging-rover3,true>, <visible_from-objective2-waypoint2,true>, <status-rover0store,empty>, <status-rover3store,empty>, <can_traverse-rover0-waypoint4-waypoint2,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <visible-waypoint4-waypoint0,true>, <at-rover1,waypoint2>, <at_rock_sample-waypoint4,true>, <visible-waypoint4-waypoint2,true>, <at-rover0,waypoint2>, <on_board-camera1,rover3>, <have_image-rover1-objective2-low_res,not>, <on_board-camera2,rover1>, <at_rock_sample-waypoint5,true>, <at-rover3,waypoint0>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint0,true>, <have_image-rover3-objective0-low_res,not>, <supports-camera0-low_res,true>, <visible-waypoint0-waypoint1,true>, <visible_from-objective0-waypoint2,true>, <visible_from-objective0-waypoint1,true>, <supports-camera2-low_res,true>, <can_traverse-rover1-waypoint2-waypoint5,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <visible_from-objective1-waypoint0,true>, <store_of-rover3store,rover3>, <can_traverse-rover0-waypoint2-waypoint4,true>, <can_traverse-rover0-waypoint2-waypoint3,true>, <at_soil_sample-waypoint1,true>, <can_traverse-rover3-waypoint0-waypoint1,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 1.1085589E7 ns
+
+
+
+
+**********************
+Rovers - pfile8
+TIME STEP=2
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+- <at-rover3,waypoint0> changed by <at-rover3,waypoint2>]
+= <visible-waypoint3-waypoint0,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (sample_rock rover0 rover0store waypoint4) [1]
+3: (calibrate rover3 camera0 objective1 waypoint0) [1]
+4: (navigate rover3 waypoint0 waypoint1) [1]
+5: (sample_soil rover3 rover3store waypoint1) [1]
+6: (communicate_soil_data rover3 general waypoint1 waypoint1 waypoint0) [1]
+7: (communicate_rock_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+8: (navigate rover1 waypoint2 waypoint5) [1]
+9: (sample_rock rover1 rover1store waypoint5) [1]
+10: (navigate rover1 waypoint5 waypoint2) [1]
+11: (communicate_rock_data rover1 general waypoint5 waypoint2 waypoint0) [1]
+12: (take_image rover3 waypoint1 objective0 camera0 low_res) [1]
+13: (communicate_image_data rover3 general objective0 low_res waypoint1 waypoint0) [1]
+14: (calibrate rover1 camera2 objective0 waypoint2) [1]
+15: (take_image rover1 waypoint2 objective2 camera2 low_res) [1]
+16: (communicate_image_data rover1 general objective2 low_res waypoint2 waypoint0) [1]
+17: (calibrate rover3 camera1 objective0 waypoint1) [1]
+18: (take_image rover3 waypoint1 objective0 camera1 high_res) [1]
+19: (communicate_image_data rover3 general objective0 high_res waypoint1 waypoint0) [1]
+20: (drop rover0 rover0store) [1]
+21: (sample_soil rover0 rover0store waypoint4) [1]
+22: (communicate_soil_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+23: (navigate rover0 waypoint4 waypoint2) [1]
+24: (navigate rover0 waypoint2 waypoint3) [1]
+25: (drop rover0 rover0store) [1]
+26: (sample_soil rover0 rover0store waypoint3) [1]
+27: (communicate_soil_data rover0 general waypoint3 waypoint3 waypoint0) [1]
+
+Destiny found:	17 [<calibration_target-camera0,objective1>, <calibration_target-camera1,objective0>, <calibration_target-camera2,objective0>, <equipped_for_rock_analysis-rover1,true>, <equipped_for_rock_analysis-rover0,true>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint5,true>, <have_image-rover3-objective0-high_res,not>, <calibrated-camera1-rover3,not>, <calibrated-camera2-rover1,not>, <supports-camera1-high_res,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint5-waypoint2,true>, <equipped_for_imaging-rover1,true>, <equipped_for_imaging-rover3,true>, <visible_from-objective2-waypoint2,true>, <status-rover0store,empty>, <status-rover3store,empty>, <can_traverse-rover0-waypoint4-waypoint2,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <visible-waypoint4-waypoint0,true>, <at-rover1,waypoint2>, <at_rock_sample-waypoint4,true>, <at-rover0,waypoint4>, <visible-waypoint4-waypoint2,true>, <on_board-camera1,rover3>, <have_image-rover1-objective2-low_res,not>, <on_board-camera2,rover1>, <at_rock_sample-waypoint5,true>, <at-rover3,waypoint0>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint0,true>, <have_image-rover3-objective0-low_res,not>, <supports-camera0-low_res,true>, <visible-waypoint0-waypoint1,true>, <visible_from-objective0-waypoint2,true>, <visible_from-objective0-waypoint1,true>, <supports-camera2-low_res,true>, <can_traverse-rover1-waypoint2-waypoint5,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <visible_from-objective1-waypoint0,true>, <store_of-rover3store,rover3>, <can_traverse-rover0-waypoint2-waypoint3,true>, <at_soil_sample-waypoint1,true>, <can_traverse-rover3-waypoint0-waypoint1,true>, <store_of-rover0store,rover0>]
+
+Origin found:	179 [<calibration_target-camera0,objective1>, <calibration_target-camera1,objective0>, <calibration_target-camera2,objective0>, <equipped_for_rock_analysis-rover1,true>, <equipped_for_rock_analysis-rover0,true>, <calibrated-camera0-rover3,not>, <can_traverse-rover3-waypoint3-waypoint0,true>, <visible-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint5,true>, <have_image-rover3-objective0-high_res,not>, <calibrated-camera1-rover3,not>, <calibrated-camera2-rover1,not>, <supports-camera1-high_res,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint5-waypoint2,true>, <equipped_for_imaging-rover1,true>, <equipped_for_imaging-rover3,true>, <visible_from-objective2-waypoint2,true>, <status-rover0store,empty>, <status-rover3store,empty>, <can_traverse-rover0-waypoint4-waypoint2,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <visible-waypoint4-waypoint0,true>, <can_traverse-rover3-waypoint2-waypoint3,true>, <at-rover1,waypoint2>, <at_rock_sample-waypoint4,true>, <at-rover0,waypoint4>, <visible-waypoint4-waypoint2,true>, <on_board-camera1,rover3>, <have_image-rover1-objective2-low_res,not>, <on_board-camera2,rover1>, <at_rock_sample-waypoint5,true>, <at-rover3,waypoint2>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint0,true>, <have_image-rover3-objective0-low_res,not>, <supports-camera0-low_res,true>, <visible-waypoint0-waypoint1,true>, <visible_from-objective0-waypoint2,true>, <visible_from-objective0-waypoint1,true>, <supports-camera2-low_res,true>, <can_traverse-rover1-waypoint2-waypoint5,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <visible_from-objective1-waypoint0,true>, <store_of-rover3store,rover3>, <can_traverse-rover0-waypoint2-waypoint3,true>, <at_soil_sample-waypoint1,true>, <can_traverse-rover3-waypoint0-waypoint1,true>, <store_of-rover0store,rover0>]
+
+Repaired plan (RP):
+0.0:navigate rover3 waypoint2 waypoint3
+1.0:navigate rover3 waypoint3 waypoint0
+2.0:calibrate rover3 camera0 objective1 waypoint0
+3.0:sample_rock rover0 rover0store waypoint4
+4.0:navigate rover3 waypoint0 waypoint1
+5.0:sample_soil rover3 rover3store waypoint1
+6.0:communicate_soil_data rover3 general waypoint1 waypoint1 waypoint0
+7.0:communicate_rock_data rover0 general waypoint4 waypoint4 waypoint0
+8.0:navigate rover1 waypoint2 waypoint5
+9.0:sample_rock rover1 rover1store waypoint5
+10.0:navigate rover1 waypoint5 waypoint2
+11.0:communicate_rock_data rover1 general waypoint5 waypoint2 waypoint0
+12.0:take_image rover3 waypoint1 objective0 camera0 low_res
+13.0:communicate_image_data rover3 general objective0 low_res waypoint1 waypoint0
+14.0:calibrate rover1 camera2 objective0 waypoint2
+15.0:take_image rover1 waypoint2 objective2 camera2 low_res
+16.0:communicate_image_data rover1 general objective2 low_res waypoint2 waypoint0
+17.0:calibrate rover3 camera1 objective0 waypoint1
+18.0:take_image rover3 waypoint1 objective0 camera1 high_res
+19.0:communicate_image_data rover3 general objective0 high_res waypoint1 waypoint0
+20.0:drop rover0 rover0store
+21.0:sample_soil rover0 rover0store waypoint4
+22.0:communicate_soil_data rover0 general waypoint4 waypoint4 waypoint0
+23.0:navigate rover0 waypoint4 waypoint2
+24.0:navigate rover0 waypoint2 waypoint3
+25.0:drop rover0 rover0store
+26.0:sample_soil rover0 rover0store waypoint3
+27.0:communicate_soil_data rover0 general waypoint3 waypoint3 waypoint0
+
+Search time: 226532.0 ns
+
+
+
+
+**********************
+Rovers - pfile8
+TIME STEP=3
+WINDOW=4
+DEPTH=5
+**********************
+
+b) Random failures: by exogenou events
+
+= <at-rover3,waypoint0>
+- <visible-waypoint3-waypoint0,true> changed by <visible-waypoint3-waypoint0,false>]
+
+
+Original plan:
+; Version LPG-td-1.0
+3: (calibrate rover3 camera0 objective1 waypoint0) [1]
+4: (navigate rover3 waypoint0 waypoint1) [1]
+5: (sample_soil rover3 rover3store waypoint1) [1]
+6: (communicate_soil_data rover3 general waypoint1 waypoint1 waypoint0) [1]
+7: (communicate_rock_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+8: (navigate rover1 waypoint2 waypoint5) [1]
+9: (sample_rock rover1 rover1store waypoint5) [1]
+10: (navigate rover1 waypoint5 waypoint2) [1]
+11: (communicate_rock_data rover1 general waypoint5 waypoint2 waypoint0) [1]
+12: (take_image rover3 waypoint1 objective0 camera0 low_res) [1]
+13: (communicate_image_data rover3 general objective0 low_res waypoint1 waypoint0) [1]
+14: (calibrate rover1 camera2 objective0 waypoint2) [1]
+15: (take_image rover1 waypoint2 objective2 camera2 low_res) [1]
+16: (communicate_image_data rover1 general objective2 low_res waypoint2 waypoint0) [1]
+17: (calibrate rover3 camera1 objective0 waypoint1) [1]
+18: (take_image rover3 waypoint1 objective0 camera1 high_res) [1]
+19: (communicate_image_data rover3 general objective0 high_res waypoint1 waypoint0) [1]
+20: (drop rover0 rover0store) [1]
+21: (sample_soil rover0 rover0store waypoint4) [1]
+22: (communicate_soil_data rover0 general waypoint4 waypoint4 waypoint0) [1]
+23: (navigate rover0 waypoint4 waypoint2) [1]
+24: (navigate rover0 waypoint2 waypoint3) [1]
+25: (drop rover0 rover0store) [1]
+26: (sample_soil rover0 rover0store waypoint3) [1]
+27: (communicate_soil_data rover0 general waypoint3 waypoint3 waypoint0) [1]
+
+Destiny found:	4 [<calibration_target-camera0,objective1>, <calibration_target-camera1,objective0>, <calibration_target-camera2,objective0>, <equipped_for_rock_analysis-rover1,true>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint3,true>, <visible-waypoint2-waypoint5,true>, <have_rock_analysis-rover0-waypoint4,true>, <have_image-rover3-objective0-high_res,not>, <calibrated-camera1-rover3,not>, <calibrated-camera2-rover1,not>, <supports-camera1-high_res,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint5-waypoint2,true>, <equipped_for_imaging-rover1,true>, <equipped_for_imaging-rover3,true>, <visible_from-objective2-waypoint2,true>, <status-rover0store,full>, <status-rover3store,empty>, <can_traverse-rover0-waypoint4-waypoint2,true>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <visible-waypoint4-waypoint0,true>, <at-rover1,waypoint2>, <at-rover0,waypoint4>, <visible-waypoint4-waypoint2,true>, <on_board-camera1,rover3>, <have_image-rover1-objective2-low_res,not>, <on_board-camera2,rover1>, <at_rock_sample-waypoint5,true>, <at-rover3,waypoint0>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint0,true>, <have_image-rover3-objective0-low_res,not>, <supports-camera0-low_res,true>, <visible-waypoint0-waypoint1,true>, <visible_from-objective0-waypoint2,true>, <visible_from-objective0-waypoint1,true>, <supports-camera2-low_res,true>, <can_traverse-rover1-waypoint2-waypoint5,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint5-waypoint2,true>, <at_lander-general,waypoint0>, <visible-waypoint3-waypoint0,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <visible_from-objective1-waypoint0,true>, <store_of-rover3store,rover3>, <can_traverse-rover0-waypoint2-waypoint3,true>, <at_soil_sample-waypoint1,true>, <can_traverse-rover3-waypoint0-waypoint1,true>, <store_of-rover0store,rover0>]
+
+No se ha encontrado el origen
+
+Search time: 1.3576395E7 ns
+
+
+
+
+**********************
+Rovers - pfile9
+TIME STEP=0
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+- <visible-waypoint2-waypoint1,true> changed by <visible-waypoint2-waypoint1,false>]
+= <can_traverse-rover3-waypoint2-waypoint1,true>
+= <at-rover3,waypoint2>
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (navigate rover3 waypoint2 waypoint1) [1]
+1: (navigate rover2 waypoint0 waypoint6) [1]
+2: (calibrate rover3 camera0 objective2 waypoint1) [1]
+3: (sample_soil rover2 rover2store waypoint6) [1]
+4: (communicate_soil_data rover2 general waypoint6 waypoint6 waypoint4) [1]
+5: (take_image rover3 waypoint1 objective2 camera0 colour) [1]
+6: (communicate_image_data rover3 general objective2 colour waypoint1 waypoint4) [1]
+7: (calibrate rover3 camera0 objective2 waypoint1) [1]
+8: (take_image rover3 waypoint1 objective2 camera0 low_res) [1]
+9: (communicate_image_data rover3 general objective2 low_res waypoint1 waypoint4) [1]
+10: (navigate rover3 waypoint1 waypoint4) [1]
+11: (sample_soil rover3 rover3store waypoint4) [1]
+12: (navigate rover3 waypoint4 waypoint1) [1]
+13: (communicate_soil_data rover3 general waypoint4 waypoint1 waypoint4) [1]
+14: (drop rover2 rover2store) [1]
+15: (navigate rover1 waypoint2 waypoint1) [1]
+16: (navigate rover1 waypoint1 waypoint3) [1]
+17: (sample_rock rover1 rover1store waypoint3) [1]
+18: (communicate_rock_data rover1 general waypoint3 waypoint3 waypoint4) [1]
+19: (navigate rover1 waypoint3 waypoint1) [1]
+20: (drop rover1 rover1store) [1]
+21: (navigate rover2 waypoint6 waypoint0) [1]
+22: (sample_soil rover2 rover2store waypoint0) [1]
+23: (navigate rover2 waypoint0 waypoint6) [1]
+24: (communicate_soil_data rover2 general waypoint0 waypoint6 waypoint4) [1]
+25: (navigate rover1 waypoint1 waypoint2) [1]
+26: (navigate rover1 waypoint2 waypoint0) [1]
+27: (sample_rock rover1 rover1store waypoint0) [1]
+28: (navigate rover1 waypoint0 waypoint2) [1]
+29: (navigate rover1 waypoint2 waypoint6) [1]
+30: (communicate_rock_data rover1 general waypoint0 waypoint6 waypoint4) [1]
+31: (drop rover1 rover1store) [1]
+32: (sample_rock rover1 rover1store waypoint6) [1]
+33: (communicate_rock_data rover1 general waypoint6 waypoint6 waypoint4) [1]
+
+Destiny found:	38 [<can_traverse-rover2-waypoint0-waypoint6,true>, <calibration_target-camera0,objective2>, <equipped_for_rock_analysis-rover1,true>, <store_of-rover2store,rover2>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint6,true>, <visible_from-objective2-waypoint1,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint2-waypoint1,true>, <equipped_for_imaging-rover3,true>, <status-rover3store,empty>, <visible-waypoint1-waypoint4,true>, <can_traverse-rover2-waypoint6-waypoint0,true>, <equipped_for_soil_analysis-rover2,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <can_traverse-rover3-waypoint2-waypoint1,true>, <at_rock_sample-waypoint0,true>, <can_traverse-rover1-waypoint0-waypoint2,true>, <at-rover1,waypoint2>, <at-rover2,waypoint0>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <have_image-rover3-objective2-low_res,not>, <at_rock_sample-waypoint6,true>, <have_image-rover3-objective2-colour,not>, <at-rover3,waypoint2>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <supports-camera0-low_res,true>, <can_traverse-rover1-waypoint3-waypoint1,true>, <visible-waypoint0-waypoint2,true>, <can_traverse-rover3-waypoint1-waypoint4,true>, <can_traverse-rover1-waypoint2-waypoint0,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint2-waypoint1,true>, <status-rover2store,empty>, <can_traverse-rover3-waypoint4-waypoint1,true>, <can_traverse-rover1-waypoint2-waypoint6,true>, <visible-waypoint0-waypoint6,true>, <visible-waypoint3-waypoint4,true>, <supports-camera0-colour,true>, <at_lander-general,waypoint4>, <visible-waypoint3-waypoint1,true>, <at_soil_sample-waypoint6,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at_soil_sample-waypoint4,true>, <can_traverse-rover1-waypoint1-waypoint3,true>, <store_of-rover3store,rover3>, <visible-waypoint6-waypoint4,true>, <visible-waypoint6-waypoint0,true>, <at_soil_sample-waypoint0,true>]
+
+No se ha encontrado el origen
+
+Search time: 4512725.0 ns
+
+
+
+
+**********************
+Rovers - pfile9
+TIME STEP=1
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+= <visible-waypoint2-waypoint1,true>
+- <at-rover3,waypoint1> changed by <at-rover3,waypoint6>]
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (navigate rover2 waypoint0 waypoint6) [1]
+2: (calibrate rover3 camera0 objective2 waypoint1) [1]
+3: (sample_soil rover2 rover2store waypoint6) [1]
+4: (communicate_soil_data rover2 general waypoint6 waypoint6 waypoint4) [1]
+5: (take_image rover3 waypoint1 objective2 camera0 colour) [1]
+6: (communicate_image_data rover3 general objective2 colour waypoint1 waypoint4) [1]
+7: (calibrate rover3 camera0 objective2 waypoint1) [1]
+8: (take_image rover3 waypoint1 objective2 camera0 low_res) [1]
+9: (communicate_image_data rover3 general objective2 low_res waypoint1 waypoint4) [1]
+10: (navigate rover3 waypoint1 waypoint4) [1]
+11: (sample_soil rover3 rover3store waypoint4) [1]
+12: (navigate rover3 waypoint4 waypoint1) [1]
+13: (communicate_soil_data rover3 general waypoint4 waypoint1 waypoint4) [1]
+14: (drop rover2 rover2store) [1]
+15: (navigate rover1 waypoint2 waypoint1) [1]
+16: (navigate rover1 waypoint1 waypoint3) [1]
+17: (sample_rock rover1 rover1store waypoint3) [1]
+18: (communicate_rock_data rover1 general waypoint3 waypoint3 waypoint4) [1]
+19: (navigate rover1 waypoint3 waypoint1) [1]
+20: (drop rover1 rover1store) [1]
+21: (navigate rover2 waypoint6 waypoint0) [1]
+22: (sample_soil rover2 rover2store waypoint0) [1]
+23: (navigate rover2 waypoint0 waypoint6) [1]
+24: (communicate_soil_data rover2 general waypoint0 waypoint6 waypoint4) [1]
+25: (navigate rover1 waypoint1 waypoint2) [1]
+26: (navigate rover1 waypoint2 waypoint0) [1]
+27: (sample_rock rover1 rover1store waypoint0) [1]
+28: (navigate rover1 waypoint0 waypoint2) [1]
+29: (navigate rover1 waypoint2 waypoint6) [1]
+30: (communicate_rock_data rover1 general waypoint0 waypoint6 waypoint4) [1]
+31: (drop rover1 rover1store) [1]
+32: (sample_rock rover1 rover1store waypoint6) [1]
+33: (communicate_rock_data rover1 general waypoint6 waypoint6 waypoint4) [1]
+
+Destiny found:	10 [<can_traverse-rover2-waypoint0-waypoint6,true>, <calibration_target-camera0,objective2>, <equipped_for_rock_analysis-rover1,true>, <store_of-rover2store,rover2>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint6,true>, <visible_from-objective2-waypoint1,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint2-waypoint1,true>, <equipped_for_imaging-rover3,true>, <status-rover3store,empty>, <visible-waypoint1-waypoint4,true>, <can_traverse-rover2-waypoint6-waypoint0,true>, <equipped_for_soil_analysis-rover2,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <can_traverse-rover1-waypoint0-waypoint2,true>, <at-rover1,waypoint2>, <at-rover2,waypoint0>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <have_image-rover3-objective2-low_res,not>, <at_rock_sample-waypoint6,true>, <have_image-rover3-objective2-colour,not>, <at-rover3,waypoint1>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <supports-camera0-low_res,true>, <can_traverse-rover1-waypoint3-waypoint1,true>, <visible-waypoint0-waypoint2,true>, <can_traverse-rover3-waypoint1-waypoint4,true>, <can_traverse-rover1-waypoint2-waypoint0,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint2-waypoint1,true>, <status-rover2store,empty>, <can_traverse-rover3-waypoint4-waypoint1,true>, <can_traverse-rover1-waypoint2-waypoint6,true>, <visible-waypoint0-waypoint6,true>, <visible-waypoint3-waypoint4,true>, <supports-camera0-colour,true>, <at_lander-general,waypoint4>, <visible-waypoint3-waypoint1,true>, <at_soil_sample-waypoint6,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at_soil_sample-waypoint4,true>, <can_traverse-rover1-waypoint1-waypoint3,true>, <store_of-rover3store,rover3>, <visible-waypoint6-waypoint4,true>, <visible-waypoint6-waypoint0,true>, <at_soil_sample-waypoint0,true>]
+
+Origin found:	119 [<can_traverse-rover2-waypoint0-waypoint6,true>, <calibration_target-camera0,objective2>, <equipped_for_rock_analysis-rover1,true>, <store_of-rover2store,rover2>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint6,true>, <visible_from-objective2-waypoint1,true>, <can_traverse-rover3-waypoint6-waypoint2,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint2-waypoint1,true>, <equipped_for_imaging-rover3,true>, <status-rover3store,empty>, <visible-waypoint1-waypoint4,true>, <can_traverse-rover2-waypoint6-waypoint0,true>, <equipped_for_soil_analysis-rover2,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <can_traverse-rover3-waypoint2-waypoint1,true>, <at_rock_sample-waypoint0,true>, <can_traverse-rover1-waypoint0-waypoint2,true>, <at-rover1,waypoint2>, <at-rover2,waypoint0>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <have_image-rover3-objective2-low_res,not>, <at_rock_sample-waypoint6,true>, <have_image-rover3-objective2-colour,not>, <at-rover3,waypoint6>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <supports-camera0-low_res,true>, <can_traverse-rover1-waypoint3-waypoint1,true>, <visible-waypoint0-waypoint2,true>, <can_traverse-rover3-waypoint1-waypoint4,true>, <can_traverse-rover1-waypoint2-waypoint0,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint2-waypoint1,true>, <status-rover2store,empty>, <can_traverse-rover3-waypoint4-waypoint1,true>, <can_traverse-rover1-waypoint2-waypoint6,true>, <visible-waypoint0-waypoint6,true>, <visible-waypoint3-waypoint4,true>, <supports-camera0-colour,true>, <at_lander-general,waypoint4>, <visible-waypoint3-waypoint1,true>, <at_soil_sample-waypoint6,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at_soil_sample-waypoint4,true>, <can_traverse-rover1-waypoint1-waypoint3,true>, <store_of-rover3store,rover3>, <visible-waypoint6-waypoint4,true>, <visible-waypoint6-waypoint0,true>, <at_soil_sample-waypoint0,true>, <visible-waypoint6-waypoint2,true>]
+
+Repaired plan (RP):
+0.0:navigate rover3 waypoint6 waypoint2
+1.0:navigate rover3 waypoint2 waypoint1
+2.0:calibrate rover3 camera0 objective2 waypoint1
+3.0:navigate rover2 waypoint0 waypoint6
+4.0:sample_soil rover2 rover2store waypoint6
+5.0:communicate_soil_data rover2 general waypoint6 waypoint6 waypoint4
+6.0:take_image rover3 waypoint1 objective2 camera0 colour
+7.0:communicate_image_data rover3 general objective2 colour waypoint1 waypoint4
+8.0:calibrate rover3 camera0 objective2 waypoint1
+9.0:take_image rover3 waypoint1 objective2 camera0 low_res
+10.0:communicate_image_data rover3 general objective2 low_res waypoint1 waypoint4
+11.0:navigate rover3 waypoint1 waypoint4
+12.0:sample_soil rover3 rover3store waypoint4
+13.0:navigate rover3 waypoint4 waypoint1
+14.0:communicate_soil_data rover3 general waypoint4 waypoint1 waypoint4
+15.0:drop rover2 rover2store
+16.0:navigate rover1 waypoint2 waypoint1
+17.0:navigate rover1 waypoint1 waypoint3
+18.0:sample_rock rover1 rover1store waypoint3
+19.0:communicate_rock_data rover1 general waypoint3 waypoint3 waypoint4
+20.0:navigate rover1 waypoint3 waypoint1
+21.0:drop rover1 rover1store
+22.0:navigate rover2 waypoint6 waypoint0
+23.0:sample_soil rover2 rover2store waypoint0
+24.0:navigate rover2 waypoint0 waypoint6
+25.0:communicate_soil_data rover2 general waypoint0 waypoint6 waypoint4
+26.0:navigate rover1 waypoint1 waypoint2
+27.0:navigate rover1 waypoint2 waypoint0
+28.0:sample_rock rover1 rover1store waypoint0
+29.0:navigate rover1 waypoint0 waypoint2
+30.0:navigate rover1 waypoint2 waypoint6
+31.0:communicate_rock_data rover1 general waypoint0 waypoint6 waypoint4
+32.0:drop rover1 rover1store
+33.0:sample_rock rover1 rover1store waypoint6
+34.0:communicate_rock_data rover1 general waypoint6 waypoint6 waypoint4
+
+Search time: 141800.0 ns
+
+
+
+
+**********************
+Rovers - pfile9
+TIME STEP=2
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+- <visible-waypoint2-waypoint1,true> changed by <visible-waypoint2-waypoint1,false>]
+= <at-rover3,waypoint1>
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (calibrate rover3 camera0 objective2 waypoint1) [1]
+3: (sample_soil rover2 rover2store waypoint6) [1]
+4: (communicate_soil_data rover2 general waypoint6 waypoint6 waypoint4) [1]
+5: (take_image rover3 waypoint1 objective2 camera0 colour) [1]
+6: (communicate_image_data rover3 general objective2 colour waypoint1 waypoint4) [1]
+7: (calibrate rover3 camera0 objective2 waypoint1) [1]
+8: (take_image rover3 waypoint1 objective2 camera0 low_res) [1]
+9: (communicate_image_data rover3 general objective2 low_res waypoint1 waypoint4) [1]
+10: (navigate rover3 waypoint1 waypoint4) [1]
+11: (sample_soil rover3 rover3store waypoint4) [1]
+12: (navigate rover3 waypoint4 waypoint1) [1]
+13: (communicate_soil_data rover3 general waypoint4 waypoint1 waypoint4) [1]
+14: (drop rover2 rover2store) [1]
+15: (navigate rover1 waypoint2 waypoint1) [1]
+16: (navigate rover1 waypoint1 waypoint3) [1]
+17: (sample_rock rover1 rover1store waypoint3) [1]
+18: (communicate_rock_data rover1 general waypoint3 waypoint3 waypoint4) [1]
+19: (navigate rover1 waypoint3 waypoint1) [1]
+20: (drop rover1 rover1store) [1]
+21: (navigate rover2 waypoint6 waypoint0) [1]
+22: (sample_soil rover2 rover2store waypoint0) [1]
+23: (navigate rover2 waypoint0 waypoint6) [1]
+24: (communicate_soil_data rover2 general waypoint0 waypoint6 waypoint4) [1]
+25: (navigate rover1 waypoint1 waypoint2) [1]
+26: (navigate rover1 waypoint2 waypoint0) [1]
+27: (sample_rock rover1 rover1store waypoint0) [1]
+28: (navigate rover1 waypoint0 waypoint2) [1]
+29: (navigate rover1 waypoint2 waypoint6) [1]
+30: (communicate_rock_data rover1 general waypoint0 waypoint6 waypoint4) [1]
+31: (drop rover1 rover1store) [1]
+32: (sample_rock rover1 rover1store waypoint6) [1]
+33: (communicate_rock_data rover1 general waypoint6 waypoint6 waypoint4) [1]
+
+Destiny found:	4 [<can_traverse-rover2-waypoint0-waypoint6,true>, <calibration_target-camera0,objective2>, <equipped_for_rock_analysis-rover1,true>, <store_of-rover2store,rover2>, <calibrated-camera0-rover3,not>, <visible-waypoint2-waypoint6,true>, <visible_from-objective2-waypoint1,true>, <visible-waypoint2-waypoint0,true>, <visible-waypoint2-waypoint1,true>, <equipped_for_imaging-rover3,true>, <status-rover3store,empty>, <visible-waypoint1-waypoint4,true>, <can_traverse-rover2-waypoint6-waypoint0,true>, <equipped_for_soil_analysis-rover2,true>, <equipped_for_soil_analysis-rover3,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <can_traverse-rover1-waypoint0-waypoint2,true>, <at-rover1,waypoint2>, <at-rover2,waypoint6>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint3,true>, <have_image-rover3-objective2-low_res,not>, <at_rock_sample-waypoint6,true>, <have_image-rover3-objective2-colour,not>, <at-rover3,waypoint1>, <on_board-camera0,rover3>, <visible-waypoint1-waypoint2,true>, <visible-waypoint1-waypoint3,true>, <supports-camera0-low_res,true>, <can_traverse-rover1-waypoint3-waypoint1,true>, <visible-waypoint0-waypoint2,true>, <can_traverse-rover3-waypoint1-waypoint4,true>, <can_traverse-rover1-waypoint2-waypoint0,true>, <status-rover1store,empty>, <can_traverse-rover1-waypoint2-waypoint1,true>, <status-rover2store,empty>, <can_traverse-rover3-waypoint4-waypoint1,true>, <can_traverse-rover1-waypoint2-waypoint6,true>, <visible-waypoint0-waypoint6,true>, <visible-waypoint3-waypoint4,true>, <supports-camera0-colour,true>, <at_lander-general,waypoint4>, <visible-waypoint3-waypoint1,true>, <at_soil_sample-waypoint6,true>, <can_traverse-rover1-waypoint1-waypoint2,true>, <at_soil_sample-waypoint4,true>, <can_traverse-rover1-waypoint1-waypoint3,true>, <store_of-rover3store,rover3>, <visible-waypoint6-waypoint4,true>, <visible-waypoint6-waypoint0,true>, <at_soil_sample-waypoint0,true>]
+
+No se ha encontrado el origen
+
+Search time: 4835232.0 ns
+
+
+
+
+**********************
+Rovers - pfile10
+TIME STEP=0
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+= <at-rover3,waypoint1>
+= <visible-waypoint1-waypoint0,true>
+- <can_traverse-rover3-waypoint1-waypoint0,true> changed by <can_traverse-rover3-waypoint1-waypoint0,false>]
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (navigate rover3 waypoint1 waypoint0) [1]
+1: (calibrate rover3 camera5 objective0 waypoint0) [1]
+2: (navigate rover1 waypoint0 waypoint6) [1]
+3: (sample_soil rover3 rover3store waypoint0) [1]
+4: (navigate rover0 waypoint4 waypoint3) [1]
+5: (sample_soil rover0 rover0store waypoint3) [1]
+6: (communicate_soil_data rover3 general waypoint0 waypoint0 waypoint1) [1]
+7: (drop rover3 rover3store) [1]
+8: (sample_rock rover3 rover3store waypoint0) [1]
+9: (navigate rover0 waypoint3 waypoint4) [1]
+10: (communicate_rock_data rover3 general waypoint0 waypoint0 waypoint1) [1]
+11: (sample_rock rover2 rover2store waypoint3) [1]
+12: (sample_soil rover1 rover1store waypoint6) [1]
+13: (take_image rover3 waypoint0 objective3 camera5 low_res) [1]
+14: (calibrate rover3 camera5 objective0 waypoint0) [1]
+15: (communicate_image_data rover3 general objective3 low_res waypoint0 waypoint1) [1]
+16: (communicate_soil_data rover0 general waypoint3 waypoint4 waypoint1) [1]
+17: (navigate rover2 waypoint3 waypoint5) [1]
+18: (communicate_rock_data rover2 general waypoint3 waypoint5 waypoint1) [1]
+19: (drop rover0 rover0store) [1]
+20: (sample_rock rover0 rover0store waypoint4) [1]
+21: (communicate_rock_data rover0 general waypoint4 waypoint4 waypoint1) [1]
+22: (drop rover0 rover0store) [1]
+23: (sample_soil rover0 rover0store waypoint4) [1]
+24: (communicate_soil_data rover0 general waypoint4 waypoint4 waypoint1) [1]
+25: (drop rover3 rover3store) [1]
+26: (navigate rover1 waypoint6 waypoint0) [1]
+27: (communicate_soil_data rover1 general waypoint6 waypoint0 waypoint1) [1]
+28: (take_image rover3 waypoint0 objective2 camera5 colour) [1]
+29: (communicate_image_data rover3 general objective2 colour waypoint0 waypoint1) [1]
+30: (calibrate rover3 camera5 objective0 waypoint0) [1]
+31: (take_image rover3 waypoint0 objective3 camera5 colour) [1]
+32: (communicate_image_data rover3 general objective3 colour waypoint0 waypoint1) [1]
+33: (navigate rover3 waypoint0 waypoint1) [1]
+34: (sample_rock rover3 rover3store waypoint1) [1]
+35: (navigate rover3 waypoint1 waypoint0) [1]
+36: (communicate_rock_data rover3 general waypoint1 waypoint0 waypoint1) [1]
+
+Destiny found:	46 [<equipped_for_rock_analysis-rover3,true>, <equipped_for_rock_analysis-rover2,true>, <calibration_target-camera5,objective0>, <store_of-rover2store,rover2>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover3-objective3-low_res,not>, <visible_from-objective2-waypoint0,true>, <supports-camera5-low_res,true>, <visible-waypoint5-waypoint1,true>, <equipped_for_imaging-rover3,true>, <can_traverse-rover2-waypoint3-waypoint5,true>, <supports-camera5-colour,true>, <status-rover0store,empty>, <can_traverse-rover0-waypoint4-waypoint3,true>, <status-rover3store,empty>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_soil_analysis-rover3,true>, <can_traverse-rover1-waypoint0-waypoint6,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <on_board-camera5,rover3>, <visible-waypoint4-waypoint3,true>, <at-rover1,waypoint0>, <at_rock_sample-waypoint1,true>, <at-rover2,waypoint3>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint4,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint4>, <have_image-rover3-objective2-colour,not>, <at-rover3,waypoint1>, <visible-waypoint1-waypoint0,true>, <visible_from-objective3-waypoint0,true>, <can_traverse-rover3-waypoint1-waypoint0,true>, <visible-waypoint0-waypoint1,true>, <can_traverse-rover0-waypoint3-waypoint4,true>, <visible_from-objective0-waypoint0,true>, <can_traverse-rover1-waypoint6-waypoint0,true>, <status-rover1store,empty>, <status-rover2store,empty>, <visible-waypoint0-waypoint6,true>, <visible-waypoint3-waypoint4,true>, <visible-waypoint3-waypoint5,true>, <calibrated-camera5-rover3,not>, <at_lander-general,waypoint1>, <have_image-rover3-objective3-colour,not>, <at_soil_sample-waypoint6,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <store_of-rover3store,rover3>, <can_traverse-rover3-waypoint0-waypoint1,true>, <visible-waypoint6-waypoint0,true>, <store_of-rover0store,rover0>, <at_soil_sample-waypoint0,true>]
+
+No se ha encontrado el origen
+
+Search time: 5248985.0 ns
+
+
+
+
+**********************
+Rovers - pfile10
+TIME STEP=1
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+= <at-rover3,waypoint0>
+- <visible-waypoint1-waypoint0,true> changed by <visible-waypoint1-waypoint0,false>]
+= <can_traverse-rover3-waypoint1-waypoint0,true>
+
+
+Original plan:
+; Version LPG-td-1.0
+1: (calibrate rover3 camera5 objective0 waypoint0) [1]
+2: (navigate rover1 waypoint0 waypoint6) [1]
+3: (sample_soil rover3 rover3store waypoint0) [1]
+4: (navigate rover0 waypoint4 waypoint3) [1]
+5: (sample_soil rover0 rover0store waypoint3) [1]
+6: (communicate_soil_data rover3 general waypoint0 waypoint0 waypoint1) [1]
+7: (drop rover3 rover3store) [1]
+8: (sample_rock rover3 rover3store waypoint0) [1]
+9: (navigate rover0 waypoint3 waypoint4) [1]
+10: (communicate_rock_data rover3 general waypoint0 waypoint0 waypoint1) [1]
+11: (sample_rock rover2 rover2store waypoint3) [1]
+12: (sample_soil rover1 rover1store waypoint6) [1]
+13: (take_image rover3 waypoint0 objective3 camera5 low_res) [1]
+14: (calibrate rover3 camera5 objective0 waypoint0) [1]
+15: (communicate_image_data rover3 general objective3 low_res waypoint0 waypoint1) [1]
+16: (communicate_soil_data rover0 general waypoint3 waypoint4 waypoint1) [1]
+17: (navigate rover2 waypoint3 waypoint5) [1]
+18: (communicate_rock_data rover2 general waypoint3 waypoint5 waypoint1) [1]
+19: (drop rover0 rover0store) [1]
+20: (sample_rock rover0 rover0store waypoint4) [1]
+21: (communicate_rock_data rover0 general waypoint4 waypoint4 waypoint1) [1]
+22: (drop rover0 rover0store) [1]
+23: (sample_soil rover0 rover0store waypoint4) [1]
+24: (communicate_soil_data rover0 general waypoint4 waypoint4 waypoint1) [1]
+25: (drop rover3 rover3store) [1]
+26: (navigate rover1 waypoint6 waypoint0) [1]
+27: (communicate_soil_data rover1 general waypoint6 waypoint0 waypoint1) [1]
+28: (take_image rover3 waypoint0 objective2 camera5 colour) [1]
+29: (communicate_image_data rover3 general objective2 colour waypoint0 waypoint1) [1]
+30: (calibrate rover3 camera5 objective0 waypoint0) [1]
+31: (take_image rover3 waypoint0 objective3 camera5 colour) [1]
+32: (communicate_image_data rover3 general objective3 colour waypoint0 waypoint1) [1]
+33: (navigate rover3 waypoint0 waypoint1) [1]
+34: (sample_rock rover3 rover3store waypoint1) [1]
+35: (navigate rover3 waypoint1 waypoint0) [1]
+36: (communicate_rock_data rover3 general waypoint1 waypoint0 waypoint1) [1]
+
+Destiny found:	12 [<equipped_for_rock_analysis-rover3,true>, <equipped_for_rock_analysis-rover2,true>, <calibration_target-camera5,objective0>, <store_of-rover2store,rover2>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover3-objective3-low_res,not>, <visible_from-objective2-waypoint0,true>, <supports-camera5-low_res,true>, <visible-waypoint5-waypoint1,true>, <equipped_for_imaging-rover3,true>, <can_traverse-rover2-waypoint3-waypoint5,true>, <supports-camera5-colour,true>, <status-rover0store,empty>, <can_traverse-rover0-waypoint4-waypoint3,true>, <status-rover3store,empty>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_soil_analysis-rover3,true>, <can_traverse-rover1-waypoint0-waypoint6,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <on_board-camera5,rover3>, <visible-waypoint4-waypoint3,true>, <at-rover1,waypoint0>, <at_rock_sample-waypoint1,true>, <at-rover2,waypoint3>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint4,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint4>, <have_image-rover3-objective2-colour,not>, <at-rover3,waypoint0>, <visible-waypoint1-waypoint0,true>, <visible_from-objective3-waypoint0,true>, <can_traverse-rover3-waypoint1-waypoint0,true>, <visible-waypoint0-waypoint1,true>, <can_traverse-rover0-waypoint3-waypoint4,true>, <visible_from-objective0-waypoint0,true>, <can_traverse-rover1-waypoint6-waypoint0,true>, <status-rover1store,empty>, <status-rover2store,empty>, <visible-waypoint0-waypoint6,true>, <visible-waypoint3-waypoint4,true>, <visible-waypoint3-waypoint5,true>, <calibrated-camera5-rover3,not>, <at_lander-general,waypoint1>, <have_image-rover3-objective3-colour,not>, <at_soil_sample-waypoint6,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <store_of-rover3store,rover3>, <can_traverse-rover3-waypoint0-waypoint1,true>, <visible-waypoint6-waypoint0,true>, <store_of-rover0store,rover0>, <at_soil_sample-waypoint0,true>]
+
+No se ha encontrado el origen
+
+Search time: 4225977.0 ns
+
+
+
+
+**********************
+Rovers - pfile10
+TIME STEP=2
+WINDOW=3
+DEPTH=4
+**********************
+
+b) Random failures: by exogenou events
+
+= <at-rover3,waypoint0>
+= <visible-waypoint1-waypoint0,true>
+- <can_traverse-rover3-waypoint1-waypoint0,true> changed by <can_traverse-rover3-waypoint1-waypoint0,false>]
+
+
+Original plan:
+; Version LPG-td-1.0
+2: (navigate rover1 waypoint0 waypoint6) [1]
+3: (sample_soil rover3 rover3store waypoint0) [1]
+4: (navigate rover0 waypoint4 waypoint3) [1]
+5: (sample_soil rover0 rover0store waypoint3) [1]
+6: (communicate_soil_data rover3 general waypoint0 waypoint0 waypoint1) [1]
+7: (drop rover3 rover3store) [1]
+8: (sample_rock rover3 rover3store waypoint0) [1]
+9: (navigate rover0 waypoint3 waypoint4) [1]
+10: (communicate_rock_data rover3 general waypoint0 waypoint0 waypoint1) [1]
+11: (sample_rock rover2 rover2store waypoint3) [1]
+12: (sample_soil rover1 rover1store waypoint6) [1]
+13: (take_image rover3 waypoint0 objective3 camera5 low_res) [1]
+14: (calibrate rover3 camera5 objective0 waypoint0) [1]
+15: (communicate_image_data rover3 general objective3 low_res waypoint0 waypoint1) [1]
+16: (communicate_soil_data rover0 general waypoint3 waypoint4 waypoint1) [1]
+17: (navigate rover2 waypoint3 waypoint5) [1]
+18: (communicate_rock_data rover2 general waypoint3 waypoint5 waypoint1) [1]
+19: (drop rover0 rover0store) [1]
+20: (sample_rock rover0 rover0store waypoint4) [1]
+21: (communicate_rock_data rover0 general waypoint4 waypoint4 waypoint1) [1]
+22: (drop rover0 rover0store) [1]
+23: (sample_soil rover0 rover0store waypoint4) [1]
+24: (communicate_soil_data rover0 general waypoint4 waypoint4 waypoint1) [1]
+25: (drop rover3 rover3store) [1]
+26: (navigate rover1 waypoint6 waypoint0) [1]
+27: (communicate_soil_data rover1 general waypoint6 waypoint0 waypoint1) [1]
+28: (take_image rover3 waypoint0 objective2 camera5 colour) [1]
+29: (communicate_image_data rover3 general objective2 colour waypoint0 waypoint1) [1]
+30: (calibrate rover3 camera5 objective0 waypoint0) [1]
+31: (take_image rover3 waypoint0 objective3 camera5 colour) [1]
+32: (communicate_image_data rover3 general objective3 colour waypoint0 waypoint1) [1]
+33: (navigate rover3 waypoint0 waypoint1) [1]
+34: (sample_rock rover3 rover3store waypoint1) [1]
+35: (navigate rover3 waypoint1 waypoint0) [1]
+36: (communicate_rock_data rover3 general waypoint1 waypoint0 waypoint1) [1]
+
+Destiny found:	1 [<equipped_for_rock_analysis-rover3,true>, <equipped_for_rock_analysis-rover2,true>, <calibration_target-camera5,objective0>, <store_of-rover2store,rover2>, <equipped_for_rock_analysis-rover0,true>, <have_image-rover3-objective3-low_res,not>, <visible_from-objective2-waypoint0,true>, <supports-camera5-low_res,true>, <visible-waypoint5-waypoint1,true>, <equipped_for_imaging-rover3,true>, <can_traverse-rover2-waypoint3-waypoint5,true>, <supports-camera5-colour,true>, <status-rover0store,empty>, <can_traverse-rover0-waypoint4-waypoint3,true>, <status-rover3store,empty>, <equipped_for_soil_analysis-rover0,true>, <equipped_for_soil_analysis-rover1,true>, <equipped_for_soil_analysis-rover3,true>, <can_traverse-rover1-waypoint0-waypoint6,true>, <store_of-rover1store,rover1>, <at_rock_sample-waypoint0,true>, <on_board-camera5,rover3>, <visible-waypoint4-waypoint3,true>, <at-rover1,waypoint0>, <at_rock_sample-waypoint1,true>, <at-rover2,waypoint3>, <visible-waypoint4-waypoint1,true>, <at_rock_sample-waypoint4,true>, <at_rock_sample-waypoint3,true>, <at-rover0,waypoint4>, <have_image-rover3-objective2-colour,not>, <at-rover3,waypoint0>, <visible-waypoint1-waypoint0,true>, <visible_from-objective3-waypoint0,true>, <can_traverse-rover3-waypoint1-waypoint0,true>, <visible-waypoint0-waypoint1,true>, <can_traverse-rover0-waypoint3-waypoint4,true>, <visible_from-objective0-waypoint0,true>, <can_traverse-rover1-waypoint6-waypoint0,true>, <status-rover1store,empty>, <status-rover2store,empty>, <visible-waypoint0-waypoint6,true>, <visible-waypoint3-waypoint4,true>, <visible-waypoint3-waypoint5,true>, <calibrated-camera5-rover3,yes>, <at_lander-general,waypoint1>, <have_image-rover3-objective3-colour,not>, <at_soil_sample-waypoint6,true>, <at_soil_sample-waypoint3,true>, <at_soil_sample-waypoint4,true>, <store_of-rover3store,rover3>, <can_traverse-rover3-waypoint0-waypoint1,true>, <visible-waypoint6-waypoint0,true>, <store_of-rover0store,rover0>, <at_soil_sample-waypoint0,true>]
+
+No se ha encontrado el origen
+
+Search time: 3409439.0 ns

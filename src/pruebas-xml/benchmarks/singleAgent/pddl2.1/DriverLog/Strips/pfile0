@@ -1,0 +1,33 @@
+(define (problem pfile0)
+(:domain driverlog)
+(:objects
+ d1 - driver
+ t1 t2 - truck
+ p1 p2 - obj
+ s0 s1 s2 p1-0 p1-2 - location
+)
+(:init
+ (at d1 t1)
+ (pos t1 s1)
+ (empty t1)
+ (in p1 t1)
+ (in p2 s1)
+ (link s0 s1)
+ (link s0 s2)
+ (path s0 p1-0)
+ (link s1 s0)
+ (link s1 s2)
+ (path s1 p1-0)
+ (path s1 p1-2)
+ (link s2 s0)
+ (link s2 s1)
+ (path s2 p1-2)
+ (path p1-0 s0)
+ (path p1-0 s1)
+ (path p1-2 s1)
+ (path p1-2 s2)
+)
+(:goal (and
+ 	(in p1 s0)
+	)
+))

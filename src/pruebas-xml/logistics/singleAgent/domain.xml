@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><define xmlns="http://www.pelea.org/xPddl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pelea.org/xPddl xPddl.xsd">
+<domain name=" logistics " > 
+	<requirements> 
+		<require-key name=" :strips " /> 
+		<require-key name=" :typing " /> 
+	</requirements> 
+	<types> 
+		<term name=" package " type=" object " /> 
+		<term name=" location " type=" object " /> 
+		<term name=" vehicle " type=" object " /> 
+		<term name=" city " type=" object " /> 
+		<term name=" truck " type=" vehicle " /> 
+		<term name=" airplane " type=" vehicle " /> 
+	</types> 
+	<predicates> 
+		<atom predicate=" at " > 
+		<term name=" ?vehicle-or-package " type=" either  vehicle package " /> 
+		<term name=" ?location " type=" location " /> 
+		</atom> 
+		<atom predicate=" in " > 
+		<term name=" ?package " type=" package " /> 
+		<term name=" ?vehicle " type=" vehicle " /> 
+		</atom> 
+		<atom predicate=" link " > 
+		<term name=" ?loc-from " type=" location " /> 
+		<term name=" ?loc-to " type=" location " /> 
+		</atom> 
+	</predicates> 
+	<action-def name=" load " type="no-durative" > 
+		<parameters> 
+		<term name=" ?obj " type=" package " /> 
+		<term name=" ?truck " type=" truck " /> 
+		<term name=" ?loc " type=" location " /> 
+		</parameters> 
+		<precondition> 
+		<gd type=" and " > 
+		<gd type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?truck " /> 
+		<term name=" ?loc " /> 
+		</atom> 
+		</gd> 
+		<gd type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?obj " /> 
+		<term name=" ?loc " /> 
+		</atom> 
+		</gd> 
+		</gd> 
+		</precondition> 
+		<effects> 
+			<effect type=" and " > 
+			<effect type=" not " > 
+			<effect type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?obj " /> 
+		<term name=" ?loc " /> 
+		</atom> 
+			</effect> 
+			</effect> 
+			<effect type=" predicate"> 
+		<atom predicate=" in " > 
+		<term name=" ?obj " /> 
+		<term name=" ?truck " /> 
+		</atom> 
+			</effect> 
+			</effect> 
+		</effects> 
+	</action-def> 
+	<action-def name=" unload " type="no-durative" > 
+		<parameters> 
+		<term name=" ?obj " type=" package " /> 
+		<term name=" ?truck " type=" truck " /> 
+		<term name=" ?loc " type=" location " /> 
+		</parameters> 
+		<precondition> 
+		<gd type=" and " > 
+		<gd type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?truck " /> 
+		<term name=" ?loc " /> 
+		</atom> 
+		</gd> 
+		<gd type=" predicate"> 
+		<atom predicate=" in " > 
+		<term name=" ?obj " /> 
+		<term name=" ?truck " /> 
+		</atom> 
+		</gd> 
+		</gd> 
+		</precondition> 
+		<effects> 
+			<effect type=" and " > 
+			<effect type=" not " > 
+			<effect type=" predicate"> 
+		<atom predicate=" in " > 
+		<term name=" ?obj " /> 
+		<term name=" ?truck " /> 
+		</atom> 
+			</effect> 
+			</effect> 
+			<effect type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?obj " /> 
+		<term name=" ?loc " /> 
+		</atom> 
+			</effect> 
+			</effect> 
+		</effects> 
+	</action-def> 
+	<action-def name=" drive " type="no-durative" > 
+		<parameters> 
+		<term name=" ?truck " type=" truck " /> 
+		<term name=" ?loc-from " type=" location " /> 
+		<term name=" ?loc-to " type=" location " /> 
+		</parameters> 
+		<precondition> 
+		<gd type=" and " > 
+		<gd type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?truck " /> 
+		<term name=" ?loc-from " /> 
+		</atom> 
+		</gd> 
+		<gd type=" predicate"> 
+		<atom predicate=" link " > 
+		<term name=" ?loc-from " /> 
+		<term name=" ?loc-to " /> 
+		</atom> 
+		</gd> 
+		<gd type=" predicate"> 
+		<atom predicate=" link " > 
+		<term name=" ?loc-to " /> 
+		<term name=" ?loc-from " /> 
+		</atom> 
+		</gd> 
+		</gd> 
+		</precondition> 
+		<effects> 
+			<effect type=" and " > 
+			<effect type=" not " > 
+			<effect type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?truck " /> 
+		<term name=" ?loc-from " /> 
+		</atom> 
+			</effect> 
+			</effect> 
+			<effect type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" ?truck " /> 
+		<term name=" ?loc-to " /> 
+		</atom> 
+			</effect> 
+			</effect> 
+		</effects> 
+	</action-def> 
+</domain>
+<problem name=" p1 " domain=" logistics " > 
+	<requirements> 
+		<require-key name=" :strips " /> 
+		<require-key name=" :typing " /> 
+	</requirements> <objects> 
+		<term name=" package1 " type=" package " /> 
+		<term name=" package2 " type=" package " /> 
+		<term name=" package3 " type=" package " /> 
+		<term name=" truck1 " type=" truck " /> 
+		<term name=" truck2 " type=" truck " /> 
+		<term name=" truck3 " type=" truck " /> 
+		<term name=" A " type=" location " /> 
+		<term name=" B " type=" location " /> 
+		<term name=" C " type=" location " /> </objects> <init> 
+		<atom predicate=" at " > 
+		<term name=" package1 " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" at " > 
+		<term name=" package2 " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" at " > 
+		<term name=" package3 " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" at " > 
+		<term name=" truck1 " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" at " > 
+		<term name=" truck2 " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" at " > 
+		<term name=" truck3 " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" link " > 
+		<term name=" A " /> 
+		<term name=" B " /> 
+		</atom> 
+		<atom predicate=" link " > 
+		<term name=" B " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" link " > 
+		<term name=" A " /> 
+		<term name=" C " /> 
+		</atom> 
+		<atom predicate=" link " > 
+		<term name=" C " /> 
+		<term name=" A " /> 
+		</atom> 
+		<atom predicate=" link " > 
+		<term name=" B " /> 
+		<term name=" C " /> 
+		</atom> 
+		<atom predicate=" link " > 
+		<term name=" C " /> 
+		<term name=" B " /> 
+		</atom> </init> <goals> 
+		<gd type=" and " > 
+		<gd type=" predicate"> 
+		<atom predicate=" at " > 
+		<term name=" package2 " /> 
+		<term name=" B " /> 
+		</atom> 
+		</gd> 
+		</gd> </goals> </problem>
+
+<plans domain="logistics" name="xPddlPlan" xmlns="http://www.pelea.org/xPddl">
+    <plan execution_time="3.000" start_time="0.0" n_actions="3" problem="p1" domain="logistics" id="xPddlPlan">
+        <action-plan duration="1.0" end="1.0" start="0.0" index="1" name="load">
+            <term name="package2" type="package"/>
+            <term name="truck1" type="truck"/>
+            <term name="A" type="location"/>
+        </action-plan>
+        <action-plan duration="1.0" start="1.0" index="2" name="drive">
+            <term name="truck1" type="truck"/>
+            <term name="A" type="location"/>
+            <term name="B" type="location"/>
+        </action-plan>
+        <action-plan duration="1.0" start="2.0" index="3" name="unload">
+            <term name="package2" type="package"/>
+            <term name="truck1" type="truck"/>
+            <term name="B" type="location"/>
+        </action-plan>
+    </plan>
+</plans>
+</define>

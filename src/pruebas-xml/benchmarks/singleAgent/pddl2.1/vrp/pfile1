@@ -1,0 +1,27 @@
+;; 
+(define (problem pfile1)
+(:domain vrp)
+(:objects
+
+	D - depot
+	A B C - distributor
+
+	P1 P2 - package
+
+	T1 - truck	
+)
+(:init
+	(at ?x - locatable ?y - locations) 
+        (in ?x - package ?y - truck)
+        (link ?x - locations ?y - locations)
+        (available ?x - package)
+        (in-use ?x - truck)
+ 	(total-cost) - number
+	(distance ?x - locations ?y - locations) - number
+	(maxCargo ?x - truck) - number
+	(cargo ?x - truck) - number
+	(weight ?x - package) - number
+)
+(:goal (and
+       (goal ?x - package ?y - locations))
+))

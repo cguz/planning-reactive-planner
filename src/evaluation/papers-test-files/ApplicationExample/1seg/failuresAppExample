@@ -1,0 +1,92 @@
+
+**********************
+ExampleRover
+WINDOW=3
+DEPTH=6
+**********************
+
+Pfile :	1
+
+Relevant Vars in W: [can_traverse(rovera;w2;w1)=true, visible(w1;w2)=true, equipped_for_analysis(rock;rovera)=true, at_sample(rock;w1)=true, at_lander(lander)=w2, isEmpty(rastore)=yes, at(rovera)=w2, store_of(rastore)=rovera, visible(w2;w1)=true]
+
+b) Random failures:
+
+Initial state Vs Current state (failures)
+
+= visible_from(obj0; w1) [true]
+= visible_from(obj0; w2) [true]
+= visible_from(obj0; w3) [true]
+= visible_from(obj1; w1) [true]
+= visible_from(obj1; w2) [true]
+= visible_from(obj1; w3) [true]
+= visible(w2; w1) [true]
+= visible(w1; w2) [true]
+= visible(w3; w1) [true]
+= visible(w1; w3) [true]
+= visible(w3; w2) [true]
+= visible(w2; w3) [true]
+= visible(w1; w1) [true]
+= visible(w2; w2) [true]
+= visible(w3; w3) [true]
+= supports(cam0; colour) [true]
+= supports(cam0; high_res) [true]
+= supports(cam0; low_res) [false]
+= store_of(rastore) [rovera]
+= on_board(cam0) [rovera]
+= isEmpty(rastore) [yes]
+= have_image(rovera; obj0; colour) [false]
+= have_image(rovera; obj0; high_res) [false]
+= have_image(rovera; obj0; low_res) [false]
+= have_image(rovera; obj1; colour) [false]
+= have_image(rovera; obj1; high_res) [false]
+= have_image(rovera; obj1; low_res) [false]
+= have_analysis(rock; rovera) [false]
+= equipped_for_imaging(rovera) [yes]
+= equipped_for_analysis(rock; rovera) [true]
+= communicated_sample_data(rock) [not]
+= communicated_image_data(obj0; colour) [not]
+= communicated_image_data(obj0; high_res) [not]
+= communicated_image_data(obj0; low_res) [not]
+= communicated_image_data(obj1; colour) [not]
+= communicated_image_data(obj1; high_res) [not]
+= communicated_image_data(obj1; low_res) [not]
+= can_traverse(rovera; w1; w2) [false]
+- can_traverse(rovera; w2; w1)[true,false]
+= can_traverse(rovera; w2; w3) [true]
+= can_traverse(rovera; w1; w3) [true]
+= can_traverse(rovera; w3; w1) [false]
+= can_traverse(rovera; w3; w2) [false]
+= can_traverse(rovera; w1; w1) [false]
+= can_traverse(rovera; w2; w2) [false]
+= can_traverse(rovera; w3; w3) [false]
+= calibration_target(cam0) [obj1]
+= calibrated(cam0; rovera) [false]
+= at_sample(rock; w1) [true]
+= at_sample(rock; w3) [true]
+= at_sample(rock; w2) [false]
+= at_lander(lander) [w2]
+= at(rovera) [w2]
+
+
+Origin vs Destiny (RGS):
+- can_traverse(rovera; w2; w1)[false,true]
+= at(rovera) [w2]
+= visible(w2; w1) [true]
+
+
+Original plan:
+; Version LPG-td-1.0
+0: (navigate rovera w2 w1) [1]
+1: (sample rovera rock rastore w1) [1]
+2: (commsample rovera rock lander w1 w2) [1]
+
+Destiny found:	9 [can_traverse(rovera;w2;w1)=true, visible(w1;w2)=true, equipped_for_analysis(rock;rovera)=true, at_sample(rock;w1)=true, at_lander(lander)=w2, isEmpty(rastore)=yes, at(rovera)=w2, store_of(rastore)=rovera, visible(w2;w1)=true]
+
+Origin found:	12 [equipped_for_analysis(rock;rovera)=true, can_traverse(rovera;w2;w3)=true, at_sample(rock;w3)=true, visible(w3;w2)=true, at_lander(lander)=w2, isEmpty(rastore)=yes, at(rovera)=w2, visible(w2;w3)=true, store_of(rastore)=rovera]
+
+Repaired plan (RP):
+0.0:navigate rovera w2 w3
+1.0:sample rovera rock rastore w3
+2.0:commsample rovera rock lander w3 w2
+
+Search time: 800480.0 ns

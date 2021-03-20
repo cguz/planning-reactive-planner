@@ -1,0 +1,13 @@
+digraph digraph-forward-ps-pfile2{ rankdir=LR;size="8,5";node [shape=none];	[<link-b-w2-w3,true>, <loc-b,w2>]
+->	[<loc-b,w3>, <loc_rock-r-w3,true>]
+[ label=""]	[<loc-b,w3>, <loc_rock-r-w3,true>]
+->	[<have-r-b,true>, <loc-b,w3>, <loc_lander-l,w2>, <vis-w3-w2,true>]
+[ label=""]	[<have-r-b,true>, <loc-b,w3>, <loc_lander-l,w2>, <vis-w3-w2,true>]
+->	[<comm-r-w3,yes>, <link-b-w3-w1,true>, <loc-b,w3>]
+[ label=""]	[<comm-r-w3,yes>, <link-b-w3-w1,true>, <loc-b,w3>]
+->	[<comm-r-w3,yes>, <loc-b,w1>, <loc_lander-l,w2>, <have-r-b,true>, <vis-w1-w2,true>]
+[ label=""]	[<comm-r-w3,yes>, <loc-b,w1>, <loc_lander-l,w2>, <have-r-b,true>, <vis-w1-w2,true>]
+->	[<comm-r-w3,yes>, <comm-r-w1,yes>, <link-b-w1-w2,true>, <loc-b,w1>]
+[ label=""]	[<comm-r-w3,yes>, <comm-r-w1,yes>, <link-b-w1-w2,true>, <loc-b,w1>]
+->	[<comm-r-w3,yes>, <comm-r-w1,yes>, <loc-b,w2>]
+[ label=""]}

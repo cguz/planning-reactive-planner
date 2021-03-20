@@ -1,0 +1,53 @@
+(define (problem pfile3)
+(:domain depot)
+(:objects
+ depot0 - depot
+ distributor0 distributor1 - distributor
+ truck0 truck1 - truck
+ pallet0 pallet1 pallet2 - pallet
+ crate0 crate1 crate2 crate3 crate4 crate5 - crate
+ hoist0 hoist1 hoist2 - hoist
+)
+(:init
+ (= (at crate0) distributor0)
+ (= (on crate0) pallet1)
+ (not (clear crate0))
+ (= (at crate1) depot0)
+ (= (on crate1) pallet0)
+ (clear crate1)
+ (= (at crate2) distributor1)
+ (= (on crate2) pallet2)
+ (not (clear crate2))
+ (= (at crate3) distributor0)
+ (= (on crate3) crate0)
+ (not (clear crate3))
+ (= (at crate4) distributor0)
+ (= (on crate4) crate3)
+ (clear crate4)
+ (= (at crate5) distributor1)
+ (= (on crate5) crate2)
+ (clear crate5)
+ (= (at truck0) depot0)
+ (= (at truck1) distributor0)
+ (= (at hoist0) depot0)
+ (clear hoist0)
+ (= (at hoist1) distributor0)
+ (clear hoist1)
+ (= (at hoist2) distributor1)
+ (clear hoist2)
+ (= (at pallet0) depot0)
+ (not (clear pallet0))
+ (= (at pallet1) distributor0)
+ (not (clear pallet1))
+ (= (at pallet2) distributor1)
+ (not (clear pallet2))
+)
+(:global-goal (and
+ (= (on crate0) crate1)
+ (= (on crate1) pallet2)
+ (= (on crate2) pallet0)
+ (= (on crate3) crate2)
+ (= (on crate4) pallet1)
+ (= (on crate5) crate0)
+))
+)

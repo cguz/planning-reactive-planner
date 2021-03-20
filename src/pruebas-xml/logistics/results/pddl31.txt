@@ -1,0 +1,28 @@
+	Logistic domain in PDDL 3.1 
+Planning problem of the application example of Logistic
+
+: Basic Goal State completed in 3ms.
+
+: *********** Extended Goal State ************
+: Goal state s0: [pos(truck1) = a, pospk(package2) = a]
+: Completed in 654ms.
+: Expanding 264 goal states.
+: This extended goal state is fully generated without considering the other goal states.
+
+: *********** Extended Goal State ************
+: Goal state s1: [pos(truck1) = a, pospk(package2) = truck1]
+: Completed in 399ms.
+: Expanding 262 goal states.
+: This extended goal state is fully generated without considering the other goal states.
+
+: *********** Extended Goal State ************
+: Goal state s2: [pos(truck1) = b, pospk(package2) = truck1]
+: Completed in 306ms.
+: Expanding 264 goal states.
+: This extended goal state is fully generated without considering the other goal states.
+
+: *********** Extended Goal State ************
+: Goal state s3: [pospk(package2) = b]
+: Completed in 364ms.
+: Expanding 323 goal states.
+: This extended goal state is fully generated without considering the other goal states.
